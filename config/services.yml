@@ -23,9 +23,9 @@ default: &default
   # ======== Example SMS Service Setup ========
   # ===========================================
   twilio:
-    account_sid: 
-    auth_token: 
-    from_phone: 
+    account_sid: ENV['ACCOUNT_SID']
+    auth_token: ENV['AUTH_TOKEN']
+    from_phone: ENV['FROM_PHONE']
 
 production:
   <<: *default
