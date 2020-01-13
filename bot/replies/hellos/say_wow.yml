@@ -1,2 +1,2 @@
 - reply_type: text
-  text: "Wow! Cool name."
+  text: "Wow! Cool name, <%= get_current_message %>."
