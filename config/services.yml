@@ -23,9 +23,9 @@ default: &default
   # ======== Example SMS Service Setup ========
   # ===========================================
   twilio:
-    account_sid: ACce7262b0e9b53cab7fd544c16b69c41f
-    auth_token: 71d9d43ac8f32007249860103f817983
-    from_phone: +12055765514
+    account_sid: 
+    auth_token: 
+    from_phone: 
 
 production:
   <<: *default
