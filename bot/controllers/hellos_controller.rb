@@ -23,8 +23,4 @@ class HellosController < BotController
     send_replies
   end
 
-  def get_current_message
-    current_message.message
-  end
-
 end
