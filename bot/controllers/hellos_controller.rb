@@ -11,7 +11,7 @@ class HellosController < BotController
   
   def get_name
     puts current_message.message
-    step_to state: 'say_wow'
+    step_to_at DateTime.strptime("01/23/19 20:23", "%m/%d/%y %H:%M"), state: 'say_wow'
   end
 
   def say_wow
