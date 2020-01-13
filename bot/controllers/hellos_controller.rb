@@ -10,7 +10,6 @@ class HellosController < BotController
   end
   
   def get_name
-    puts current_message.message
     step_to state: 'say_wow'
   end
 
