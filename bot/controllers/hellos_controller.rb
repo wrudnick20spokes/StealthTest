@@ -43,7 +43,7 @@ class HellosController < BotController
 
   def get_intro_4_response
     puts current_message.message
-    if current_message.message == '[thumbs up]'
+    if current_message.message == 'Smart!'
       step_to state: 'say_who_me'
     else
       step_to state: 'say_intro_5'
