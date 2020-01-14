@@ -73,7 +73,18 @@ class FlowMap
 
     # START HOW IT WORKS 
     state :say_how_1
+    state :get_how_1_response
+    state :say_how_2
+    state :get_how_2_response
+    state :say_me_too
+    state :say_how_3
+    state :get_how_3_response
     # END HOW IT WORKS
+
+    # START PROFILE SETTING
+    state :say_profile_setting_1
+    state :get_profile_setting_1_response
+    # END PROFILE SETTING
   end
 
   flow :catch_all do

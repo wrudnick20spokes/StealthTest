@@ -305,6 +305,48 @@ class HellosController < BotController
   # HOW IT WORKS
   def say_how_1
     send_replies
+    update_session_to state: 'get_how_1_response'
+  end
+
+  def get_how_1_response
+    step_to state: 'say_how_2'
+  end
+
+  def say_how_2
+    send_replies
+    update_session_to state: 'get_how_2_response'
+  end
+
+  def get_how_2_response
+    if current_message.message == 'OK'
+      step_to state: 'say_how_3'
+    else
+      step_to state: 'say_me_too'
+    end
+  end
+
+  def say_me_too
+    send_replies
+    step_to state: 'say_how_3'
+  end
+
+  def say_how_3
+    send_replies
+    update_session_to state: 'get_how_3_response'
+  end
+
+  def get_how_3_response
+    step_to state: 'say_profile_setting_1'
+  end
+
+  # PROFILE SETTING
+  def say_profile_setting_1
+    send_replies
+    update_session_to state: 'get_profile_setting_1_response'
+  end
+
+  def get_profile_setting_1_response
+
   end
 
 end
