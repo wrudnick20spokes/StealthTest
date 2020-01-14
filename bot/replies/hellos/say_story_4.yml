@@ -1,0 +1,7 @@
+- reply_type: text
+  text: Well, she really felt for Mia and wanted to help.
+- reply_type: text
+  text: But she was surprised to learn that Mia knew almost nothing about periods.  
+  suggestions:
+    - text: Oh no
+    - text: Really?

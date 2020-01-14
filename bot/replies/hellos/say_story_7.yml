@@ -1,0 +1,4 @@
+- reply_type: text
+  text: Do you know why Janet didn’t teach Mia anything about periods?
+  suggestions:
+    - text: Why?

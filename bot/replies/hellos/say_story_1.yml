@@ -1,0 +1,9 @@
+- reply_type: text
+  text: Great.
+- reply_type: text
+  text: So, I have a friend named Janet. She’s 38 and she has a 12 year old daughter named Mia. 
+- reply_type: text
+  text: The other day, Janet told me that Mia got her first period.
+  suggestions:
+    - text: A big moment!
+    - text: How’d it go?
