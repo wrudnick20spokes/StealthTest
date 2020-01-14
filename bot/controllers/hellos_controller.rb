@@ -72,7 +72,7 @@ class HellosController < BotController
     if current_message.message == 'Go ahead'
       step_to state: 'say_story_1'
     else
-      step_to 'say_why_1_from_skip'
+      step_to state: 'say_why_1_from_skip'
     end
   end
 
