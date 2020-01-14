@@ -6,7 +6,7 @@ class BotController < Stealth::Controller
     if current_session.present? and current_message.message != 'restart'
       step_to session: current_session
     else
-      step_to flow: 'hello', state: 'say_hello'
+      step_to flow: 'hello', state: 'say_offer_story'
     end
   end
 
