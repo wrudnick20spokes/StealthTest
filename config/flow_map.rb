@@ -3,7 +3,7 @@ class FlowMap
   include Stealth::Flow
 
   flow :hello do
-    # START HELLO BRANCH
+    # START HELLO
     state :say_hello
     state :get_hello_response
     state :say_intro_1
@@ -19,9 +19,9 @@ class FlowMap
     state :get_intro_5_response
     state :say_offer_story
     state :get_story_offer_response
-    # END HELLO BRANCH
+    # END HELLO
 
-    # START STORY BRANCH
+    # START STORY
     state :say_story_1
     state :get_story_1_response
     state :say_ikr
@@ -45,12 +45,35 @@ class FlowMap
     state :say_schools_arent_great
     state :say_story_9
     state :get_story_9_response
-    # END STORY BRANCH
+    # END STORY
 
-    # START WHY WE'RE HERE BRANCH
+    # START WHY WE'RE HERE
     state :say_why_1_from_story
     state :say_why_1_from_skip
+    state :get_why_1_response
+    state :say_exactly
+    state :say_good_guess
+    state :say_why_2
+    state :get_why_2_response
+    state :say_why_3
+    state :get_why_3_response
+    state :say_why_4
+    state :get_why_4_response
+    state :say_why_5
+    state :get_why_5_response
+    state :say_why_6
+    state :get_why_6_response
+    state :say_why_7
+    state :get_why_7_response
+    state :say_why_8
+    state :get_why_8_response
+    state :say_glad_youre_on_board
+    state :say_fair_enough
+    # END WHY WE'RE HERE
 
+    # START HOW IT WORKS 
+    state :say_how_1
+    # END HOW IT WORKS
   end
 
   flow :catch_all do

@@ -3,5 +3,5 @@
 - reply_type: text
   text: Nothing brings people together like talking about periods, am I right?
   suggestions:
-    - text: [laughing emoji]
-    - text: ...maybe?
+    - text: "[laughing emoji]"
+    - text: "...maybe?"
