@@ -1,0 +1,6 @@
+- reply_type: text
+  text: "Good to know."
+- reply_type: text
+  text: "On a scale of 1-10 (1 is “very uncomfortable” and 10 is “very comfortable”), how comfortable would you feel if your child wanted to talk to you about their period?"
+  suggestions:
+    - text: "SCALE[1-10]"

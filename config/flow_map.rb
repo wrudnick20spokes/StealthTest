@@ -84,6 +84,20 @@ class FlowMap
     # START PROFILE SETTING
     state :say_profile_setting_1
     state :get_profile_setting_1_response
+    state :say_profile_setting_2
+    state :get_profile_setting_2_response
+    state :say_profile_setting_3
+    state :get_profile_setting_3_response
+    state :say_profile_setting_4
+    state :get_profile_setting_4_response
+    state :say_profile_setting_5
+    state :get_profile_setting_5_response
+    state :say_profile_setting_6
+    state :get_profile_setting_6_response
+    state :say_profile_setting_7
+    state :get_profile_setting_7_response
+    state :say_profile_setting_8
+    state :end_day_1
     # END PROFILE SETTING
   end
 

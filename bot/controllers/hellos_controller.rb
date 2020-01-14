@@ -346,6 +346,69 @@ class HellosController < BotController
   end
 
   def get_profile_setting_1_response
+    step_to state: 'say_profile_setting_2'
+  end
+
+  def say_profile_setting_2
+    send_replies
+    update_session_to state: 'get_profile_setting_2_response'
+  end
+
+  def get_profile_setting_2_response
+    step_to state: 'say_profile_setting_3'
+  end
+
+  def say_profile_setting_3
+    send_replies
+    update_session_to state: 'get_profile_setting_3_response'
+  end
+
+  def get_profile_setting_3_response
+    step_to state: 'say_profile_setting_4'
+  end
+
+  def say_profile_setting_4
+    send_replies
+    update_session_to state: 'get_profile_setting_4_response'
+  end
+
+  def get_profile_setting_4_response
+    step_to state: 'say_profile_setting_5'
+  end
+
+  def say_profile_setting_5
+    send_replies
+    update_session_to state: 'get_profile_setting_5_response'
+  end
+
+  def get_profile_setting_5_response
+    step_to state: 'say_profile_setting_6'
+  end
+
+  def say_profile_setting_6
+    send_replies
+    update_session_to state: 'get_profile_setting_6_response'
+  end
+
+  def get_profile_setting_6_response
+    step_to state: 'say_profile_setting_7'
+  end
+
+  def say_profile_setting_7
+    send_replies
+    update_session_to state: 'get_profile_setting_7_response'
+  end
+
+  def get_profile_setting_7_response
+    step_to state: 'say_profile_setting_8'
+  end
+
+  def say_profile_setting_8
+    send_replies
+    step_to state: 'end_day_1'
+  end
+
+  def end_day_1
 
   end
 
