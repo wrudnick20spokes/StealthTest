@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: Also — I know people can feel a lot of different ways about discussing periods.
-    - text: Each person comes in with their own needs, questions, and knowledge base, and that’s okay!
+    - text: "Also — I know people can feel a lot of different ways about discussing periods."
+    - text: "Each person comes in with their own needs, questions, and knowledge base, and that’s okay!"
   suggestions:
-    - text: Mmhmm
-    - text: I suppose
+    - text: "Mmhmm"
+    - text: "I suppose"

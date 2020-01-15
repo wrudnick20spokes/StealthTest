@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: We’ll be getting well acquainted over the next couple weeks.
-    - text: Nothing brings people together like talking about periods, am I right?
+    - text: "We’ll be getting well acquainted over the next couple weeks."
+    - text: "Nothing brings people together like talking about periods, am I right?"
   suggestions:
     - text: "[laughing emoji]"
     - text: "...maybe?"
