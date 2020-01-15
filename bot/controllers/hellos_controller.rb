@@ -43,16 +43,7 @@ class HellosController < BotController
   end
 
   def get_intro_4_response
-    if current_message.message == 'Smart!'
-      step_to state: 'say_who_me'
-    else
       step_to state: 'say_intro_5'
-    end
-  end
-
-  def say_who_me
-    send_replies
-    step_to state: 'say_intro_5'
   end
 
   def say_intro_5

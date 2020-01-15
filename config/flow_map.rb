@@ -14,7 +14,6 @@ class FlowMap
     state :get_intro_3_response
     state :say_intro_4
     state :get_intro_4_response
-    state :say_who_me
     state :say_intro_5
     state :get_intro_5_response
     state :say_offer_story

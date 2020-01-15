@@ -1,0 +1,14 @@
+<% if current_message.message == 'Smart!' %>
+  - reply_type: text
+    replies:
+      - text: "Who me?? [blushing emoji]"
+      - text: "The more you know, the more confident you can feel taking care of your own health… and supporting others who have periods."
+    suggestions:
+      - text: "Sounds good."
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "The more you know, the more confident you can feel taking care of your own health… and supporting others who have periods."
+    suggestions:
+      - text: "Sounds good."
+<% end %>
