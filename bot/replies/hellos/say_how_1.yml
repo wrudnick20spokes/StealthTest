@@ -3,7 +3,7 @@
 - reply_type: text
   text: "Each day for the next two weeks, I’ll check in with you for a short chat."
 - reply_type: text
-  text: "I’ll aim to keep it under 5 minutes… I’m sure you have a lot on your plate."
+  text: "I’ll aim to keep it under 5 minutes... I’m sure you have a lot on your plate."
   suggestions:
     - text: Got it
     - text: I do!

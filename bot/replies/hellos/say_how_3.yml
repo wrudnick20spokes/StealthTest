@@ -1,6 +1,6 @@
 - reply_type: text
   text: "We’ll get to know each other a little more every day. As we go along, I’ll try to tune the information to your progress and needs."
 - reply_type: text
-  text: "Speaking of getting to know you…"
+  text: "Speaking of getting to know you..."
   suggestions:
     - text: Yes?
