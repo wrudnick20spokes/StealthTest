@@ -33,14 +33,10 @@ class FlowMap
     state :get_story_5_response
     state :say_story_6
     state :get_story_6_response
-    state :say_youre_not_alone
-    state :say_it_was_hard
     state :say_story_7
     state :get_story_7_response
     state :say_story_8
     state :get_story_8_response
-    state :say_i_agree
-    state :say_schools_arent_great
     state :say_story_9
     state :get_story_9_response
     # END STORY

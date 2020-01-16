@@ -120,20 +120,6 @@ class HellosController < BotController
   end
 
   def get_story_6_response
-    if current_message.message == 'I can relate.'
-      step_to state: 'say_youre_not_alone'
-    else
-      step_to state: 'say_it_was_hard'
-    end
-  end
-
-  def say_youre_not_alone
-    send_replies
-    step_to state: 'say_story_7'
-  end
-
-  def say_it_was_hard
-    send_replies
     step_to state: 'say_story_7'
   end
 
@@ -152,20 +138,6 @@ class HellosController < BotController
   end
 
   def get_story_8_response
-    if current_message.message == 'Awful!'
-      step_to state: 'say_i_agree'
-    else
-      step_to state: 'say_schools_arent_great'
-    end
-  end
-
-  def say_i_agree
-    send_replies
-    step_to state: 'say_story_9'
-  end
-
-  def say_schools_arent_great
-    send_replies
     step_to state: 'say_story_9'
   end
 

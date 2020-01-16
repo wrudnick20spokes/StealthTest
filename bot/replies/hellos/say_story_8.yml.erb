@@ -1,0 +1,19 @@
+<% if current_message.message == 'Awful!' %>
+  - reply_type: text
+    replies:
+      - text: I totally agree.
+      - text: "Well, Janet thought Mia would learn about periods at school, during health class."
+      - text: "But as it turns out, kids usually don’t learn much about this at school. Maybe just some very basic information."
+    suggestions:
+      - text: "Awful!"
+      - text: "Not surprised."
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Yeah... this isn’t something most schools are great at yet."
+      - text: "Well, Janet thought Mia would learn about periods at school, during health class."
+      - text: "But as it turns out, kids usually don’t learn much about this at school. Maybe just some very basic information."
+    suggestions:
+      - text: "Awful!"
+      - text: "Not surprised."
+<% end %>

@@ -1,0 +1,15 @@
+<% if current_message.message == 'I can relate.' %>
+  - reply_type: text
+    replies:
+      - text: You’re not alone!
+      - text: "Do you know why Janet didn’t teach Mia anything about periods?"
+    suggestions:
+      - text: "Why?"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Yeah, it really was hard for everyone. ::frown::"
+      - text: "Do you know why Janet didn’t teach Mia anything about periods?"
+    suggestions:
+      - text: "Why?"
+  <% end %>
