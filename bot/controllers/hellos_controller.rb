@@ -153,7 +153,7 @@ class HellosController < BotController
   # WHY WE'RE HERE
   def say_why_1_from_story
     send_replies
-    step_to state: 'get_why_1_response'
+    update_session_to state: 'get_why_1_response'
   end
 
   def say_why_1_from_skip
