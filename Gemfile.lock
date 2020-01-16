@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/wrudnick20spokes/stealth-renalis
-  revision: 81c59e8872a5d47fee11e1db627e65fd51ac8ba8
+  revision: afe62161a536181b9c0ff306cdcd2f85ccc09b81
+  branch: master
   specs:
     stealth-renalis (1.0.0.pre1)
       stealth (< 2.0)
