@@ -45,8 +45,6 @@ class FlowMap
     state :say_why_1_from_story
     state :say_why_1_from_skip
     state :get_why_1_response
-    state :say_exactly
-    state :say_good_guess
     state :say_why_2
     state :get_why_2_response
     state :say_why_3
@@ -61,8 +59,6 @@ class FlowMap
     state :get_why_7_response
     state :say_why_8
     state :get_why_8_response
-    state :say_glad_youre_on_board
-    state :say_fair_enough
     # END WHY WE'RE HERE
 
     # START HOW IT WORKS 
@@ -70,7 +66,6 @@ class FlowMap
     state :get_how_1_response
     state :say_how_2
     state :get_how_2_response
-    state :say_me_too
     state :say_how_3
     state :get_how_3_response
     # END HOW IT WORKS

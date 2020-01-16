@@ -162,20 +162,6 @@ class HellosController < BotController
   end
 
   def get_why_1_response
-    if current_message.message == "Older women in their life"
-      step_to state: 'say_exactly'
-    else
-      step_to state: 'say_good_guess'
-    end
-  end
-
-  def say_exactly
-    send_replies
-    step_to state: 'say_why_2'
-  end
-
-  def say_good_guess
-    send_replies
     step_to state: 'say_why_2'
   end
 
@@ -239,20 +225,6 @@ class HellosController < BotController
   end
 
   def get_why_8_response
-    if current_message.message == 'Sounds good!'
-      step_to state: 'say_glad_youre_on_board'
-    else
-      step_to state: 'say_fair_enough'
-    end
-  end
-
-  def say_glad_youre_on_board
-    send_replies
-    step_to state: 'say_how_1'
-  end
-
-  def say_fair_enough
-    send_replies
     step_to state: 'say_how_1'
   end
 
@@ -272,15 +244,6 @@ class HellosController < BotController
   end
 
   def get_how_2_response
-    if current_message.message == 'OK'
-      step_to state: 'say_how_3'
-    else
-      step_to state: 'say_me_too'
-    end
-  end
-
-  def say_me_too
-    send_replies
     step_to state: 'say_how_3'
   end
 

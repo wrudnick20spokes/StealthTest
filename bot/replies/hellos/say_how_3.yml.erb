@@ -1,0 +1,16 @@
+<% if current_message.message == 'OK' %>
+  - reply_type: text
+    replies:
+      - text: "We’ll get to know each other a little more every day. As we go along, I’ll try to tune the information to your progress and needs."
+      - text: "Speaking of getting to know you..."
+    suggestions:
+      - text: "Yes?"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Me too! ::smile::"
+      - text: "We’ll get to know each other a little more every day. As we go along, I’ll try to tune the information to your progress and needs."
+      - text: "Speaking of getting to know you..."
+    suggestions:
+      - text: "Yes?"
+<% end %>
