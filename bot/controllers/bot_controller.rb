@@ -8,7 +8,7 @@ class BotController < Stealth::Controller
     elsif current_session.present?
       step_to session: current_session
     else
-      update_session_to flow: 'hello', state: 'say_hello'
+      step_to flow: 'hello', state: 'say_hello'
     end
   end
 
