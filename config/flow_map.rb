@@ -2,6 +2,10 @@ class FlowMap
 
   include Stealth::Flow
 
+	flow :day2 do
+		state :say_hello
+	end
+
   flow :day1 do
     # START HELLO
     state :say_hello
