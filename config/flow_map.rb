@@ -2,7 +2,7 @@ class FlowMap
 
   include Stealth::Flow
 
-  flow :hello do
+  flow :day1 do
     # START HELLO
     state :say_hello
     state :get_hello_response

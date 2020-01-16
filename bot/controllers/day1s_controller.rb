@@ -1,4 +1,4 @@
-class HellosController < BotController
+class Day1sController < BotController
 
   # INTRO
   def say_hello
