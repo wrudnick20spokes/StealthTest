@@ -23,7 +23,6 @@ class FlowMap
     # START STORY
     state :say_story_1
     state :get_story_1_response
-    state :say_ikr
     state :say_story_2
     state :get_story_2_response
     state :say_story_3

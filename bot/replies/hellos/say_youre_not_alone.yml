@@ -1,2 +1,3 @@
 - reply_type: text
-  text: You’re not alone!
+  replies:
+    - text: You’re not alone!

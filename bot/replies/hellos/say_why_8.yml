@@ -1,9 +1,8 @@
 - reply_type: text
-  text: "So, whether you’re learning things for the first time or brushing up on what you already know, I’m here to support you. ::flower::"
-- reply_type: text
-  text: "For the health of your child, those around you, and YOUR health."
-- reply_type: text
-  text: "What do you think?"
+  replies:
+    - text: "So, whether you’re learning things for the first time or brushing up on what you already know, I’m here to support you. ::flower::"
+    - text: "For the health of your child, those around you, and YOUR health."
+    - text: "What do you think?"
   suggestions:
     - text: "Sounds good!"
     - text: "I dunno yet..."

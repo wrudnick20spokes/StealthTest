@@ -1,5 +1,6 @@
 - reply_type: text
-  text: "We’ll cover a whole range of topics about periods, from hormones to hygiene to how to have confident conversations about periods with others."
+  replies:
+    - text: "We’ll cover a whole range of topics about periods, from hormones to hygiene to how to have confident conversations about periods with others."
   suggestions:
     - text: OK
     - text: I’m excited!

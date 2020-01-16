@@ -1,2 +1,3 @@
 - reply_type: text
-  text: "Goodbye. ::smile::"
+  replies:
+    - text: "Goodbye. ::smile::"

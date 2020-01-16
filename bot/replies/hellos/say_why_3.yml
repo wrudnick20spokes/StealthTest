@@ -1,7 +1,7 @@
 - reply_type: text
-  text: Yep. And that’s why we’re here.
-- reply_type: text
-  text: Because as much as we may want to support the young people in our life, a lot of times, we’ve never been fully educated ourselves!
+  replies:
+    - text: Yep. And that’s why we’re here.
+    - text: Because as much as we may want to support the young people in our life, a lot of times, we’ve never been fully educated ourselves!
   suggestions:
     - text: I sure wasn’t
     - text: Makes sense

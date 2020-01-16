@@ -1,2 +1,3 @@
 - reply_type: text
-  text: EXACTLY.
+  replies:
+    - text: EXACTLY.

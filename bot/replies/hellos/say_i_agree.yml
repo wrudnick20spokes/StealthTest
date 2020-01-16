@@ -1,2 +1,3 @@
 - reply_type: text
-  text: I totally agree.
+  replies:
+    - text: I totally agree.

@@ -75,15 +75,6 @@ class HellosController < BotController
   end
 
   def get_story_1_response
-    if current_message.message == 'A big moment!'
-      step_to state: 'say_ikr'
-    else    
-      step_to state: 'say_story_2'
-    end
-  end
-
-  def say_ikr
-    send_replies
     step_to state: 'say_story_2'
   end
 

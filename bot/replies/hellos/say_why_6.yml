@@ -1,6 +1,6 @@
 - reply_type: text
-  text: "I had to tell her I had no idea! I actually didn’t even know which batteries were inside me..."
-- reply_type: text
-  text: "::blushing::"
+  replies:
+    - text: "I had to tell her I had no idea! I actually didn’t even know which batteries were inside me..."
+    - text: "::blushing::"
   suggestions:
     - text: Aww

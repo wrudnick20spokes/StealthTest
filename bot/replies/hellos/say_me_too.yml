@@ -1,2 +1,3 @@
 - reply_type: text
-  text: "Me too! ::smile::"
+  replies:
+    - text: "Me too! ::smile::"

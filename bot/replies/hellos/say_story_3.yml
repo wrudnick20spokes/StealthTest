@@ -1,6 +1,6 @@
 - reply_type: text
-  text: "I know. ::frown::"
-- reply_type: text
-  text: Mia came out of the bathroom and told Janet, “I’m bleeding down there, mom, and I don’t know what to do!”
+  replies:
+    - text: "I know. ::frown::"
+    - text: Mia came out of the bathroom and told Janet, “I’m bleeding down there, mom, and I don’t know what to do!”
   suggestions:
     - text: How did Janet respond?

@@ -1,7 +1,7 @@
 - reply_type: text
-  text: Well, Janet thought Mia would learn about periods at school, during health class.
-- reply_type: text
-  text: But as it turns out, kids usually don’t learn much about this at school. Maybe just some very basic information.
+  replies:
+    - text: "Well, Janet thought Mia would learn about periods at school, during health class."
+    - text: "But as it turns out, kids usually don’t learn much about this at school. Maybe just some very basic information."
   suggestions:
-    - text: Awful!
-    - text: Not surprised.
+    - text: "Awful!"
+    - text: "Not surprised."

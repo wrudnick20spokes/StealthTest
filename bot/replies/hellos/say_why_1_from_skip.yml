@@ -1,8 +1,8 @@
 - reply_type: text
-  text: "No problem, stories aren’t for everyone."
-- reply_type: text
-  text: "Instead, I’ll ask you a question: do you know where most young people look when they want to learn about periods?"
+  replies:
+    - text: "No problem, stories aren’t for everyone."
+    - text: "Instead, I’ll ask you a question: do you know where most young people look when they want to learn about periods?"
   suggestions:
-    - text: The internet
-    - text: Peers
-    - text: Older women in their life
+    - text: "The internet"
+    - text: "Peers"
+    - text: "Older women in their life"

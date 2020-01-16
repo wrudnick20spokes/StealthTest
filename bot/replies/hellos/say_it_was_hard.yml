@@ -1,2 +1,3 @@
 - reply_type: text
-  text: "Yeah, it really was hard for everyone. ::frown::"
+  replies:
+    - text: "Yeah, it really was hard for everyone. ::frown::"

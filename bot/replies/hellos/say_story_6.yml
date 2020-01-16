@@ -1,9 +1,8 @@
 - reply_type: text
-  text: I know, right?
-- reply_type: text
-  text: But Mia wasn’t prepared. So she was scared and confused.
-- reply_type: text
-  text: And Janet felt guilty that her daughter felt that way.
+  replies:
+    - text: "I know, right?"
+    - text: "But Mia wasn’t prepared. So she was scared and confused."
+    - text: "And Janet felt guilty that her daughter felt that way."
   suggestions:
-    - text: Sounds hard.
-    - text: I can relate.
+    - text: "Sounds hard."
+    - text: "I can relate."
