@@ -3,12 +3,14 @@ class BotController < Stealth::Controller
   helper :all
 
   def route
-    if current_message.message == "ENTERING_APPLICATION" and current_session.present?
-      update_session_to session: current_session
-    elsif current_session.present?
-      step_to session: current_session
+    if current_message.message == 'ENTERING_APPLICATION' and current_session.present?
+      step_to session: current_session - 1.states
     else
-      step_to flow: 'hello', state: 'say_hello'
+      if current_session.present?
+        step_to session: current_session
+      else
+        step_to flow: 'hello', state: 'say_hello'
+      end
     end
   end
 
