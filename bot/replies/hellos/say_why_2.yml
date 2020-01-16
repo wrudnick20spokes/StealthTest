@@ -1,7 +1,7 @@
 - reply_type: text
-  text: Most often, kids are looking to their moms, aunts, big sisters, and godmothers...
+  text: "Most often, kids are looking to their moms, aunts, big sisters, and godmothers..."
 - reply_type: text
-  text: To you. [smile]
+  text: "To you. ::smile::"
   suggestions:
     - text: Really?
     - text: I see.

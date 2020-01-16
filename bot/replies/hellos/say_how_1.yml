@@ -1,5 +1,5 @@
 - reply_type: text
-  text: "OK, so — let me quickly explain how it works. [gear emoji]"
+  text: "OK, so — let me quickly explain how it works. ::gear::"
 - reply_type: text
   text: "Each day for the next two weeks, I’ll check in with you for a short chat."
 - reply_type: text
