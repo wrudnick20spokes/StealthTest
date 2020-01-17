@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Got it."
+    - text: "Have you discussed periods with at least one of your children?"
+  suggestions:
+    - text: "Yes"
+    - text: "Not really"
+    - text: "Kind of..."

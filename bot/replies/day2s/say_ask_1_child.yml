@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Good to know!"
+    - text: "Has this child already menstruated?"
+  suggestions:
+    - text: "Yes"
+    - text: "No"
+    - text: "Skip"

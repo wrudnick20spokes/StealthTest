@@ -1,0 +1,10 @@
+- reply_type: text
+  replies:
+    - text: "Good to know!"
+    - text: "How many of those children have already menstruated?"
+    - text: "Just text me a number or type 'skip.'"
+  suggestions:
+  <% for i in 0..current_message.message.to_i do %>
+    <%= "- text: " + i.to_str %> 
+  <% end %>
+    - text: "Skip"

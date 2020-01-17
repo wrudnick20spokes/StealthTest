@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "No problem. To make it simple, I’ll keep talking to you as if you have at least one child who has had (or will get) a period."
+    - text: "You’ll know what does or doesn’t make sense for your situation. ::smile::"
+    - text: "Have you discussed periods with at least one of your children?"
+  suggestions:
+    - text: "Yes"
+    - text: "Not really"
+    - text: "Kind of..."

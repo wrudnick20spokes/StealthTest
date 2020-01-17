@@ -115,7 +115,7 @@ class Day2sController < BotController
 
   def get_profile_2_response
     if current_message.message == 'Skip'
-      step_to state: ''
+      step_to state: 'say_profile_4_from_first_skip'
     else
       step_to state: 'say_profile_3'
     end
@@ -128,10 +128,72 @@ class Day2sController < BotController
 
   def get_profile_3_response
     if current_message.message == 'Skip'
-      step_to state: ''
-    else
-      step_to state: 'say_profile_4'
+      step_to state: 'say_profile_4_from_second_skip'
+    elsif current_message.message == '1'
+      step_to state: 'say_ask_1_child'
+    else 
+      step_to state: 'say_ask_multi_children'
     end
+  end
+
+  def say_ask_1_child
+    send_replies
+    update_session_to state: 'get_ask_1_child_response'
+  end
+
+  def get_ask_1_child_response
+    if current_message.message == 'Skip'
+      step_to state: 'say_profile_4_from_skip_1_child'
+    else
+      step_to state: 'say_profile_4_from_1_child'
+    end
+  end
+
+  def say_ask_multi_children
+    send_replies
+    update_session_to state: 'get_ask_multi_children_response'
+  end
+
+  def get_ask_multi_children_response
+    if current_message.message == 'Skip'
+      step_to state: 'say_profile_4_from_skip_multi_children'
+    else
+      step_to state: 'say_profile_4_from_multi_children'
+    end
+  end
+
+  def say_profile_4_from_first_skip
+    send_replies
+    update_session_to state: 'get_profile_4_response'
+  end
+
+  def say_profile_4_from_second_skip
+    send_replies
+    update_session_to state: 'get_profile_4_response'
+  end
+
+  def say_profile_4_from_skip_1_child
+    send_replies
+    update_session_to state: 'get_profile_4_response'
+  end
+
+  def say_profile_4_from_1_child
+    send_replies
+    update_session_to state: 'get_profile_4_response'
+  end
+
+  def say_profile_4_from_skip_multi_children
+    send_replies
+    update_session_to state: 'get_profile_4_response'
+  end
+
+  def say_profile_4_from_multi_children
+    send_replies
+    update_session_to state: 'get_profile_4_response'
+  end
+
+  def get_profile_4_response
+
   end
 
 end
