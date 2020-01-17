@@ -1,5 +1,6 @@
 - reply_type: text
   replies:
+    - text: "Certainly — I think this is really cool."
     - text: "Here’s an article that will tell you all about it. Feel free to read now or bookmark for later. Just tell me when you’re ready to move on."
     - text: "https://helloclue.com/articles/cycle-a-z/wet-sticky-what-your-discharge-is-telling-you"
   suggestions:
