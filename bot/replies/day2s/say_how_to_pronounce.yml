@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "I’m so glad you asked! It’s a tricky one for me too."
+    - text: "Check out this link: https://www.youtube.com/watch?v=mIhXJkApl5U"
+  suggestions:
+    - text: "Got it!"

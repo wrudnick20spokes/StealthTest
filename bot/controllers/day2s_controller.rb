@@ -274,6 +274,63 @@ class Day2sController < BotController
   end
 
   def get_done_with_questions_response
+    step_to state: 'say_lesson_1'
+  end
+
+  # ################################################
+  # TODAY'S LESSON
+  # ################################################
+  def say_lesson_1
+    send_replies
+    update_session_to state: 'get_lesson_1_response'
+  end
+
+  def get_lesson_1_response
+    step_to state: 'say_lesson_2'
+  end
+
+  def say_lesson_2
+    send_replies
+    update_session_to state: 'get_lesson_2_response'
+  end
+
+  def get_lesson_2_response
+    if current_message == 'How do I pronounce that?'
+      step_to state: 'say_how_to_pronounce'
+    else
+      step_to state: 'say_lesson_3'
+    end
+  end
+
+  def say_how_to_pronounce
+    send_replies
+    update_session_to state: 'get_how_to_pronounce_response'
+  end
+
+  def get_how_to_pronounce_response
+    step_to state: 'say_lesson_3_from_how_to_pronounce'
+  end
+
+  def say_lesson_3_from_how_to_pronounce
+    send_replies
+    update_session_to state: 'get_lesson_3_response'
+  end
+
+  def say_lesson_3
+    send_replies
+    update_session_to state: 'get_lesson_3_response'
+  end
+
+  def get_lesson_3_response
+    step_to state: 'say_lesson_4'
+  end
+
+  def say_lesson_4
+    send_replies
+    update_session_to stat: 'get_lesson_4_response'
+  end
+
+  def get_lesson_4_response
 
   end
 
