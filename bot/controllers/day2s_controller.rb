@@ -19,6 +19,7 @@ class Day2sController < BotController
   end
 
   def get_intro_1_response
+    puts current_message.message
     if current_message.message == '::thumbs up::'
       step_to state: 'say_profile_1_from_thumbs_up'
     elsif current_message.message == '::thumbs down::'
