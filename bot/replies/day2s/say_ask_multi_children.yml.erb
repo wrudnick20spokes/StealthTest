@@ -4,7 +4,7 @@
     - text: "How many of those children have already menstruated?"
     - text: "Just text me a number or type 'skip.'"
   suggestions:
-  <% current_message.message.to_i.each do |num| %>
+  <% (0..current_message.message.to_i).each do |num| %>
     <%= "- text: #{num}}" %> 
   <% end %>
     - text: "Skip"
