@@ -44,7 +44,7 @@ class Day2sController < BotController
 
   def say_offer_to_help
     send_replies
-    update_session_to 'get_offer_to_help_response'
+    update_session_to state: 'get_offer_to_help_response'
   end
 
   def get_offer_to_help_response
