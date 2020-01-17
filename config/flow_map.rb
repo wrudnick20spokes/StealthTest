@@ -3,7 +3,10 @@ class FlowMap
   include Stealth::Flow
 
 	flow :day2 do
-		state :say_hello
+    state :say_hello
+    state :get_hello_response
+    state :say_intro_1
+    state :get_intro_1_response
 	end
 
   flow :day1 do

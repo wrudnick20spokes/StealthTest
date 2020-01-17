@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "How’s it going so far today?"
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "::thumbs down::"
+    - text: "::shrug::"
