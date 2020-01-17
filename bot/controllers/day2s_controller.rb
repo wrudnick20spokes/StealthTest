@@ -295,7 +295,7 @@ class Day2sController < BotController
   end
 
   def get_lesson_2_response
-    if current_message == 'How do I pronounce that?'
+    if current_message.message == 'How do I pronounce that?'
       step_to state: 'say_how_to_pronounce'
     else
       step_to state: 'say_lesson_3'
