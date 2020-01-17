@@ -331,7 +331,16 @@ class Day2sController < BotController
   end
 
   def get_lesson_4_response
+    step_to state: 'say_lesson_5'
+  end
 
+  def say_lesson_5
+    send_replies
+    update_session_to state: 'get_lesson_5_response'
+  end
+
+  def get_lesson_5_response
+    step_to state: ''
   end
 
 end

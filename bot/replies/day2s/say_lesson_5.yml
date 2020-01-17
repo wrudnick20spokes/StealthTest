@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Let me show you a picture."
+    - text: "::pelvicfloor::"
+    - text: "See the ovaries?"
+  suggestions:
+    - text: "Yes"

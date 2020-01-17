@@ -69,8 +69,8 @@ class FlowMap
     state :get_lesson_3_response
     state :say_lesson_4
     state :get_lesson_4_response
-    # state :
-    # state :
+    state :say_lesson_5
+    state :get_lesson_5_response
     # state :
     # state :
     # state :
