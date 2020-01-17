@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Mmhmm. And that cycle repeats itself every 21-35 days. A couple milestones to point out..."
+    - text: "The first day of bleeding is considered Day 1 of the menstrual cycle."
+  suggestions:
+    - text: "OK"
+    - text: "I knew that"

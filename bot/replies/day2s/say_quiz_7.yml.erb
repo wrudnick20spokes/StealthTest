@@ -1,0 +1,16 @@
+<% if current_message.message == 'OK' %>
+  - reply_type: text
+    replies:
+      - text: "Halfway through the cycle is ovulation. This means one of the ovaries releases an egg into the fallopian tube."
+      - text: "This is when people are most fertile (aka most likely to get pregnant)."
+    suggestions:
+      - text: "Got it"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Nice!"
+      - text: "Halfway through the cycle is ovulation. This means one of the ovaries releases an egg into the fallopian tube."
+      - text: "This is when people are most fertile (aka most likely to get pregnant)."
+    suggestions:
+      - text: "Got it"
+<% end %>

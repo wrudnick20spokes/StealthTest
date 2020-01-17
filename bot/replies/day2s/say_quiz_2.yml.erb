@@ -1,0 +1,15 @@
+<% if current_message.message == 'True' %>
+  - reply_type: text
+    replies:
+      - text: "You got it! ::party::"
+      - text: "Sometimes it’s good to remember WHY something is happening so we can better appreciate what our bodies can do. Which is a lot!"
+    suggestions:
+      - text: "::clap::"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Actually, that IS what they do!"
+      - text: "Sometimes it’s good to remember WHY something is happening so we can better appreciate what our bodies can do. Which is a lot!"
+    suggestions:
+      - text: "::clap::"
+<% end %>

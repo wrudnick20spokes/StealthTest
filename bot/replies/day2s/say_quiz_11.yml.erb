@@ -1,0 +1,17 @@
+<% if current_message.message == 'Say more' %>
+  - reply_type: text
+    replies:
+      - text: "You got it.."
+      - text: "It turns out you can actually figure out where you are in your menstrual cycle by looking at how your cervical fluid changes over time."
+    suggestions:
+      - text: "Tell me more"
+      - text: "Not interested"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Well I’ll refresh your memory just in case!"
+      - text: "It turns out you can actually figure out where you are in your menstrual cycle by looking at how your cervical fluid changes over time."
+    suggestions:
+      - text: "Tell me more"
+      - text: "Not interested"
+<% end %>

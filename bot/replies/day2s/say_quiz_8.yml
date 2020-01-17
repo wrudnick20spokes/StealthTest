@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Great! Would you like me to share a 2-minute video that goes over the menstrual cycle in a bit more detail?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"

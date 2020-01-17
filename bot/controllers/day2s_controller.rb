@@ -435,7 +435,145 @@ class Day2sController < BotController
   end
 
   def get_quiz_1_response
-    step_to
+    step_to state: 'say_quiz_2'
+  end
+
+  def say_quiz_2
+    send_replies
+    update_session_to state: 'get_quiz_2_response'
+  end
+
+  def get_quiz_2_response
+    step_to state: 'say_quiz_3'
+  end
+
+  def say_quiz_3
+    send_replies
+    update_session_to state: 'get_quiz_3_response'
+  end
+
+  def get_quiz_3_response
+    step_to state: 'say_quiz_4'
+  end
+
+  def say_quiz_4
+    send_replies
+    update_session_to state: 'get_quiz_4_response'
+  end
+
+  def get_quiz_4_response
+    step_to state: 'say_quiz_5'
+  end
+
+  def say_quiz_5
+    send_replies
+    update_session_to state: 'get_quiz_5_response'
+  end
+
+  def get_quiz_5_response
+    step_to state: 'say_quiz_6'
+  end
+
+  def say_quiz_6
+    send_replies
+    update_session_to state: 'get_quiz_6_response'
+  end
+
+  def get_quiz_6_response
+    step_to state: 'say_quiz_7'
+  end
+
+  def say_quiz_7
+    send_replies
+    update_session_to state: 'get_quiz_7_response'
+  end
+
+  def get_quiz_7_response
+    step_to state: 'say_quiz_8'
+  end
+
+  def say_quiz_8
+    send_replies
+    update_session_to state: 'get_quiz_8_response'
+  end
+
+  def get_quiz_8_response
+    if current_message.message == 'Sure'
+      step_to state: 'say_share_video'
+    else
+      step_to state: 'say_quiz_9_from_no_video'
+    end
+  end
+
+  def say_share_video
+    send_replies
+    update_session_to state: 'get_share_video_response'
+  end
+
+  def get_share_video_response
+    step_to state: 'say_quiz_9_from_video'
+  end
+
+  def say_quiz_9_from_no_video
+    send_replies
+    update_session_to state: 'get_quiz_9_response'
+  end
+
+  def say_quiz_9_from_video
+    send_replies
+    update_session_to state: 'get_quiz_9_response'
+  end
+
+  def get_quiz_9_response
+    step_to state: 'say_quiz_10'
+  end
+
+  def say_quiz_10
+    send_replies
+    update_session_to state: 'get_quiz_10_response'
+  end
+
+  def get_quiz_10_response
+    step_to state: 'say_quiz_11'
+  end
+
+  def say_quiz_11
+    send_replies
+    update_session_to state: 'get_quiz_11_response'
+  end
+
+  def get_quiz_11_response
+    if current_message.message == 'Tell me more'
+      step_to state: 'say_share_article_2'
+    else
+      step_to state: 'say_wrap_up_1_no_article'
+    end
+  end
+
+  def say_share_article_2
+    send_replies
+    update_session_to state: 'get_share_article_2_response'
+  end
+
+  def get_share_article_2_response
+    step_to state: 'say_wrap_up_1_article'
+  end
+
+  # ################################################
+  # WRAP UP
+  # ################################################
+  def say_wrap_up_1_no_article
+    send_replies
+    update_session_to state: 'get_wrap_up_1_response'
+  end
+
+  def say_wrap_up_1_article
+    send_replies
+    update_session_to state: 'get_wrap_up_1_response'
+  end
+
+  def get_wrap_up_1_response
+
   end
 
 end

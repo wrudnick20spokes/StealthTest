@@ -91,10 +91,41 @@ class FlowMap
     # END TODAY'S LESSON
 
     # START QUIZ
-    # state :say_quiz_1
-    # state :get_quiz_1_response
-    # state :
+    state :say_quiz_1
+    state :get_quiz_1_response
+    state :say_quiz_2
+    state :get_quiz_2_response
+    state :say_quiz_3
+    state :get_quiz_3_response
+    state :say_quiz_4
+    state :get_quiz_4_response
+    state :say_quiz_5
+    state :get_quiz_5_response
+    state :say_quiz_6
+    state :get_quiz_6_response
+    state :say_quiz_7
+    state :get_quiz_7_response
+    state :say_quiz_8
+    state :get_quiz_8_response
+    state :say_share_video
+    state :get_share_video_response
+    state :say_quiz_9_from_no_video
+    state :say_quiz_9_from_video
+    state :get_quiz_9_response
+    state :say_quiz_10
+    state :get_quiz_10_response
+    state :say_quiz_11
+    state :get_quiz_11_response
+    state :say_share_article_2
+    state :get_share_article_2_response
     # END QUIZ
+
+    # START WRAP UP
+    state :say_wrap_up_1_no_article
+    state :say_wrap_up_1_article
+    state :get_wrap_up_1_response
+    # state :
+    # END WRAP UP
 	end
 
   flow :day1 do

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Perfect, here it is:"
+    - text: "https://www.youtube.com/watch?v=vXrQ_FhZmos"
+    - text: "Let me know when you’re ready to move on."
+  suggestions:
+    - text: "Ready"

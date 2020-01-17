@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "A period, as I mentioned before, is the bleeding phase of the menstrual cycle."
+    - text: "The bleeding happens because the uterus is getting rid of extra padding it doesn’t need."
+  suggestions:
+    - text: "I’m with you"
+    - text: "Padding?"
