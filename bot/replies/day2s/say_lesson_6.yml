@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Those are the hormone and egg cell factories."
+    - text: "The egg cell can develop into a baby if it connects with sperm and is fertilized."
+    - text: "Now, see the fallopian tubes?"
+  suggestions:
+    - text: "I do"

@@ -1,0 +1,17 @@
+<% if current_message.message == 'Ah!' %>
+  - reply_type: text
+    replies:
+      - text: "::smile::"
+      - text: "OK, before we wrap up our anatomy lesson, would you like a link to more detailed information about the reproductive system?"
+    suggestions:
+      - text: "Sure"
+      - text: "No thanks"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Nice!"
+      - text: "OK, before we wrap up our anatomy lesson, would you like a link to more detailed information about the reproductive system?"
+    suggestions:
+      - text: "Sure"
+      - text: "No thanks"
+<% end %>

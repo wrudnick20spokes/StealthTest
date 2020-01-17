@@ -71,17 +71,30 @@ class FlowMap
     state :get_lesson_4_response
     state :say_lesson_5
     state :get_lesson_5_response
-    # state :
-    # state :
-    # state :
-    # state :
-    # state :
-    # state :
-    # state :
-    # state :
-    # state :
-    # state :
+    state :say_lesson_6
+    state :get_lesson_6_response
+    state :say_lesson_7
+    state :get_lesson_7_response
+    state :say_lesson_8
+    state :get_lesson_8_response
+    state :say_lesson_9
+    state :get_lesson_9_response
+    state :say_lesson_10
+    state :get_lesson_10_response
+    state :say_lesson_11
+    state :get_lesson_11_response
+    state :say_share_article
+    state :get_share_article_response
+    state :say_lesson_complete_from_no_article
+    state :say_lesson_complete_from_article
+    state :get_lesson_complete_response
     # END TODAY'S LESSON
+
+    # START QUIZ
+    # state :say_quiz_1
+    # state :get_quiz_1_response
+    # state :
+    # END QUIZ
 	end
 
   flow :day1 do

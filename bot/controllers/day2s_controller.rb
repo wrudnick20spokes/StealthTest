@@ -277,6 +277,7 @@ class Day2sController < BotController
     step_to state: 'say_lesson_1'
   end
 
+
   # ################################################
   # TODAY'S LESSON
   # ################################################
@@ -340,7 +341,101 @@ class Day2sController < BotController
   end
 
   def get_lesson_5_response
-    step_to state: ''
+    step_to state: 'say_lesson_6'
+  end
+
+  def say_lesson_6
+    send_replies
+    update_session_to state: 'get_lesson_6_response'
+  end
+
+  def get_lesson_6_response
+    step_to state: 'say_lesson_7'
+  end
+
+  def say_lesson_7
+    send_replies
+    update_session_to state: 'get_lesson_7_response'
+  end
+
+  def get_lesson_7_response
+    step_to state: 'say_lesson_8'
+  end
+
+  def say_lesson_8
+    send_replies
+    update_session_to state: 'get_lesson_8_response'
+  end
+
+  def get_lesson_8_response
+    step_to state: 'say_lesson_9'
+  end
+
+  def say_lesson_9
+    send_replies
+    update_session_to state: 'get_lesson_9_response'
+  end
+
+  def get_lesson_9_response
+    step_to state: 'say_lesson_10'
+  end
+
+  def say_lesson_10
+    send_replies
+    update_session_to state: 'get_lesson_10_response'
+  end
+
+  def get_lesson_10_response
+    step_to state: 'say_lesson_11'
+  end
+
+  def say_lesson_11
+    send_replies
+    update_session_to state: 'get_lesson_11_response'
+  end
+
+  def get_lesson_11_response
+    if current_message.message == 'Sure'
+      step_to state: 'say_share_article'
+    else
+      step_to state: 'say_lesson_complete_from_no_article'
+    end
+  end
+
+  def say_share_article
+    send_replies
+    update_session_to state: 'get_share_article_response'
+  end
+
+  def get_share_article_response
+    step_to state: 'say_lesson_complete_from_article'
+  end
+
+  def say_lesson_complete_from_no_article
+    send_replies
+    update_session_to state: 'get_lesson_complete_response'
+  end
+
+  def say_lesson_complete_from_article
+    send_replies
+    update_session_to state: 'get_lesson_complete_response'
+  end
+
+  def get_lesson_complete_response
+    step_to state: 'say_quiz_1'
+  end
+
+
+  # ################################################
+  # QUIZ
+  # ################################################
+  def say_quiz_1
+    send_replies
+    update_session_to state: 'get_quiz_1_response'
+  end
+
+  def get_quiz_1_response
+    step_to
   end
 
 end

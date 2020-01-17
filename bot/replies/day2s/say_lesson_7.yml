@@ -1,0 +1,5 @@
+- reply_type: text
+  replies:
+    - text: "These tubes carry eggs from the ovaries to the uterus. If a sperm-egg connection (fertilization) is going to happen, it’s usually in the fallopian tubes."
+  suggestions:
+    - text: "::thumbs up::"
