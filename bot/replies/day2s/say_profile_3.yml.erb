@@ -6,6 +6,6 @@
     - text: "Just text me a number or say 'skip'."
   suggestions:
   <% (0..current_message.message.to_i).each do |num| %>
-    <%= "- text: '#{num}''" %> 
+    <%= "- text: '#{num}'" %>
   <% end %>
     - text: "Skip"
