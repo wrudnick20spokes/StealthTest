@@ -1,6 +1,9 @@
 class Day1sController < BotController
 
+
+  # ################################################
   # INTRO
+  # ################################################
   def say_hello
     send_replies
     update_session_to state: 'get_hello_response'
@@ -68,7 +71,10 @@ class Day1sController < BotController
     end
   end
 
+
+  # ################################################
   # STORY
+  # ################################################
   def say_story_1
     send_replies
     update_session_to state: 'get_story_1_response'
@@ -150,7 +156,10 @@ class Day1sController < BotController
     step_to state: 'say_why_1_from_story'
   end
 
+
+  # ################################################
   # WHY WE'RE HERE
+  # ################################################
   def say_why_1_from_story
     send_replies
     update_session_to state: 'get_why_1_response'
@@ -228,7 +237,10 @@ class Day1sController < BotController
     step_to state: 'say_how_1'
   end
 
+
+  # ################################################
   # HOW IT WORKS
+  # ################################################
   def say_how_1
     send_replies
     update_session_to state: 'get_how_1_response'
@@ -256,7 +268,10 @@ class Day1sController < BotController
     step_to state: 'say_profile_setting_1'
   end
 
+
+  # ################################################
   # PROFILE SETTING
+  # ################################################
   def say_profile_setting_1
     send_replies
     update_session_to state: 'get_profile_setting_1_response'

@@ -2,11 +2,30 @@ class FlowMap
 
   include Stealth::Flow
 
-	flow :day2 do
+  flow :day2 do
+    # START HELLO
     state :say_hello
     state :get_hello_response
     state :say_intro_1
     state :get_intro_1_response
+    state :say_offer_animal
+    state :get_offer_animal_response
+    state :say_offer_to_help
+    state :get_offer_to_help_response
+    state :say_animal
+    state :get_animal_response
+    state :say_helpful_quote
+    state :get_helpful_quote_response
+    # END HELLO
+
+    # START PROFILE SETTING
+    state :say_profile_1_from_thumbs_up
+    state :say_profile_1_from_no_animal
+    state :say_profile_1_from_animal
+    state :say_profile_1_from_helpful_quote
+    state :say_profile_1_from_no_help
+    state :get_profile_1_response
+    # END PROFILE SETTING
 	end
 
   flow :day1 do

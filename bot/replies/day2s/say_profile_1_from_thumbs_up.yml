@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "How great to hear!"
+    - text: "https://media.giphy.com/media/pOweqzx4UPgDbN0WuZ/giphy.gif"
+    - text: "OK — if it’s alright, I’d like to get to know you a little better."
+  suggestions:
+    - text: "Sounds good"
+    - text: "More questions?"

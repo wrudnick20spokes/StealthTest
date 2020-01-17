@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Sure! This one really gets me through the days when nothing seems to go right..."
+    - text: "'Staying positive doesn’t mean you have to be happy all the time. It means that even on hard days you know there are better ones coming.''"
+  suggestions:
+    - text: "Got it"

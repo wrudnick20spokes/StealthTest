@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Alright, not great but not bad. Would a cute animal help?"
+  suggestions:
+    - text: "Nah"
+    - text: "Sure"

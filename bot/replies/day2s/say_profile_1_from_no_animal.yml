@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Okay, then I’ll just move along."
+    - text: "OK — if it’s alright, I’d like to get to know you a little better."
+  suggestions:
+    - text: "Sounds good"
+    - text: "More questions?"
