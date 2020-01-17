@@ -327,7 +327,7 @@ class Day2sController < BotController
 
   def say_lesson_4
     send_replies
-    update_session_to stat: 'get_lesson_4_response'
+    update_session_to state: 'get_lesson_4_response'
   end
 
   def get_lesson_4_response
