@@ -4,12 +4,12 @@ class BotController < Stealth::Controller
 
   def route
     if current_message.message == 'ENTERING_APPLICATION'
-      step_to flow: 'day2', state: 'say_quiz_1'
+      step_to flow: 'day2', state: 'get_quiz_11_response'
     else
       if current_session.present?
         step_to session: current_session
       else
-        step_to flow: 'day2', state: 'say_quiz_1'
+        step_to flow: 'day2', state: 'get_quiz_11_response'
       end
     end
 

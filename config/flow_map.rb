@@ -124,7 +124,14 @@ class FlowMap
     state :say_wrap_up_1_no_article
     state :say_wrap_up_1_article
     state :get_wrap_up_1_response
-    # state :
+    state :say_wrap_up_2
+    state :get_wrap_up_2_response
+    state :say_wrap_up_3
+    state :get_wrap_up_3_response
+    state :say_wrap_up_4
+    state :get_wrap_up_4_response
+    state :say_goodbye
+    state :end_day_2
     # END WRAP UP
 	end
 

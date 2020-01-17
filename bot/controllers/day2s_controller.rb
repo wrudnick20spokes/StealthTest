@@ -573,6 +573,42 @@ class Day2sController < BotController
   end
 
   def get_wrap_up_1_response
+    step_to state: 'say_wrap_up_2'
+  end
+
+  def say_wrap_up_2
+    send_replies
+    update_session_to state: 'get_wrap_up_2_response'
+  end
+
+  def get_wrap_up_2_response
+    step_to state: 'say_wrap_up_3'
+  end
+
+  def say_wrap_up_3
+    send_replies
+    update_session_to state: 'get_wrap_up_3_response'
+  end
+
+  def get_wrap_up_3_response
+    step_to state: 'say_wrap_up_4'
+  end
+
+  def say_wrap_up_4
+    send_replies
+    update_session_to state: 'get_wrap_up_4_response'
+  end
+
+  def get_wrap_up_4_response
+    update_session_to state: 'say_goodbye'
+  end
+
+  def say_goodbye
+    send_replies
+    update_session_to state: 'end_day_2'
+  end
+
+  def end_day_2
 
   end
 

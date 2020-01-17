@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Oh — if you ever want to review anything, or see information you might have skipped, I’m saving everything we’ve covered in the Review Menu. You can find it at the top right."
+    - text: "I’ll add more sections as we go through more information. ::books::"
+  suggestions:
+    - text: "Review Menu, got it"
