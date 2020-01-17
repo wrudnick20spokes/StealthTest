@@ -5,14 +5,7 @@
     - text: "(I say this instead of asking how many “daughters” you have because I know some of you may have kids who are trans or non-binary.)"
     - text: "Just text me a number or say 'skip'."
   suggestions:
-    - text: "1"
-    - text: "2"
-    - text: "3"
-    - text: "4"
-    - text: "5"
-    - text: "6"
-    - text: "7"
-    - text: "8"
-    - text: "9"
-    - text: "10"
+  <% (0..current_message.message.to_i).each do |num| %>
+    <%= "- text: #{num}" %> 
+  <% end %>
     - text: "Skip"
