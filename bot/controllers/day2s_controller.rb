@@ -193,6 +193,87 @@ class Day2sController < BotController
   end
 
   def get_profile_4_response
+    if current_message.message == 'Not really'
+      step_to state: 'say_done_with_questions_from_not_really'
+    else
+      step_to state: 'say_ask_about_conversation'
+    end
+  end
+
+  def say_ask_about_conversation
+    send_replies
+    update_session_to state: 'get_ask_about_conversation_response'
+  end
+
+  def get_ask_about_conversation_response
+    if current_message.message.to_i > 3
+      step_to state: 'say_thats_great'
+    else
+      step_to state: 'say_got_it'
+    end
+  end
+
+  def say_thats_great
+    send_replies
+    update_session_to state: 'get_one_more_thing_response'
+  end
+
+  def say_got_it
+    send_replies
+    update_session_to state: 'get_got_it_response'
+  end
+
+  def get_got_it_response
+    step_to state: 'say_one_more_thing'
+  end
+
+  def say_one_more_thing
+    send_replies
+    update_session_to state: 'get_one_more_thing_response'
+  end
+
+  def get_one_more_thing_response
+    step_to state: 'say_ask_how_conversation_went'
+  end
+
+  def say_ask_how_conversation_went
+    send_replies
+    update_session_to state: 'get_ask_how_conversation_went_response'
+  end
+
+  def get_ask_how_conversation_went_response
+    if current_message.message == 'Skip'
+      step_to state: 'say_done_with_questions_from_skip'
+    else
+      step_to state: 'say_thank_you'
+    end
+  end
+
+  def say_thank_you
+    send_replies
+    update_session_to 'get_conversation_evaluation'
+  end
+
+  def get_conversation_evaluation
+    step_to state: 'say_done_with_questions_from_conversation_evaluation'
+  end
+
+  def say_done_with_questions_from_conversation_evaluation
+    send_replies
+    update_session_to state: 'get_done_with_questions_response'
+  end
+
+  def say_done_with_questions_from_skip
+    send_replies
+    update_session_to state: 'get_done_with_questions_response'
+  end
+
+  def say_done_with_questions_from_not_really
+    send_replies
+    update_session_to state: 'get_done_with_questions_response'
+  end
+
+  def get_done_with_questions_response
 
   end
 

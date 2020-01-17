@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "That’s great to hear. I’ll try to help you feel even more educated and confident, but it’s wonderful that you seem to already have a strong foundation."
+    - text: "One more thing..."
+  suggestions:
+    - text: "Yes?"

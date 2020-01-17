@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Would you mind telling me in a sentence or two how your conversation(s) went?"
+    - text: "I haven’t yet been programmed to understand full sentences… but I’ll pass it along to my creators, who will use it to improve future versions of me!"
+  suggestions:
+    - text: "Sure"
+    - text: "Skip"

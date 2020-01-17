@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "::clap::"
+    - text: "One more thing..."
+  suggestions:
+    - text: "Yes?"

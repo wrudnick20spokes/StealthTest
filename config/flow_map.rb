@@ -39,6 +39,22 @@ class FlowMap
     state :say_profile_4_from_1_child
     state :say_profile_4_from_skip_multi_children
     state :say_profile_4_from_multi_children
+    state :get_profile_4_response
+    state :say_ask_about_conversation
+    state :get_ask_about_conversation_response
+    state :say_thats_great
+    state :say_got_it
+    state :get_got_it_response
+    state :say_one_more_thing
+    state :get_one_more_thing_response
+    state :say_ask_how_conversation_went
+    state :get_ask_how_conversation_went_response
+    state :say_thank_you
+    state :get_conversation_evaluation
+    state :say_done_with_questions_from_conversation_evaluation
+    state :say_done_with_questions_from_skip
+    state :say_done_with_questions_from_not_really
+    state :get_done_with_questions_response
     # END PROFILE SETTING
 	end
 

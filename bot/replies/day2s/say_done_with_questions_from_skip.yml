@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "I understand!"
+    - text: "Okay, done with the questions! Thanks so much for going through that with me."
+  suggestions:
+    - text: "Whew ::sweat::"
+    - text: "No problem"
