@@ -251,7 +251,7 @@ class Day2sController < BotController
 
   def say_thank_you
     send_replies
-    update_session_to 'get_conversation_evaluation'
+    update_session_to state: 'get_conversation_evaluation'
   end
 
   def get_conversation_evaluation
