@@ -105,7 +105,33 @@ class Day2sController < BotController
   end
 
   def get_profile_1_response
+    step_to state: 'say_profile_2'
+  end
 
+  def say_profile_2
+    send_replies
+    update_session_to state: 'get_profile_2_response'
+  end
+
+  def get_profile_2_response
+    if current_message.message == 'Skip'
+      step_to state: ''
+    else
+      step_to state: 'say_profile_3'
+    end
+  end
+
+  def say_profile_3
+    send_replies
+    update_session_to state: 'get_profile_3_response'
+  end
+
+  def get_profile_3_response
+    if current_message.message == 'Skip'
+      step_to state: ''
+    else
+      step_to state: 'say_profile_4'
+    end
   end
 
 end

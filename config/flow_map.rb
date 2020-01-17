@@ -25,6 +25,10 @@ class FlowMap
     state :say_profile_1_from_helpful_quote
     state :say_profile_1_from_no_help
     state :get_profile_1_response
+    state :say_profile_2
+    state :get_profile_2_response
+    state :say_profile_3
+    state :get_profile_3_response
     # END PROFILE SETTING
 	end
 
