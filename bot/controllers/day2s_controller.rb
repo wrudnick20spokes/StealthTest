@@ -611,5 +611,4 @@ class Day2sController < BotController
   def end_day_2
 
   end
-
 end
