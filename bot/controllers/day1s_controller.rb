@@ -337,11 +337,6 @@ class Day1sController < BotController
 
   def say_profile_setting_8
     send_replies
-    step_to state: 'end_day_1'
-  end
-
-  def end_day_1
-
   end
 
 end

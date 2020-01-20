@@ -609,6 +609,6 @@ class Day2sController < BotController
   end
 
   def end_day_2
-
+    send_replies
   end
 end

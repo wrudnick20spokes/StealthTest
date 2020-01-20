@@ -131,7 +131,6 @@ class FlowMap
     state :say_wrap_up_4
     state :get_wrap_up_4_response
     state :say_goodbye
-    state :end_day_2
     # END WRAP UP
 	end
 
@@ -219,7 +218,6 @@ class FlowMap
     state :say_profile_setting_7
     state :get_profile_setting_7_response
     state :say_profile_setting_8
-    state :end_day_1
     # END PROFILE SETTING
   end
 
