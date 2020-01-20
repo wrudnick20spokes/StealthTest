@@ -6,6 +6,8 @@ class BotController < Stealth::Controller
     if current_message.message.include? "STARTING_DAY"
       day_number = current_message.message.partition(':').last
       step_to flow: "day#{day_number}", state: "say_hello"
+    elsif current_message.message.include? "RESUMING_DAY" and current_session.present?
+      step_to session: current_session - 1.states
     else
       if current_session.present?
         step_to session: current_session
