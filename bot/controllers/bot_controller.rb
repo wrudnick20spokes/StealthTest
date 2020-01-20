@@ -3,7 +3,10 @@ class BotController < Stealth::Controller
   helper :all
 
   def route
-    if current_message.message.include? "STARTING_DAY"
+    if current_message.message.include? "FORCING_DAY"
+      day_number = current_message.message.partition(':').last
+      step_to flow: "day#{day_number}", state: "say_hello"
+    elsif current_message.message.include? "STARTING_DAY"
       day_number = current_message.message.partition(':').last
       step_to flow: "day#{day_number}", state: "say_hello"
     elsif current_message.message.include? "RESUMING_DAY" and current_session.present?
