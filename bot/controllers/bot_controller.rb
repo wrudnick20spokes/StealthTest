@@ -5,7 +5,7 @@ class BotController < Stealth::Controller
   def route
     if current_message.message.include? "FORCING_DAY"
       day_number = current_message.message.partition(':').last
-      step_to flow: "day#{day_number}", state: "say_one_more_thing"
+      step_to flow: "day#{day_number}", state: "say_profile_setting_8"
     elsif current_message.message.include? "STARTING_DAY"
       day_number = current_message.message.partition(':').last
       step_to flow: "day#{day_number}", state: "say_hello"
