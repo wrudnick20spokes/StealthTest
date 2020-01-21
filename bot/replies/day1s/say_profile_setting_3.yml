@@ -3,4 +3,5 @@
     - text: "Got it. Now I’d like to understand a bit about what you’d most appreciate from me."
     - text: "On a scale of 1-10 (1 is “not at all important” and 10 is “very important”), how important is it to you to feel more prepared to talk to your child about periods?"
   slider_input: true
-  slider_range: 10
+  slider_min: 1
+  slider_max: 10

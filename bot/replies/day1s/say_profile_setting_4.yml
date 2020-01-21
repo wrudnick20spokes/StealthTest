@@ -3,4 +3,5 @@
     - text: "Thanks for letting me know."
     - text: "Now, on a scale of 1-10 (1 is “not at all important” and 10 is “very important”), how important is it to you to feel more prepared talking to friends and other family members about periods?"
   slider_input: true
-  slider_range: 10
+  slider_min: 1
+  slider_max: 10
