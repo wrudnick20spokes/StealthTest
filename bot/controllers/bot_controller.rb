@@ -5,7 +5,7 @@ class BotController < Stealth::Controller
   def route
     if current_message.message.include? "INCOMPLETE_DAY"
       day_number = current_message.message.partition(':').last
-      step_to flow: "incomplete_day", state: "day_#{day_number}"
+      step_to flow: "incomplete_day", state: "day_#{day_number}_hello"
     elsif current_message.message.include? "TOO_EARLY"
       step_to flow: "helper", state: "say_too_early"
     elsif current_message.message.include? "FORCING_DAY"
