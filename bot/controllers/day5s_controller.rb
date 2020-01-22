@@ -5,6 +5,11 @@ class Day5sController < BotController
     update_session_to state: 'get_hello_response'
   end
 
+  def say_hello_from_skip
+    send_replies
+    update_session_to state: 'get_hello_response'
+  end
+
   def get_hello_response
     step_to state: 'say_goodbye'
   end

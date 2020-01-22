@@ -4,18 +4,21 @@ class FlowMap
 
 	flow :day5 do
     state :say_hello
+    state :say_hello_from_skip
     state :get_hello_response
     state :say_goodbye
   end
 
 	flow :day4 do
     state :say_hello
+    state :say_hello_from_skip
     state :get_hello_response
     state :say_goodbye
 	end
 
 	flow :day3 do
     state :say_hello
+    state :say_hello_from_skip
     state :get_hello_response
     state :say_goodbye
 	end
