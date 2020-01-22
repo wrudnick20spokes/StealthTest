@@ -1,0 +1,4 @@
+- reply_type: text
+  replies:
+    - text: "Goodbye from day 5. ::smile::"
+  last_message: true

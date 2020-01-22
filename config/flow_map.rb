@@ -2,8 +2,22 @@ class FlowMap
 
   include Stealth::Flow
 
-	flow :helper do
-		state :say_too_early
+	flow :day5 do
+    state :say_hello
+    state :get_hello_response
+    state :say_goodbye
+  end
+
+	flow :day4 do
+    state :say_hello
+    state :get_hello_response
+    state :say_goodbye
+	end
+
+	flow :day3 do
+    state :say_hello
+    state :get_hello_response
+    state :say_goodbye
 	end
 
   flow :day2 do
@@ -223,6 +237,10 @@ class FlowMap
     state :get_profile_setting_7_response
     state :say_profile_setting_8
     # END PROFILE SETTING
+  end
+
+	flow :helper do
+		state :say_too_early
   end
 
   flow :catch_all do
