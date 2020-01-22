@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "::smile:: So I see we didn’t quite finish our last conversation about typical periods. It’ll make more sense if we go back and wrap that up before we move onto today’s information. Sound okay to you?"
+  suggestions:
+    - text: "Sure"
+    - text: "No, let’s move on to today’s lesson"

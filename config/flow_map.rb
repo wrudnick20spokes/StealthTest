@@ -2,6 +2,70 @@ class FlowMap
 
   include Stealth::Flow
 
+  flow :incomplete_day do
+    # DAY 1
+    state :day_1_hello
+    state :get_day_1_hello_response
+    state :offer_day_1_resume
+
+    # DAY 2
+    state :day_2_hello
+    state :get_day_2_hello_response
+    state :offer_day_2_resume
+
+    # DAY 3
+    state :day_3_hello
+    state :get_day_3_hello_response
+    state :offer_day_3_resume
+
+    # DAY 4
+    state :day_4_hello
+    state :get_day_4_hello_response
+    state :offer_day_4_resume
+
+    # DAY 5
+    state :day_5_hello
+    state :get_day_5_hello_response
+    state :offer_day_5_resume
+
+    # DAY 6
+    state :day_6_hello
+    state :get_day_6_hello_response
+    state :offer_day_6_resume
+
+    # DAY 7
+    state :day_7_hello
+    state :get_day_7_hello_response
+    state :offer_day_7_resume
+
+    # DAY 8
+    state :day_8_hello
+    state :get_day_8_hello_response
+    state :offer_day_8_resume
+
+    # DAY 9
+    state :day_9_hello
+    state :get_day_9_hello_response
+    state :offer_day_9_resume
+
+    # DAY 10
+    state :day_10_hello
+    state :get_day_10_hello_response
+    state :offer_day_10_resume
+
+    # DAY 11
+    state :day_11_hello
+    state :get_day_11_hello_response
+    state :offer_day_11_resume
+
+    # DAY 12
+    state :day_12_hello
+    state :get_day_12_hello_response
+    state :offer_day_12_resume
+
+    state :get_offer_resume_response
+	end
+
 	flow :day5 do
     state :say_hello
     state :say_hello_from_skip
