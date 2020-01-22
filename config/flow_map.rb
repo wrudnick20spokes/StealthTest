@@ -7,63 +7,75 @@ class FlowMap
     state :day_1_hello
     state :get_day_1_hello_response
     state :offer_day_1_resume
+    state :get_offer_resume_1_response
 
     # DAY 2
     state :day_2_hello
     state :get_day_2_hello_response
     state :offer_day_2_resume
+    state :get_offer_resume_2_response
 
     # DAY 3
     state :day_3_hello
     state :get_day_3_hello_response
     state :offer_day_3_resume
+    state :get_offer_resume_3_response
 
     # DAY 4
     state :day_4_hello
     state :get_day_4_hello_response
     state :offer_day_4_resume
+    state :get_offer_resume_4_response
 
     # DAY 5
     state :day_5_hello
     state :get_day_5_hello_response
     state :offer_day_5_resume
+    state :get_offer_resume_5_response
 
     # DAY 6
     state :day_6_hello
     state :get_day_6_hello_response
     state :offer_day_6_resume
+    state :get_offer_resume_6_response
 
     # DAY 7
     state :day_7_hello
     state :get_day_7_hello_response
     state :offer_day_7_resume
+    state :get_offer_resume_7_response
 
     # DAY 8
     state :day_8_hello
     state :get_day_8_hello_response
     state :offer_day_8_resume
+    state :get_offer_resume_8_response
 
     # DAY 9
     state :day_9_hello
     state :get_day_9_hello_response
     state :offer_day_9_resume
+    state :get_offer_resume_9_response
 
     # DAY 10
     state :day_10_hello
     state :get_day_10_hello_response
     state :offer_day_10_resume
+    state :get_offer_resume_10_response
 
     # DAY 11
     state :day_11_hello
     state :get_day_11_hello_response
     state :offer_day_11_resume
+    state :get_offer_resume_11_response
 
     # DAY 12
     state :day_12_hello
     state :get_day_12_hello_response
     state :offer_day_12_resume
+    state :get_offer_resume_12_response
 
-    state :get_offer_resume_response
+    state :say_time_travel
 	end
 
 	flow :day5 do
@@ -90,6 +102,7 @@ class FlowMap
   flow :day2 do
     # START HELLO
     state :say_hello
+    state :say_hello_from_skip
     state :get_hello_response
     state :say_intro_1
     state :get_intro_1_response
