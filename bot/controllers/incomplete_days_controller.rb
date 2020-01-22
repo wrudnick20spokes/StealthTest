@@ -18,7 +18,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_2', state: 'say_hello_from_skip'
+      step_to flow: 'day2', state: 'say_hello_from_skip'
     end
   end
 
@@ -40,7 +40,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_3', state: 'say_hello_from_skip'
+      step_to flow: 'day3', state: 'say_hello_from_skip'
     end
   end
 
@@ -62,7 +62,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_4', state: 'say_hello_from_skip'
+      step_to flow: 'day4', state: 'say_hello_from_skip'
     end
   end
 
@@ -84,7 +84,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_5', state: 'say_hello_from_skip'
+      step_to flow: 'day5', state: 'say_hello_from_skip'
     end
   end
 
@@ -106,7 +106,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_6', state: 'say_hello_from_skip'
+      step_to flow: 'day6', state: 'say_hello_from_skip'
     end
   end
 
@@ -128,7 +128,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_7', state: 'say_hello_from_skip'
+      step_to flow: 'day7', state: 'say_hello_from_skip'
     end
   end
 
@@ -150,7 +150,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_8', state: 'say_hello_from_skip'
+      step_to flow: 'day8', state: 'say_hello_from_skip'
     end
   end
 
@@ -172,7 +172,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_9', state: 'say_hello_from_skip'
+      step_to flow: 'day9', state: 'say_hello_from_skip'
     end
   end
 
@@ -194,7 +194,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_10', state: 'say_hello_from_skip'
+      step_to flow: 'day10', state: 'say_hello_from_skip'
     end
   end
 
@@ -216,7 +216,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_11', state: 'say_hello_from_skip'
+      step_to flow: 'day11', state: 'say_hello_from_skip'
     end
   end
 
@@ -238,7 +238,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_12', state: 'say_hello_from_skip'
+      step_to flow: 'day12', state: 'say_hello_from_skip'
     end
   end
 
@@ -260,7 +260,7 @@ class IncompleteDaysController < BotController
     if current_message.message == "Sure"
       step_to flow: 'say_time_travel'
     else
-      step_to flow: 'day_13', state: 'say_hello_from_skip'
+      step_to flow: 'day13', state: 'say_hello_from_skip'
     end
   end
 
