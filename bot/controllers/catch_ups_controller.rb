@@ -303,7 +303,7 @@ class CatchUpsController < BotController
 
   def done_for_today
     send_replies
-    update_session_to state 'get_done_for_today_response'
+    update_session_to state: 'get_done_for_today_response'
   end
 
   def get_done_for_today_response
