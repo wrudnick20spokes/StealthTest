@@ -1,7 +1,7 @@
 class CatchUpsController < BotController
 
   def start_catch_up
-    split_string = current_message.message.partition(':')
+    split_string = current_message.message.split(':')
     day_number = split_string[1]
     days_behind = split_string[2].to_i
     if days_behind > 2
