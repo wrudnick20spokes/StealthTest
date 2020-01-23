@@ -5,11 +5,11 @@ class CatchUpsController < BotController
     day_number = split_string[1]
     days_behind = split_string[2].to_i
     if days_behind > 2
-      step_to flow: "catch_up_several_chats_#{day_number}"
+      step_to state: "catch_up_several_chats_#{day_number}"
     elsif
-      step_to flow: "catch_up_a_couple_chats_#{day_number}"
+      step_to state: "catch_up_a_couple_chats_#{day_number}"
     else
-      step_to flow: "catch_up_one_chat_#{day_number}"
+      step_to state: "catch_up_one_chat_#{day_number}"
     end
   end
 
