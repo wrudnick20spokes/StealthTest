@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Awesome! Let me drop you into the next day’s content..."
+    - text: "How’s it going so far today?"
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "::thumbs down::"
+    - text: "::shrug::"
+  skipping_day: true

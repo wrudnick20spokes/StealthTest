@@ -9,6 +9,13 @@ class Day2sController < BotController
     update_session_to state: 'get_intro_1_response'
   end
 
+  # ################################################
+  # FROM CATCH UP
+  # ################################################
+  def say_hello_from_catch_up
+    send_replies
+    update_session_to state: 'get_intro_1_response'
+  end
 
   # ################################################
   # INTRO

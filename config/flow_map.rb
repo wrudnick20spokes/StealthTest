@@ -2,6 +2,86 @@ class FlowMap
 
   include Stealth::Flow
 
+  flow :catch_up do
+    state :start_catch_up
+
+    # DAY 1
+    state :catch_up_several_chats_1
+    state :catch_up_a_couple_chats_1
+    state :catch_up_one_chat_1
+    state :get_catch_up_response_1
+
+    # DAY 2
+    state :catch_up_several_chats_2
+    state :catch_up_a_couple_chats_2
+    state :catch_up_one_chat_2
+    state :get_catch_up_response_2
+
+    # DAY 3
+    state :catch_up_several_chats_3
+    state :catch_up_a_couple_chats_3
+    state :catch_up_one_chat_3
+    state :get_catch_up_response_3
+
+    # DAY 4
+    state :catch_up_several_chats_4
+    state :catch_up_a_couple_chats_4
+    state :catch_up_one_chat_4
+    state :get_catch_up_response_4
+
+    # DAY 5
+    state :catch_up_several_chats_5
+    state :catch_up_a_couple_chats_5
+    state :catch_up_one_chat_5
+    state :get_catch_up_response_5
+
+    # DAY 6
+    state :catch_up_several_chats_6
+    state :catch_up_a_couple_chats_6
+    state :catch_up_one_chat_6
+    state :get_catch_up_response_6
+
+    # DAY 7
+    state :catch_up_several_chats_7
+    state :catch_up_a_couple_chats_7
+    state :catch_up_one_chat_7
+    state :get_catch_up_response_7
+
+    # DAY 8
+    state :catch_up_several_chats_8
+    state :catch_up_a_couple_chats_8
+    state :catch_up_one_chat_8
+    state :get_catch_up_response_8
+
+    # DAY 9
+    state :catch_up_several_chats_9
+    state :catch_up_a_couple_chats_9
+    state :catch_up_one_chat_9
+    state :get_catch_up_response_9
+
+    # DAY 10
+    state :catch_up_several_chats_10
+    state :catch_up_a_couple_chats_10
+    state :catch_up_one_chat_10
+    state :get_catch_up_response_10
+
+    # DAY 11
+    state :catch_up_several_chats_11
+    state :catch_up_a_couple_chats_11
+    state :catch_up_one_chat_11
+    state :get_catch_up_response_11
+
+    # DAY 12
+    state :catch_up_several_chats_12
+    state :catch_up_a_couple_chats_12
+    state :catch_up_one_chat_12
+    state :get_catch_up_response_12
+
+    state :done_for_today
+    state :get_done_for_today_response
+    state :say_goodbye
+	end
+
   flow :incomplete_day do
     # DAY 1
     state :day_1_hello
@@ -81,6 +161,7 @@ class FlowMap
 	flow :day5 do
     state :say_hello
     state :say_hello_from_skip
+    state :say_hello_from_catch_up
     state :get_hello_response
     state :say_goodbye
   end
@@ -88,6 +169,7 @@ class FlowMap
 	flow :day4 do
     state :say_hello
     state :say_hello_from_skip
+    state :say_hello_from_catch_up
     state :get_hello_response
     state :say_goodbye
 	end
@@ -95,6 +177,7 @@ class FlowMap
 	flow :day3 do
     state :say_hello
     state :say_hello_from_skip
+    state :say_hello_from_catch_up
     state :get_hello_response
     state :say_goodbye
 	end
@@ -103,6 +186,7 @@ class FlowMap
     # START HELLO
     state :say_hello
     state :say_hello_from_skip
+    state :say_hello_from_catch_up
     state :get_hello_response
     state :say_intro_1
     state :get_intro_1_response

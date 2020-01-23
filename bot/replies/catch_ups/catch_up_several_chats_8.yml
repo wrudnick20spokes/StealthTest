@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Oh — I actually noticed we’ve missed a few chats during our time together. To get us back on schedule and make sure you get all my tips and information, I’m wondering if you’re able to catch up and go through one more day of content now."
+  suggestions:
+    - text: "Let’s do it"
+    - text: "Done for today"
