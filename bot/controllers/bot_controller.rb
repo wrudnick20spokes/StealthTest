@@ -4,7 +4,7 @@ class BotController < Stealth::Controller
 
   def route
     if current_message.message.include? "ASK_TO_CATCH_UP"
-      step_to flow: "catch_up:", state: "start_catch_up"
+      step_to flow: "catch_up", state: "start_catch_up"
     elsif current_message.message.include? "INCOMPLETE_DAY"
       day_number = current_message.message.partition(':').last
       step_to flow: "incomplete_day", state: "day_#{day_number}_hello"
