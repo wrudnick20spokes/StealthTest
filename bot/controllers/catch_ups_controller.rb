@@ -6,7 +6,7 @@ class CatchUpsController < BotController
     days_behind = split_string[2].to_i
     if days_behind > 2
       step_to state: "catch_up_several_chats_#{day_number}"
-    elsif
+    elsif days_behind > 1
       step_to state: "catch_up_a_couple_chats_#{day_number}"
     else
       step_to state: "catch_up_one_chat_#{day_number}"
