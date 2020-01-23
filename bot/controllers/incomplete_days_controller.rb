@@ -16,7 +16,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_1_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day2', state: 'say_hello_from_skip'
     end
@@ -38,7 +38,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_2_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day3', state: 'say_hello_from_skip'
     end
@@ -60,7 +60,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_3_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day4', state: 'say_hello_from_skip'
     end
@@ -82,7 +82,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_4_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day5', state: 'say_hello_from_skip'
     end
@@ -104,7 +104,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_5_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day6', state: 'say_hello_from_skip'
     end
@@ -126,7 +126,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_6_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day7', state: 'say_hello_from_skip'
     end
@@ -148,7 +148,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_7_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day8', state: 'say_hello_from_skip'
     end
@@ -170,7 +170,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_8_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day9', state: 'say_hello_from_skip'
     end
@@ -192,7 +192,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_9_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day10', state: 'say_hello_from_skip'
     end
@@ -214,7 +214,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_10_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day11', state: 'say_hello_from_skip'
     end
@@ -236,7 +236,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_11_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day12', state: 'say_hello_from_skip'
     end
@@ -258,7 +258,7 @@ class IncompleteDaysController < BotController
 
   def get_offer_resume_12_response
     if current_message.message == "Sure"
-      step_to flow: 'say_time_travel'
+      step_to state: 'say_time_travel'
     else
       step_to flow: 'day13', state: 'say_hello_from_skip'
     end
