@@ -3,7 +3,12 @@ class BotController < Stealth::Controller
   helper :all
 
   def route
-    if current_message.message.include? "ASK_TO_CATCH_UP"
+    if current_message.message.include? "SKIP_TO"
+      split_string = current_message.message.split(':')
+      last_flow = split_string[1]
+      last_state = split_string[2]
+      step_to flow: last_flow, state: last_state
+    elsif current_message.message.include? "ASK_TO_CATCH_UP"
       step_to flow: "catch_up", state: "start_catch_up"
     elsif current_message.message.include? "INCOMPLETE_DAY"
       day_number = current_message.message.partition(':').last
