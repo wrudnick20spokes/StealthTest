@@ -4,3 +4,4 @@
     - text: "This is the CATCH UP way to start this day"
   suggestions:
     - text: "Hi"
+  catching_up_day: true
