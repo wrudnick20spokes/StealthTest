@@ -4,3 +4,4 @@
   suggestions:
     - text: "::thumbs up::"
     - text: "Smart!"
+  last_state: "say_intro_4"

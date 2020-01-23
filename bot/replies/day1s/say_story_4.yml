@@ -5,3 +5,4 @@
   suggestions:
     - text: "Oh no"
     - text: "Really?"
+  last_state: "say_story_4"

@@ -5,3 +5,4 @@
   suggestions:
     - text: "::laughing::"
     - text: "...maybe?"
+  last_state: "say_intro_1"

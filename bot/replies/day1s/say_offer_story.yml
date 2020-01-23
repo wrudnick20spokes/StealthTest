@@ -4,3 +4,4 @@
   suggestions:
     - text: Go ahead
     - text: Skip the story
+  last_state: "say_offer_story"

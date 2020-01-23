@@ -6,3 +6,4 @@
   slider_min: 1
   slider_max: 10
   save_response_field: "day_1_answer_5"
+  last_state: "say_profile_setting_5"

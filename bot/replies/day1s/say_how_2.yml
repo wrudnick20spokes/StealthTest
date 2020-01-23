@@ -4,3 +4,4 @@
   suggestions:
     - text: OK
     - text: I’m excited!
+  last_state: "say_how_2"

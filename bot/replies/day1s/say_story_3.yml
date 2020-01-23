@@ -4,3 +4,4 @@
     - text: Mia came out of the bathroom and told Janet, “I’m bleeding down there, mom, and I don’t know what to do!”
   suggestions:
     - text: How did Janet respond?
+  last_state: "say_story_3"

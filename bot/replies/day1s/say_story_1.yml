@@ -6,3 +6,4 @@
   suggestions:
     - text: A big moment!
     - text: How’d it go?
+  last_state: "say_story_1"

@@ -5,3 +5,4 @@
   suggestions:
     - text: "It is"
     - text: "I guess"
+  last_state: "say_intro_2"

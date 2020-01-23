@@ -3,3 +3,4 @@
     - text: "I’ll check back tomorrow for our next chat. Take care!"
   suggestions:
     - text: "Later CeCe"
+  last_state: "say_profile_setting_7"

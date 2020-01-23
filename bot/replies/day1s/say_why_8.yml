@@ -6,3 +6,4 @@
   suggestions:
     - text: "Sounds good!"
     - text: "I dunno yet..."
+  last_state: "say_why_8"
