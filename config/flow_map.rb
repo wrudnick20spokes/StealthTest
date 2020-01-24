@@ -132,11 +132,8 @@ class FlowMap
     state :get_ask_1_child_response
     state :say_ask_multi_children
     state :get_ask_multi_children_response
-    state :say_profile_4_from_first_skip
-    state :say_profile_4_from_second_skip
     state :say_profile_4_from_skip_1_child
     state :say_profile_4_from_1_child
-    state :say_profile_4_from_skip_multi_children
     state :say_profile_4_from_multi_children
     state :get_profile_4_response
     state :say_ask_about_conversation
