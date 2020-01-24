@@ -335,7 +335,17 @@ class Day1sController < BotController
     step_to state: 'say_profile_setting_8'
   end
 
+
   def say_profile_setting_8
+    send_replies
+    update_session_to state: 'get_profile_setting_8_response'
+  end
+
+  def get_profile_setting_8_response
+    step_to state: 'say_goodbye'
+  end
+
+  def say_goodbye
     send_replies
   end
 

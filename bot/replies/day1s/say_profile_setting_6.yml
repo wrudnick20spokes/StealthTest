@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "OK."
+    - text: "Last question — on a scale of 1-10, how important is it to you to learn more information about your own body and what to expect later in life?"
+  slider_input: true
+  slider_min: 1
+  slider_max: 10
+  save_response_field: "day_1_answer_6"
+  last_state: "say_profile_setting_6"

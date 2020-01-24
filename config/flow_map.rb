@@ -2,6 +2,10 @@ class FlowMap
 
   include Stealth::Flow
 
+
+  # ################################################
+  # DAY 1
+  # ################################################
   flow :day1 do
     # START HELLO
     state :say_hello
@@ -86,9 +90,15 @@ class FlowMap
     state :say_profile_setting_7
     state :get_profile_setting_7_response
     state :say_profile_setting_8
+    state :say_profile_setting_8_response
+    state :say_goodbye
     # END PROFILE SETTING
   end
 
+
+  # ################################################
+  # DAY 2
+  # ################################################
   flow :day2 do
     # START HELLO
     state :say_hello
@@ -223,7 +233,11 @@ class FlowMap
     # END WRAP UP
 	end
 
-	flow :day5 do
+
+  # ################################################
+  # DAY 3
+  # ################################################
+  flow :day3 do
     state :say_hello
     state :say_hello_from_skip
     state :say_hello_from_catch_up
@@ -231,26 +245,43 @@ class FlowMap
     state :say_goodbye
   end
 
-	flow :day4 do
+
+  # ################################################
+  # DAY 4
+  # ################################################
+  flow :day4 do
     state :say_hello
     state :say_hello_from_skip
     state :say_hello_from_catch_up
     state :get_hello_response
     state :say_goodbye
-	end
+  end
 
-	flow :day3 do
+
+  # ################################################
+  # DAY 5
+  # ################################################
+  flow :day5 do
     state :say_hello
     state :say_hello_from_skip
     state :say_hello_from_catch_up
     state :get_hello_response
     state :say_goodbye
-	end
+  end
 
+
+
+  # ################################################
+  # HELPERS
+  # ################################################
 	flow :helper do
 		state :say_too_early
   end
 
+
+  # ################################################
+  # CATCH UP
+  # ################################################
   flow :catch_up do
     state :start_catch_up
 
@@ -329,8 +360,12 @@ class FlowMap
     state :done_for_today
     state :get_done_for_today_response
     state :say_goodbye
-	end
+  end
 
+
+  # ################################################
+  # INCOMPLETE DAYS
+  # ################################################
   flow :incomplete_day do
     # DAY 1
     state :day_1_hello
