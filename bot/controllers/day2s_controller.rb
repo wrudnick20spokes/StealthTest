@@ -130,11 +130,11 @@ class Day2sController < BotController
   end
 
   def get_profile_2_response
-    if current_message.message == 'Skip'
-      step_to state: 'say_profile_4_from_first_skip'
-    else
-      step_to state: 'say_profile_3'
-    end
+    # if current_message.message == 'Skip'
+    #   step_to state: 'say_profile_4_from_first_skip'
+    # else
+    step_to state: 'say_profile_3'
+    # end
   end
 
   def say_profile_3
@@ -143,9 +143,9 @@ class Day2sController < BotController
   end
 
   def get_profile_3_response
-    if current_message.message == 'Skip'
-      step_to state: 'say_profile_4_from_second_skip'
-    elsif current_message.message == '1'
+    # if current_message.message == 'Skip'
+    #   step_to state: 'say_profile_4_from_second_skip'
+    if current_message.message == '1'
       step_to state: 'say_ask_1_child'
     else 
       step_to state: 'say_ask_multi_children'
@@ -171,11 +171,11 @@ class Day2sController < BotController
   end
 
   def get_ask_multi_children_response
-    if current_message.message == 'Skip'
-      step_to state: 'say_profile_4_from_skip_multi_children'
-    else
-      step_to state: 'say_profile_4_from_multi_children'
-    end
+    # if current_message.message == 'Skip'
+    #   step_to state: 'say_profile_4_from_skip_multi_children'
+    # else
+    step_to state: 'say_profile_4_from_multi_children'
+    # end
   end
 
   def say_profile_4_from_first_skip
@@ -183,10 +183,10 @@ class Day2sController < BotController
     update_session_to state: 'get_profile_4_response'
   end
 
-  def say_profile_4_from_second_skip
-    send_replies
-    update_session_to state: 'get_profile_4_response'
-  end
+  # def say_profile_4_from_second_skip
+  #   send_replies
+  #   update_session_to state: 'get_profile_4_response'
+  # end
 
   def say_profile_4_from_skip_1_child
     send_replies
@@ -198,10 +198,10 @@ class Day2sController < BotController
     update_session_to state: 'get_profile_4_response'
   end
 
-  def say_profile_4_from_skip_multi_children
-    send_replies
-    update_session_to state: 'get_profile_4_response'
-  end
+  # def say_profile_4_from_skip_multi_children
+  #   send_replies
+  #   update_session_to state: 'get_profile_4_response'
+  # end
 
   def say_profile_4_from_multi_children
     send_replies
