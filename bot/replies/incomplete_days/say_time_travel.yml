@@ -2,7 +2,7 @@
   replies:
     - text: "Great, let’s do it!"
     - text: "If you need a refresher on what we were talking about earlier, feel free to scroll up for context. ::up arrow::::up arrow::"
-    - text: "Alright, time-traveling back into our last chat... ::hourglass::::rocket::"
+    - text: "Alright, time-traveling back into our last chat... ::hourglass::"
   suggestions:
-    - text: "Ready!"
+    - text: "Ready! ::rocket::"
   skip_to_last_state: true
