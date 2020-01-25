@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "OK, just give me the thumbs up when you’re ready to move on."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "wait_for_article_1"

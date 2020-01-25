@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "I know. ::frown::"
+    - text: "But the good news is, most people don’t experience all of these things."
+    - text: "In terms of average symptoms, it’s..."
+  suggestions:
+    - text: "A wide range?"
+  last_state: "say_lesson_4"

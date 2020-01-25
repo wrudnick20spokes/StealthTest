@@ -7,3 +7,5 @@
     - text: "::thumbs down::"
     - text: "::shrug::"
   skipping_day: true
+  last_flow: "day2"
+  last_state: "say_hello"

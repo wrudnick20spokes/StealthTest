@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "VERY heavy bleeding, like needing to change a pad/tampon/sanitary product every hour, can be the sign of a problem."
+    - text: "I’ll talk more about that a different day."
+    - text: "Okay, we covered a lot today! How are you feeling?"
+  suggestions:
+    - text: "Up for a little more"
+    - text: "Done for the day"
+  last_state: "say_lesson_13"

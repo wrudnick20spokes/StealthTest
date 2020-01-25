@@ -1,6 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "Hello - it is day 3."
-    - text: "This is the normal way to start this day"
-  suggestions:
-    - text: "Hi"

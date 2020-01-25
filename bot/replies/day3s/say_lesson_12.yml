@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "People with heavier periods need to change it every couple hours."
+    - text: "If you want more information about how to tell when a period is heavy, check out this article:"
+    - text: "https://heavyperiodtalk.ca/how-can-i-tell-if-my-period-is-heavy/"
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_lesson_12"

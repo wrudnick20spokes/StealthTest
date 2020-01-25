@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "::smile::"
+    - text: "So earlier we talked about *why* we get periods."
+  suggestions:
+    - text: "Yep"
+  last_state: "say_intro_2"

@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Alright, let me ask you another question — do you know the normal age range when periods begin?"
+  suggestions:
+    - text: "9-16"
+    - text: "12-14"
+    - text: "9-11"
+    - text: "9-16"
+  last_state: "say_quiz_3"

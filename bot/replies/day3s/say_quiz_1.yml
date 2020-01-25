@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "To start us off, I have a pop quiz question for you. True or false: A period longer or shorter than 5 days is *not* normal, and a health concern."
+  suggestions:
+    - text: "True"
+    - text: "False"
+  last_state: "say_quiz_1"

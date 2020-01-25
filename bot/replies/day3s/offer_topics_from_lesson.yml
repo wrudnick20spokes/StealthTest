@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Impressive brainpower! ::brain::"
+    - text: "OK, I’ve got a few good articles I can show you on the following topics..."
+  suggestions:
+    - text: "First periods"
+    - text: "Menopause"
+    - text: "Periods & birth control"
+  last_state: "offer_topics_from_lesson"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Understandable — that was a lot."
+    - text: "Alright, you made it to the end! ::party::"
+    - text: "Remember, you can always check out the Review Menu if you ever want to refresh your memory on any of our lessons."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_wrap_up_1_from_skip"

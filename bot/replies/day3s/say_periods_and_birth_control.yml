@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "This is a good one to know about...birth control can sometimes affect a period. Here’s an article I like that can tell you more:"
+    - text: "https://www.yourperiod.ca/normal-periods/birth-control-and-your-period/"
+  suggestions:
+    - text: "Back to topic list"
+    - text: "Done for the day"
+  last_state: "say_periods_and_birth_control"

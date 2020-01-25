@@ -1,0 +1,18 @@
+<% if current_message.message == 'Very nice!' %>
+  - reply_type: text
+    replies:
+      - text: "Why thank you!"
+      - text: "I’m excited to talk with you about today’s lesson."
+    suggestions:
+      - text: "Me too"
+      - text: "We’ll see..."
+    last_state: "say_intro_1"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "I’m excited to talk with you about today’s lesson."
+    suggestions:
+      - text: "Me too"
+      - text: "We’ll see..."
+    last_state: "say_intro_1"
+<% end %>

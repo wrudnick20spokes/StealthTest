@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Today, I want to talk about what a “typical” period looks like...which I put in quotes for a reason!"
+    - text: "You’ll see why soon. ::smile::"
+  suggestions:
+    - text: "Sounds good"
+    - text: "Oh boy..."
+  last_state: "say_intro_3"

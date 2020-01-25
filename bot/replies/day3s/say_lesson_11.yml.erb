@@ -1,0 +1,16 @@
+<% if current_message.message == 'Measuring in tablespoons?' %>
+  - reply_type: text
+    replies:
+      - text: "Yeah, good question. It’s hard to measure that way unless you’re using a cup. (I’ll talk more about menstrual cups later!)"
+      - text: "To put it a different way: people with lighter periods need to change their pad/tampon/sanitary product just a couple times a day."
+    suggestions:
+      - text: "Makes sense"
+    last_state: "say_lesson_11"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "To put it a different way: people with lighter periods need to change their pad/tampon/sanitary product just a couple times a day."
+    suggestions:
+      - text: "Makes sense"
+    last_state: "say_lesson_11"
+<% end %>

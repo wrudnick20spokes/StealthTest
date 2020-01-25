@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "I want to talk now about some symptoms people might have during their period."
+    - text: "Because — you guessed it — it varies!"
+    - text: "In case your child experiences things you haven’t, I’ll go through all the most common possibilities."
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "Sounds good"
+  last_state: "say_lesson_1"

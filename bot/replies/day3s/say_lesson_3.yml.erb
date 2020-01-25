@@ -1,0 +1,20 @@
+<% if current_message.message == 'Ugh, yes' %>
+  - reply_type: text
+    replies:
+      - text: "I know right? ::grimace::"
+      - text: "Some other common things some people experience are:"
+      - text: "Sore breasts, headaches, acne/breakouts, muscle aches, back pain, bloating, low energy, and trouble sleeping."
+    suggestions:
+      - text: "Oof."
+      - text: "Feel that!"
+    last_state: "say_lesson_3"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Some other common things some people experience are:"
+      - text: "Sore breasts, headaches, acne/breakouts, muscle aches, back pain, bloating, low energy, and trouble sleeping."
+    suggestions:
+      - text: "Oof."
+      - text: "Feel that!"
+    last_state: "say_lesson_3"
+<% end %>

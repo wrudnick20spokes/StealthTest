@@ -1,0 +1,26 @@
+<% if current_message.message == 'Interesting...' %>
+  - reply_type: text
+    replies:
+      - text: "I know, right?"
+      - text: "Different people bleed in different colors..."
+      - text: "And a lot of times, the same person’s period blood will look different from day to day."
+      - text: "If you want to learn even more about period blood color, I really like this article:"
+      - text: "https://www.verywellhealth.com/what-does-menstrual-blood-look-like-2721937"
+    suggestions:
+      - text: "I’ll save for later"
+      - text: "Reading now..."
+      - text: "No thanks"
+    last_state: "say_lesson_8"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Different people bleed in different colors..."
+      - text: "And a lot of times, the same person’s period blood will look different from day to day."
+      - text: "If you want to learn even more about period blood color, I really like this article:"
+      - text: "https://www.verywellhealth.com/what-does-menstrual-blood-look-like-2721937"
+    suggestions:
+      - text: "I’ll save for later"
+      - text: "Reading now..."
+      - text: "No thanks"
+    last_state: "say_lesson_8"
+<% end %>

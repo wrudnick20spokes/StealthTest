@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Before we say goodbye, it would really help me learn if you told me how useful you thought today’s lesson was. (1 is not useful at all, 5 is very useful)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 5
+  last_state: "say_wrap_up_2"

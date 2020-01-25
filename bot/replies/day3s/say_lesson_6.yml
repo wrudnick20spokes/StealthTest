@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Yup. I want to show you what’s normal in terms of blood color and blood volume."
+    - text: "While — again — there’s a wide range of normal, it’s helpful to know what’s expected so you can better identify the signs of a problem."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_lesson_6"

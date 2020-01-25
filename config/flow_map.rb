@@ -235,11 +235,84 @@ class FlowMap
   # DAY 3
   # ################################################
   flow :day3 do
+    # START HELLO
     state :say_hello
     state :say_hello_from_skip
     state :say_hello_from_catch_up
     state :get_hello_response
+    state :say_intro_1
+    state :get_intro_1_response
+    state :say_intro_2
+    state :get_intro_2_response
+    state :say_intro_3
+    state :get_intro_3_response
+    # END HELLO
+
+    # START QUIZ
+    state :say_quiz_1
+    state :get_quiz_1_repsonse
+    state :say_quiz_2
+    state :get_quiz_2_response
+    state :say_quiz_3
+    state :get_quiz_3_response
+    state :say_quiz_4
+    state :get_quiz_4_response
+    state :say_quiz_5
+    state :get_quiz_5_response
+    # END QUIZ
+
+    # START LESSON
+    state :say_lesson_1
+    state :get_lesson_1_response
+    state :say_lesson_2
+    state :get_lesson_2_response
+    state :say_lesson_3
+    state :get_lesson_3_response
+    state :say_lesson_4
+    state :get_lesson_4_response
+    state :say_lesson_5
+    state :get_lesson_5_response
+    state :say_lesson_6
+    state :get_lesson_6_response
+    state :say_lesson_7
+    state :get_lesson_7_response
+    state :say_lesson_8
+    state :get_lesson_8_response
+    state :wait_for_article_1
+    state :get_wait_for_article_1_response
+    state :say_lesson_9_from_skip
+    state :say_lesson_9
+    state :get_lesson_9_response
+    state :say_lesson_10
+    state :get_lesson_10_response
+    state :say_lesson_11
+    state :get_lesson_11_response
+    state :say_lesson_12
+    state :get_lesson_12_response
+    state :say_lesson_13
+    state :get_lesson_13_response
+    # END LESSON
+
+    # START OFFERING TOPICS
+    state :offer_topics_from_lesson
+    state :offer_topics_from_topic
+    state :get_offer_topics_response
+    state :say_first_periods
+    state :say_menopause
+    state :say_periods_and_birth_control
+    state :get_offer_more_topics_response
+    # END OFFERING TOPICS
+
+    # START WRAP UP
+    state :say_wrap_up_1_from_skip
+    state :say_wrap_up_1
+    state :get_wrap_up_1_response
+    state :say_wrap_up_2
+    state :get_wrap_up_2_response
+    state :say_wrap_up_3
+    state :get_wrap_up_3_response
     state :say_goodbye
+    # END WRAP UP
   end
 
 

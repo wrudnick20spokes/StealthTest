@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "::blood flow::"
+  suggestions:
+    - text: "Got it"
+    - text: "Measuring in tablespoons?"
+  last_state: "say_lesson_10"

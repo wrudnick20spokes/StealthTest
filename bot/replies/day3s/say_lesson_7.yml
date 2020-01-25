@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "So, color. Let me show you a picture:"
+    - text: "::blood color::"
+  suggestions:
+    - text: "OK"
+    - text: "Interesting..."
+  last_state: "say_lesson_7"
