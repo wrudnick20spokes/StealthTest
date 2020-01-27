@@ -1,7 +1,9 @@
 - reply_type: text
   replies:
-    - text: "Hello - it is day 3."
-    - text: "This is the SKIP way to start this day"
+    - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
+    - text: "I’m excited to talk with you about today’s lesson."
   suggestions:
     - text: "Hi"
+  skipping_day: true
+  last_flow: "day3"
   last_state: "say_hello_from_skip"
