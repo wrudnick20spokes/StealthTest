@@ -1,10 +1,18 @@
 class Day3sController < BotController
 
+
+  # ################################################
+  # FROM SKIP
+  # ################################################
   def say_hello_from_skip
     send_replies
     update_session_to state: 'get_hello_response'
   end
 
+
+  # ################################################
+  # FROM CATCH UP
+  # ################################################
   def say_hello_from_catch_up
     send_replies
     update_session_to state: 'get_hello_response'
