@@ -5,3 +5,4 @@
   suggestions:
     - text: "Sure"
     - text: "Skip"
+  last_state: "say_ask_how_conversation_went"

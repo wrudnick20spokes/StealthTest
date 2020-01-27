@@ -5,3 +5,4 @@
   slider_input: true
   slider_min: 1
   slider_max: 10
+  last_state: "say_ask_multi_children"

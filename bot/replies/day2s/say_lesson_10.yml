@@ -5,3 +5,4 @@
   suggestions:
     - text: "Ah!"
     - text: "Knew that one"
+  last_state: "say_lesson_10"

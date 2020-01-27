@@ -7,3 +7,4 @@
     - text: "Yes"
     - text: "Not really"
     - text: "Kind of..."
+  last_state: "say_profile_4_from_second_skip"

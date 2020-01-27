@@ -2,3 +2,4 @@
   replies:
     - text: "Thank you!"
   text_input: true
+  last_state: "say_thank_you"

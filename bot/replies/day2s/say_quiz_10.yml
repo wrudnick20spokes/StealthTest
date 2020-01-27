@@ -5,3 +5,4 @@
   suggestions:
     - text: "Say more..."
     - text: "I think so..."
+  last_state: "say_quiz_10"

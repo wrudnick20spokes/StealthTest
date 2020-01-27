@@ -4,3 +4,4 @@
   slider_input: true
   slider_min: 1
   slider_max: 5
+  last_state: "say_ask_about_conversation"

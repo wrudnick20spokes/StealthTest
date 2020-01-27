@@ -4,3 +4,4 @@
     - text: "I’ll add more sections as we go through more information. ::books::"
   suggestions:
     - text: "Review Menu, got it"
+  last_state: "say_wrap_up_2"

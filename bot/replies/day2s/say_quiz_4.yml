@@ -4,3 +4,4 @@
   suggestions:
     - text: "Cool"
     - text: "Got it"
+  last_state: "say_quiz_4"

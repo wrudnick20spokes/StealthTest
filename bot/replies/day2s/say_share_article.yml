@@ -5,3 +5,4 @@
     - text: "You can read it now or save it for later. Just tell me when you’re ready to move on."
   suggestions:
     - text: "Ready"
+  last_state: "say_share_article"

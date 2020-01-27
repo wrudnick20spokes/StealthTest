@@ -601,10 +601,6 @@ class Day2sController < BotController
 
   def say_goodbye
     send_replies
-    update_session_to state: 'end_day_2'
   end
 
-  def end_day_2
-    send_replies
-  end
 end

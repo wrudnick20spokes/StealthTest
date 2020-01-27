@@ -5,3 +5,4 @@
     - text: "::thumbs up::"
     - text: "::thumbs down::"
     - text: "::shrug::"
+  last_state: "say_intro_1"

@@ -5,3 +5,4 @@
     - text: "See the ovaries?"
   suggestions:
     - text: "Yes"
+  last_state: "say_lesson_5"

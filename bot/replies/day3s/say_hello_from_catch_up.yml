@@ -5,3 +5,4 @@
   suggestions:
     - text: "Hi"
   catching_up_day: true
+  last_state: "say_hello_from_catch_up"

@@ -6,3 +6,4 @@
   suggestions:
     - text: "Sounds good"
     - text: "More questions?"
+  last_state: "say_profile_1_from_thumbs_up"

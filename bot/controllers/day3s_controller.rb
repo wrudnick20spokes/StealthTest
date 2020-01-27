@@ -238,7 +238,7 @@ class Day3sController < BotController
     if current_message.message == 'Up for a little more'
       step_to state: 'offer_topics_from_lesson'
     else
-      step_to state; 'say_wrap_up_1_from_skip'
+      step_to state: 'say_wrap_up_1_from_skip'
     end
   end
 

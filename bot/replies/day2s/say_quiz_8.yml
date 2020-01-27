@@ -4,3 +4,4 @@
   suggestions:
     - text: "Sure"
     - text: "No thanks"
+  last_state: "say_quiz_8"

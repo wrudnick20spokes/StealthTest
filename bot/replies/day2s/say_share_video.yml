@@ -5,3 +5,4 @@
     - text: "Let me know when you’re ready to move on."
   suggestions:
     - text: "Ready"
+  last_state: "say_share_video"

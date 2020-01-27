@@ -5,3 +5,4 @@
   suggestions:
     - text: "Great"
     - text: "That was easy!"
+  last_state: "say_lesson_complete_from_no_article"

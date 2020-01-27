@@ -6,3 +6,4 @@
     - text: "Yes"
     - text: "No"
     - text: "Skip"
+  last_state: "say_ask_1_child"

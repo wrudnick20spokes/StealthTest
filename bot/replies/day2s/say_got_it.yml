@@ -6,3 +6,4 @@
   suggestions:
     - text: "Thanks"
     - text: "I hope..."
+  last_state: "say_got_it"

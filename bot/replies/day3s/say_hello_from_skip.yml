@@ -4,3 +4,4 @@
     - text: "This is the SKIP way to start this day"
   suggestions:
     - text: "Hi"
+  last_state: "say_hello_from_skip"

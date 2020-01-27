@@ -4,3 +4,4 @@
   suggestions:
     - text: "Nah"
     - text: "Sure"
+  last_state: "say_offer_animal"

@@ -4,3 +4,4 @@
     - text: "One more thing..."
   suggestions:
     - text: "Yes?"
+  last_state: "say_thats_great"

@@ -4,3 +4,4 @@
     - text: "::cat::"
   suggestions:
     - text: "Aw"
+  last_state: "say_animal"

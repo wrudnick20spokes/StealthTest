@@ -6,3 +6,4 @@
   suggestions:
     - text: "Bring it on!"
     - text: "Ugh..."
+  last_state: "say_lesson_1"

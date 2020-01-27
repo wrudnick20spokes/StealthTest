@@ -5,3 +5,4 @@
   suggestions:
     - text: "Whew ::sweat::"
     - text: "No problem"
+  last_state: "say_done_with_questions_from_not_really"
