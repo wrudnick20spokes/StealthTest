@@ -101,9 +101,6 @@ class FlowMap
   # DAY 2
   # ################################################
   flow :day2 do
-    #Day2Flow::DAY_2_FLOWS.each do |key, value|
-    #  state key
-    #end
     # START HELLO
     state :say_hello
     state :say_hello_from_skip
@@ -324,11 +321,9 @@ class FlowMap
   # DAY 4
   # ################################################
   flow :day4 do
-    state :say_hello
-    state :say_hello_from_skip
-    state :say_hello_from_catch_up
-    state :get_hello_response
-    state :say_goodbye
+    Day4Flow::DAY_4_FLOWS.each do |key, value|
+     state key
+    end
   end
 
 

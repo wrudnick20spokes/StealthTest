@@ -1,19 +1,5 @@
 class Day2sController < BotController
 
-  def method_missing(m, *args, &block)
-    if m.to_s.starts_with?("say_")
-      send_replies
-      update_session_to state: Day2Flow::DAY_2_FLOWS[m][:next]
-    elsif m.to_s.starts_with?("get_")
-      next_state = Day2Flow::DAY_2_FLOWS[m][:next]
-      if next_state.is_a? String
-        step_to state: next_state
-      else
-        step_to state: next_state[current_message.message]
-      end
-    end
-  end
-
 
   # ################################################
   # FROM SKIP
@@ -34,21 +20,21 @@ class Day2sController < BotController
   # ################################################
   # INTRO
   # ################################################
-  def say_hello2
+  def say_hello
     send_replies
     update_session_to state: 'get_hello_response'
   end
 
-  def get_hello_response2
+  def get_hello_response
     step_to state: 'say_intro_1'
   end
 
-  def say_intro_12
+  def say_intro_1
     send_replies
     update_session_to state: 'get_intro_1_response'
   end
 
-  def get_intro_1_response2
+  def get_intro_1_response
     puts current_message.message
     if current_message.message == '::thumbs up::'
       step_to state: 'say_profile_1_from_thumbs_up'
