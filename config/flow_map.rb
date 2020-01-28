@@ -1,3 +1,4 @@
+#require '../lib/day_2_flow.rb'
 class FlowMap
 
   include Stealth::Flow
@@ -100,6 +101,9 @@ class FlowMap
   # DAY 2
   # ################################################
   flow :day2 do
+    #Day2Flow::DAY_2_FLOWS.each do |key, value|
+    #  state key
+    #end
     # START HELLO
     state :say_hello
     state :say_hello_from_skip
