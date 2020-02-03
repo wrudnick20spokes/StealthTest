@@ -345,7 +345,9 @@ class FlowMap
   # HELPERS
   # ################################################
 	flow :helper do
-		state :say_too_early
+    state :say_too_early
+
+    state :say_content_unlocked
   end
 
 
