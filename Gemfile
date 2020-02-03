@@ -11,7 +11,7 @@ gem 'activerecord', '~> 5.2'
 # Uncomment to enable the Stealth Twilio SMS Driver
 # gem 'stealth-twilio'
 
-gem 'stealth-renalis', git: 'https://github.com/wrudnick20spokes/stealth-renalis'
+gem 'stealth-renalis', git: 'https://github.com/wrudnick20spokes/stealth-renalis', branch: 'master'
 
 group :production do
   gem 'pg'
