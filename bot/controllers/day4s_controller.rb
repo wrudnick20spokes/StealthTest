@@ -5,7 +5,7 @@ class Day4sController < BotController
       send_replies
       update_session_to state: Day4Flow::DAY_4_FLOWS[m][:next]
     elsif m.to_s.starts_with?("get_")
-      next_state = Day2Flow::DAY_4_FLOWS[m][:next]
+      next_state = Day4Flow::DAY_4_FLOWS[m][:next]
       if next_state.is_a? String
         step_to state: next_state
       else
