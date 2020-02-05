@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: If you’re up for it, I’d love to tell you a little story to better explain the unique position you’re in.
+    - text: If you’re up for it, I’d love to tell you a little story.
   suggestions:
     - text: Go ahead
     - text: Skip the story

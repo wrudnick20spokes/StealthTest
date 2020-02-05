@@ -2,6 +2,7 @@
   replies:
     - text: "Let me show you a picture."
     - text: "::anatomy::"
+    - text: "Source: https://www.everydayhealth.com/sexual-health/female-reproductive-organs.aspx"
     - text: "See the ovaries?"
   suggestions:
     - text: "Yes"

@@ -1,12 +1,8 @@
 - reply_type: text
   replies:
     - text: "Sure thing! Here are a few articles I like that tell you more about when first periods happen, how to prepare for them, and how they might be different from the periods someone will have later on."
-    - text: "When first periods happen:"
-    - text: "https://kidshealth.org/en/kids/when-period.html"
-    - text: "Detailed info on first periods:"
-    - text: "https://www.yourperiod.ca/normal-periods/your-first-period/"
-    - text: "and"
-    - text: "https://www.firstperiod.org/"
+    - text: "When first periods happen: https://tinyurl.com/r4c744k"
+    - text: "Detailed info on first periods: https://tinyurl.com/yyp6godk and https://www.firstperiod.org/"
   suggestions:
     - text: "Back to topic list"
     - text: "Done for the day"

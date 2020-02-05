@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Fair enough!"
-    - text: "OK, that’s it for our health content today."
+    - text: "OK, you made it! That’s it for our health content today."
   suggestions:
     - text: "That was a lot!"
     - text: "No sweat"

@@ -3,5 +3,5 @@
     - text: "Fair enough!"
     - text: "Last thing for today — blood volume. While some people may have heavier or lighter periods, I want to show you a typical amount of bleeding. Let me let the picture do the talking..."
   suggestions:
-    - text: "::picture frame::"
+    - text: "Sounds good"
   last_state: "say_lesson_9_from_skip"

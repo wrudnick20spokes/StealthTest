@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "How great to hear!"
-    - text: "::dancing::"
+    - text: "::minion::"
     - text: "OK — if it’s alright, I’d like to get to know you a little better."
   suggestions:
     - text: "Sounds good"
