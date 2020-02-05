@@ -337,16 +337,13 @@ class FlowMap
 
 
   # ################################################
-  # DAY 5
+  # DAY 6
   # ################################################
-  flow :day5 do
-    state :say_hello
-    state :say_hello_from_skip
-    state :say_hello_from_catch_up
-    state :get_hello_response
-    state :say_goodbye
+  flow :day6 do
+    Day6Flow::DAY_6_FLOWS.each do |key, value|
+      state key
+    end
   end
-
 
 
   # ################################################
