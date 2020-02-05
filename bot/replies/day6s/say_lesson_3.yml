@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:   
+    - text: "Now, I want to chat about recognizing the signs of a problem with our periods."
+    - text: "That way, you’ll know when to get help!"
+  suggestions:
+    - text: "Good deal"
+  last_state: "say_lesson_3"

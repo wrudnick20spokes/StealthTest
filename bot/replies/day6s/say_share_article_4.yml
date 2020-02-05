@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Sure! This short article does a great job of explaining it:"
+    - text: "https://health.clevelandclinic.org/when-should-you-worry-about-spotting-between-periods/"
+  suggestions:
+    - text: "Done"
+  last_state: "say_share_article_4"

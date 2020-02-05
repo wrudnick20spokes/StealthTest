@@ -1,0 +1,7 @@
+- reply_type: text 
+  replies:
+    - text: "Great! So we’ve already talked about anatomy, typical periods, and hormones."
+  suggestions:
+    - text: "We sure did"
+    - text:  "We did?"
+  last_state: "say_lesson_2"

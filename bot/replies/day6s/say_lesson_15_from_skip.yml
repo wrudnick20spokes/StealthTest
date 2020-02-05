@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "OK! You know I always save everything in the Review Menu if you change your mind. ::smile::"
+    - text: "Alright, the last problem I want to cover today is about mood."
+    - text: "A bit of mood change before/during a period is normal. But some people experience changes that are bigger than feeling 'off' or 'sad'."
+  suggestions:
+    - text: "Aww"
+    - text: "That’s me"
+  last_state: "say_lesson_15_from_skip"

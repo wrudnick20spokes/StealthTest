@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Coming right up! Look at this little kid trying to play music with Alexa. I promise I don’t just like it because there’s a bot in it! ::wink::"
+    - text: "https://www.youtube.com/watch?v=JzfBedGaIjU"
+  suggestions:    
+    - text: "Aw"
+  last_state: "say_offer_video_2"

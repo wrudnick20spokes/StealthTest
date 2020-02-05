@@ -1,0 +1,30 @@
+<% if current_message.message == "A" %>
+  - reply_type: text
+    replies:
+      - text: "Not quite... the answer is actually C, both of the above!"
+      - text: "If you want, I’ve got one last article on period problems in general, including treatments."
+    suggestions:
+      - text: "I’ll check it out"
+      - text: "No thanks"
+    last_state: "say_lesson_19"
+<% elsif current_message.message == "B" %>
+  - reply_type: text
+    replies:
+      - text: "Not quite... I know I didn’t directly mention this during our chat, but anything out of the normal should be brought up to your healthcare provider."
+      - text: "So the answer is actually C, both of the above!"
+      - text: "If you want, I’ve got one last article on period problems in general, including treatments."
+    suggestions:
+      - text: "I’ll check it out"
+      - text: "No thanks"
+    last_state: "say_lesson_19"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "You got it!!"
+      - text: "::pug::"
+      - text: "If you want, I’ve got one last article on period problems in general, including treatments."
+    suggestions:
+      - text: "I’ll check it out"
+      - text: "No thanks"
+    last_state: "say_lesson_19"
+<% end %>

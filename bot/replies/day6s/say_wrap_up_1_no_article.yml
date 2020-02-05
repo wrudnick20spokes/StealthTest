@@ -1,0 +1,12 @@
+- reply_type: text
+  replies:
+    - text: "Okay."
+    - text: "Real quick — how helpful was today’s lesson?"
+    - text: "(1 is not at all helpful, 5 is very helpful)"
+  suggestions:
+    - text: "1"
+    - text: "2"
+    - text: "3"
+    - text: "4"
+    - text: "5"
+  last_state: "say_wrap_up_1_no_article"

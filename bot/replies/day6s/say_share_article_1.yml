@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "You got it:"
+    - text: "https://www.mayoclinic.org/diseases-conditions/menstrual-cramps/symptoms-causes/syc-20374938"
+    - text: "Let me know when you’re ready to move on."
+  suggestions:
+    - text: "Ready"
+  last_state: "say_share_article_1"

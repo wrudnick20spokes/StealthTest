@@ -1,0 +1,21 @@
+<% if current_message.message == "Aww" %>
+  - reply_type: text
+    replies:
+      - text: "I know. ::pleading::"
+      - text: "For some people, these changes are so intense they can’t keep up their daily routines."
+      - text: "This condition is called PMDD, or premenstrual dysphoric disorder. It’s like super-charged PMS."
+      - text: "(PS. 'dysphoric' is pronounced like dis-FOUR-ick)"
+    suggestions:
+      - text: "No fun"
+    last_state: "say_lesson_16"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "I’m so sorry. ::frown::"
+      - text: "For some people, these changes are so intense they can’t keep up their daily routines."
+      - text: "This condition is called PMDD, or premenstrual dysphoric disorder. It’s like super-charged PMS."
+      - text: "(PS. 'dysphoric' is pronounced like dis-FOUR-ick)"
+    suggestions:
+      - text: "No fun"
+    last_state: "say_lesson_16"
+<% end %>

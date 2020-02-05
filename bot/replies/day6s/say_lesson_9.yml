@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Good question! It’s considered abnormally heavy bleeding to bleed through (or fully soak) at least one regular-size pad/tampon every hour for a few hours in a row."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_lesson_9"

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "You got it! Here it is:"
+    - text: "https://www.pennmedicine.org/updates/blogs/womens-health/2015/april/when-should-you-see-a-doctor-for-irregular-periods"
+  suggestions:
+    - text: "Continue"
+  last_state: "say_share_article_3"

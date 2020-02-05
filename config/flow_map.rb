@@ -324,6 +324,7 @@ class FlowMap
     Day4Flow::DAY_4_FLOWS.each do |key, value|
      state key
     end
+    state :say_goodbye
   end
 
   # ################################################
@@ -333,6 +334,7 @@ class FlowMap
     Day5Flow::DAY_5_FLOWS.each do |key, value|
       state key
     end
+    state :say_goodbye
   end
 
 
@@ -343,6 +345,7 @@ class FlowMap
     Day6Flow::DAY_6_FLOWS.each do |key, value|
       state key
     end
+    state :say_goodbye
   end
 
 

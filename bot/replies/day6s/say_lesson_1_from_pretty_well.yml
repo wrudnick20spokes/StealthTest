@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "How great to hear!"
+    - text: "::dancing::"
+    - text: "Alright — ready for today’s lesson?"
+  suggestions:    
+      - text: "Ready"
+  last_state: "say_lesson_1_from_pretty_well"

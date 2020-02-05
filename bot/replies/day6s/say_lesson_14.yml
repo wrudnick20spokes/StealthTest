@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "...BUT there are also times when you should see your healthcare provider about it."
+  suggestions:
+    - text: "Tell me more"
+    - text: "Skip"
+  last_state: "say_lesson_14"

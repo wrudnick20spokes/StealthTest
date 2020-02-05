@@ -1,9 +1,9 @@
 class Day6Flow
   DAY_6_FLOWS = {
     say_hello: { next: "get_hello_response" },
-    say_hello_from_skip: { next: "" },
-    say_hello_from_catch_up: { next: "" },
-    get_hello_response: { next: "say_intro_1"},
+    say_hello_from_skip: { next: "get_intro_1_response" },
+    say_hello_from_catch_up: { next: "get_intro_1_response" },
+    get_hello_response: { next: "say_intro_1" },
     say_intro_1: { next: "get_intro_1_response" },
     get_intro_1_response: { 
       next: {
@@ -11,7 +11,7 @@ class Day6Flow
         "Medium" => "say_offer_video_1",
         "Not great" => "say_offer_help_1"
       }
-    }.
+    },
     say_offer_video_1: { next: "get_offer_video_1_response" },
     get_offer_video_1_response: { 
       next: {
@@ -35,6 +35,7 @@ class Day6Flow
     say_lesson_1_from_no_video: { next: "get_lesson_1_response"},
     say_lesson_1_from_video: { next: "get_lesson_1_response"},
     say_lesson_1_from_no_help: { next: "get_lesson_1_response"},
+    say_lesson_1: { next: "get_lesson_1_response" },
     get_lesson_1_response: { next: "say_lesson_2" },
     say_lesson_2: { next: "get_lesson_2_response" },
     get_lesson_2_response: {
@@ -44,7 +45,8 @@ class Day6Flow
       }
     },
     say_yup: { next: "get_yup_response" },
-    get_yup_response: { next: "say_lesson_3" },
+    get_yup_response: { next: "say_lesson_3_from_yup" },
+    say_lesson_3_from_yup: { next: "get_lesson_3_response" },
     say_lesson_3: { next: "get_lesson_3_response" },
     get_lesson_3_response: { next: "say_lesson_4" },
     say_lesson_4: { next: "get_lesson_4_response" },
@@ -127,9 +129,9 @@ class Day6Flow
     get_share_article_5_response: { next: "say_wrap_up_1" },
     say_wrap_up_1_no_article: { next: "get_wrap_up_1_response" },
     say_wrap_up_1: { next: "get_wrap_up_1_response" },
-    get_wrap_up_1_response: { next: "say_wrap_up_2"}
+    get_wrap_up_1_response: { next: "say_wrap_up_2" },
     say_wrap_up_2: { next: "get_wrap_up_2_response" },
-    get_wrap_up_2_response: { next: "say_wrap_up_3"}
+    get_wrap_up_2_response: { next: "say_wrap_up_3" },
     say_wrap_up_3: { next: "get_wrap_up_3_response" },
     get_wrap_up_3_response: { next: "say_goodbye"}
   }

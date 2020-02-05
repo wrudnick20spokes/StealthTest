@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Thanks for letting me know."
-    - text: "Now, how important is it to you to feel more prepared talking to friends and other family members about periods? (1 is “not at all important” and 10 is “very important”)"
+    - text: "Now, how important is it to you to feel more prepared talking to friends and other family members about periods? (1 is 'not at all important' and 10 is 'very important')"
   slider_input: true
   slider_min: 1
   slider_max: 10

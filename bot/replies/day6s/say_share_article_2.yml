@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Of course, here it is:"
+    - text: "https://www.mayoclinic.org/diseases-conditions/menorrhagia/symptoms-causes/syc-20352829"
+    - text: "Just say the word when you’re ready to move on."
+  suggestions:
+    - text: "Ready"
+  last_state: "say_share_article_2"

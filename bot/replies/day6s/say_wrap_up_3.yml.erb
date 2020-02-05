@@ -1,0 +1,17 @@
+<% if current_message.message == "::smile::"%>
+  - reply_type: text
+    replies:
+      - text: "I appreciate you!"
+      - text: "OK  — I’ll let you get on with your day now. Hope it’s a good one."
+    suggestions:
+      - text: "Bye CeCe"
+    last_state: "say_wrap_up_3"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "I know, it’s about naptime isn’t it? I’m about ready for one myself..."
+      - text: "OK  — I’ll let you get on with your day now. Hope it’s a good one."
+    suggestions:
+      - text: "Bye CeCe"
+    last_state: "say_wrap_up_3"
+<% end %>

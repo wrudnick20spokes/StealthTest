@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "How’s it going today?"
+  suggestions:
+    - text: "Pretty well"
+    - text: "Medium"
+    - text: "Not great"
+  last_state: "say_intro_1"
