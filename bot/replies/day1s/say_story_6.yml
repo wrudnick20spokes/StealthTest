@@ -1,8 +1,7 @@
 - reply_type: text
   replies:
-    - text: "I know, right?"
-    - text: "But Mia wasn’t prepared. So she was scared and confused."
-    - text: "And Janet felt guilty that her daughter felt that way."
+    - text: "So Mia had no idea how to handle it. She felt scared and confused."
+    - text: "And Janet felt guilty that her daughter felt that way, like she should have done more."
   suggestions:
     - text: "Sounds hard."
     - text: "I can relate."

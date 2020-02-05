@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Impressive brainpower! ::brain::"
-    - text: "OK, I’ve got a few good articles I can show you on the following topics..."
+    - text: "OK, I’ve got a few good articles I can show you. Just click on the topic that interests you most."
   suggestions:
     - text: "First periods"
     - text: "Menopause"

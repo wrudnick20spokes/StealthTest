@@ -4,4 +4,8 @@ class HelpersController < BotController
     send_replies
   end
 
+  def say_content_unlocked
+    send_replies
+  end
+
 end

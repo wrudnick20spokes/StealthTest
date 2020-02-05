@@ -1,6 +1,7 @@
 - reply_type: text
   replies:
-    - text: "And on a scale of 1-5, how would you say that conversation went? (Or, if you had more than one conversation, how they went on average?) 1 is awful and 5 is great."
+    - text: "Good to know. On a scale of 1-5, how would you say that conversation went?"
+    - text: "(Or, if you had more than one conversation, how did they go on average?) 1 is awful and 5 is great."
   slider_input: true
   slider_min: 1
   slider_max: 5

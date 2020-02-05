@@ -1,8 +1,7 @@
 - reply_type: text
   replies:
     - text: "I’m so glad you asked! It’s a tricky one for me too."
-    - text: "Check out this link:"
-    - text: "https://www.youtube.com/watch?v=mIhXJkApl5U"
+    - text: "It’s pronounced like ‘MEN-stroo-A-shun.’"
   suggestions:
     - text: "Got it!"
   last_state: "say_how_to_pronounce"
