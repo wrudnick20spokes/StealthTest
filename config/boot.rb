@@ -4,6 +4,7 @@ require_relative '../lib/day_4_flow.rb'
 require_relative '../lib/day_5_flow.rb'
 require_relative '../lib/day_6_flow.rb'
 require_relative '../lib/day_7_flow.rb'
+require_relative '../lib/day_8_flow.rb'
 
 Bundler.require(:default, Stealth.env)
 
