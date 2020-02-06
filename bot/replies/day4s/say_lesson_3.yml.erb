@@ -1,0 +1,21 @@
+<% if current_message.message == "True" %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! While it’s true that sometimes those emotions can be caused by something else, our menstrual cycles really do have a lot of influence over our moods."
+      - text: "It is NOT just in your head."
+      - text: "So — let’s talk a little more about hormones...those special chemicals that help control all kinds of things within our bodies."
+    suggestions:
+      - text: "Ready"
+      - text: "Ok..."
+    last_state: "say_lesson_3"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Correct! While it’s true that sometimes those emotions can be caused by something else, our menstrual cycles really do have a lot of influence over our moods."
+      - text: "It is NOT just in your head."
+      - text: "So — let’s talk a little more about hormones...those special chemicals that help control all kinds of things within our bodies."
+    suggestions:
+      - text: "Ready"
+      - text: "Ok..."
+    last_state: "say_lesson_3"
+<% end %>

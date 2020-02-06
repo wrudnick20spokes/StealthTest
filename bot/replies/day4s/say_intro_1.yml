@@ -1,12 +1,9 @@
 - reply_type: text
   replies:
-    - text: "Awesome! Let me drop you into the next day’s content..."
     - text: "Wow, it’s our fourth day together. ::trophy:: You’re clearly committed to learning."
     - text: "I’m wondering, how are you doing today?"
   suggestions:
     - text: "::thumbs up::"
     - text: "::thumbs down::"
     - text: "::shrug::"
-  catching_up_day: true
-  last_flow: "day4"
-  last_state: "say_hello_from_catch_up"
+  last_state: "say_intro_1"

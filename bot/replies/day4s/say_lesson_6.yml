@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Indeed. Now, you’ve probably heard of PMS, or premenstrual syndrome."
+  suggestions:
+    - text: "Sure have"
+    - text: "Continue"
+  last_state: "say_lesson_6"

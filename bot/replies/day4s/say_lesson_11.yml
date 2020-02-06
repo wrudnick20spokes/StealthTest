@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "::chart::"
+    - text: "Source: https://myramblingtoughts.weebly.com/blog/perimenopause-the-0-10-years-period-before-menopause"
+  suggestions:
+    - text: "I see"
+  last_state: "say_lesson_11"

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "At your cervix! ::crying laughing::"
+  suggestions:
+    - text: "Ha"
+    - text: "Sigh..."
+  last_state: "say_joke_2"

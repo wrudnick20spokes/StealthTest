@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Great. Want me to show you a video that further explains how your mood can change during the menstrual cycle?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"
+  last_state: "say_lesson_12"

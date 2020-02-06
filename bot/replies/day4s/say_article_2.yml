@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "So you see that it’s biologically explainable to feel moody before and during your period."
+  suggestions:
+    - text: "Yep"
+  last_state: "say_article_2"
