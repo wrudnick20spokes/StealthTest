@@ -1,0 +1,19 @@
+<% if current_message.message == "D" %>
+  - reply_type: text 
+    replies: 
+      - text: "You got it!! You really know how to start off a review day right."       
+      - text: "::cheer::" 
+      - text: "None of those colors are out of the ordinary — although if you ever notice something that’s abnormal for YOU, it’s always smart to check with a medical professional." 
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Ready!"
+    last_state: "say_quiz_2"
+<% else %>
+  - reply_type: text 
+    replies: 
+      - text: "All of these choices are actually a normal color for a period to be! As always, you may want to talk to your doctor if something seems out of the ordinary for you. But none of these colors are out of the range of normal."
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Ready!"
+    last_state: "say_quiz_2"
+<% end %>

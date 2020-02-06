@@ -1,0 +1,18 @@
+<% if current_message.message == 'Looking good!' %> 
+  - reply_type: text 
+    replies: 
+      - text: "Why thank you! ::smile::" 
+      - text: "Today’s going to be a little different from our first few days." 
+    suggestions: 
+      - text: "How so?" 
+      - text: "OK"
+    last_state: "say_intro_1"
+<% else %> 
+  - reply_type: text 
+    replies: 
+      - text: "Today’s going to be a little different from our first few days." 
+    suggestions: 
+      - text: "How so?" 
+      - text: "OK"
+    last_state: "say_intro_1"
+<% end %>

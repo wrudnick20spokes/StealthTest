@@ -1,0 +1,21 @@
+<% if current_message.message == "D" %>
+  - reply_type: text
+    replies:
+      - text: "Correct!!"
+      - text: "::sponge::"
+      - text: "If a period is so bad it stops a person from doing their normal activities, that’s NOT typical — it’s time to see a doctor."
+      - text: "OK, one last quiz question for today."
+    suggestions:
+      - text: "If we must"
+      - text: "I’m not tired!"
+    last_state: "say_quiz_8"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "This actually is a pretty normal period symptom! The one that’s NOT normal is D. If a period is so bad it stops a person from doing their normal activities, that’s when it’s time to see a doctor."
+      - text: "OK, one last quiz question for today."
+    suggestions:
+      - text: "If we must"
+      - text: "I’m not tired!"
+    last_state: "say_quiz_8"
+<% end %>

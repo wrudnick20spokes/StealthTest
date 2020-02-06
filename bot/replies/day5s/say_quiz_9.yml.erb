@@ -1,0 +1,19 @@
+<% if current_message.message == 'If we must' %>  
+  - reply_type: text
+    replies:
+      - text: "Almost done! ::wink::"
+      - text: "This one is about Janet and Mia, the parent and child from our first conversation. Remember them?"
+    suggestions:
+      - text: "Sure do"
+      - text: "Sort of..."
+    last_state: "say_quiz_9"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Look at you! ::weight lifter::"
+      - text: "This one is about Janet and Mia, the parent and child from our first conversation. Remember them?"
+    suggestions:
+      - text: "Sure do"
+      - text: "Sort of..."
+    last_state: "say_quiz_9"
+<% end %> 

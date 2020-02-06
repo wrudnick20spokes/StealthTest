@@ -1,0 +1,31 @@
+<% if current_message.message == "A" %>
+  - reply_type: text
+    replies:
+      - text: "Good try. It’s understandable to want to tell Mia it’s going to be okay, but saying it’s nothing to cry over may minimize her feelings."
+      - text: "A better choice is C — telling her it’s alright but also showing your empathy and support."
+    suggestions:
+      - text: "::thumbs up::"
+    last_state: "say_quiz_12"
+<% elsif current_message.message == "B" %>
+  - reply_type: text
+    replies:
+      - text: "Good try. It’s understandable to want to help Mia through her choices, but it’s probably a bit too soon to talk about pads and tampons while she’s still upset." 
+      - text: "A better choice is C — responding to her feelings and showing support. You can get to period hygiene later."
+    suggestions:
+      - text: "::thumbs up::"
+    last_state: "say_quiz_12"
+<% elsif current_message.message == "C" %>
+  - reply_type: text
+    replies:
+      - text: "Excellent! This is a comforting, supportive response. You’re validating Mia’s feelings while letting her know she’s going to be okay — and offering your help and empathy. Way to go, Janet!"
+    suggestions:
+      - text: "::thumbs up::"
+    last_state: "say_quiz_12"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Good try. It’s understandable to want to resolve whatever’s upsetting Mia, but a better choice would be C. This response shows you see that Mia is upset and care about her, and gives Mia the space to tell you whatever is bothering her. You can talk about cramps later on."
+    suggestions:
+      - text: "::thumbs up::"
+    last_state: "say_quiz_12"
+<% end %> 

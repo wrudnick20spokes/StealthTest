@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "If there is NO fertilized egg to attach to the uterus, what happens to the extra bulk in the uterine wall?"
+    - text: "(A) It stays where it is and gets thicker every month"
+    - text: "(B) It tears off the uterus and leaves through the vagina during a period"
+  suggestions:
+    - text: "A"
+    - text: "B"
+  last_state: "say_quiz_3"
