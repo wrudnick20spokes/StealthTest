@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "But some people may have irregular cycles, or lose count."
-    - text: "Did you know there’s still a way to predict when your next period is due, whether you’re ovulating, and when you’re most likely to get pregnant?"
-  suggestions:
-    - text: "Say more..."
-    - text: "I think so..."
-  last_state: "say_quiz_10"

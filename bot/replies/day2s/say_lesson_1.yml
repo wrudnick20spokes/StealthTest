@@ -1,9 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "::smile::"
-    - text: "Now for today’s period lesson. I think it’s good to start by covering what a period really IS."
-    - text: "To do that well involves getting into a bit of an anatomy lesson..."
-  suggestions:
-    - text: "Bring it on!"
-    - text: "Ugh..."
-  last_state: "say_lesson_1"

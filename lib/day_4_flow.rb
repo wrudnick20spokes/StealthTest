@@ -64,11 +64,27 @@ class Day4Flow
     get_lesson_13_response: {
       next: {
         "OK" => "say_article_3",
-        "No thanks" => "say_wrap_up_1_no_article"
+        "No thanks" => "say_cervical_1_no_article"
       }
     },
     say_article_3: { next: "get_article_3_response" },
-    get_article_3_response: { next: "say_wrap_up_1"},
+    get_article_3_response: { next: "say_cervical_1" },
+
+
+    say_cervical_1_no_article: { next: "get_cervical_1_response" },
+    say_cervical_1: { next: "get_cervical_1_response" },
+    get_cervical_1_response: { next: "say_cervical_2" },
+    say_cervical_2: { next: "get_cervical_2_response" },
+    get_cervical_2_response: {
+      next: {
+        "Tell me more" => "say_article_4",
+        "Not interested" => "say_wrap_up_1_no_article"
+      }
+    },
+    say_article_4: { next: "get_article_4_response" },
+    get_article_4_response: { next: "say_wrap_up_1" },
+
+
     say_wrap_up_1_no_article: { next: "get_wrap_up_1_response" },
     say_wrap_up_1: { next: "get_wrap_up_1_response" },
     get_wrap_up_1_response: { next: "say_wrap_up_2" },

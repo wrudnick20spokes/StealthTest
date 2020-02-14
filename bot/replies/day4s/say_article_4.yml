@@ -4,5 +4,5 @@
     - text: "Here’s an article that will tell you all about it. Feel free to read now or bookmark for later. Just tell me when you’re ready to move on."
     - text: "https://tinyurl.com/qph62jf"
   suggestions:
-    - text: "Ready"
-  last_state: "say_share_article_2"
+    - text: "Ready!"
+  last_state: "say_article_4"

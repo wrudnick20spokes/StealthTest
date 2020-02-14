@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Yeah! You can use that information to figure out when you’re ovulating, or when a period is coming soon."
+  suggestions:
+    - text: "Tell me more"
+    - text: "Not interested"
+  last_state: "say_cervical_2"

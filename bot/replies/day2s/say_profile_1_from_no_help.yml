@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "Okay, then I’ll just get going. I hope you feel better soon."
-    - text: "OK — if it’s alright, I’d like to get to know you a little better."
-  suggestions:
-    - text: "Sounds good"
-    - text: "More questions?"
-  last_state: "say_profile_1_from_no_help"
