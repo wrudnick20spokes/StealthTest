@@ -91,9 +91,14 @@ class FlowMap
     state :say_profile_setting_7
     state :get_profile_setting_7_response
     state :say_profile_setting_8
-    state :say_profile_setting_8_response
+    state :get_profile_setting_8_response
     state :say_goodbye
     # END PROFILE SETTING
+
+    # START TEMPORARY
+    state :say_goodbye_temporary
+    state :get_goodbye_temporary_response
+    # END TEMPORARY
   end
 
 

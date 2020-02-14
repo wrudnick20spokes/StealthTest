@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Goodbye. ::smile::"
+    - text: "**Day 1 is complete**"
+    - text: "Ready to start day 2?"
+  suggestions:
+    - text: "Yes"
+  last_state: "say_goodbye_temporary"

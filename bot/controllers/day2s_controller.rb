@@ -397,7 +397,7 @@ class Day2sController < BotController
   end
 
   def get_wrap_up_4_response
-    update_session_to state: 'say_goodbye'
+    step_to state: 'say_goodbye'
   end
 
   def say_goodbye
