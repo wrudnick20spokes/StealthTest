@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Great,  here they are: https://www.healthline.com/health/pms-mood-swings (lifting mood), and https://flo.health/menstrual-cycle/health/period/hormone-levels-during-cycle (hormone changes)."
+  suggestions:
+    - text: "Ready to move on"
+  last_state: "say_article_3"

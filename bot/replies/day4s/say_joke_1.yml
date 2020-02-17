@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Okay. ::smile:: What did the uterine wall say when the egg asked for directions exiting the uterus?"
+  suggestions:
+    - text: "What?"
+  last_state: "say_joke_1"

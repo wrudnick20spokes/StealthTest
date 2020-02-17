@@ -1,0 +1,10 @@
+- reply_type: text
+  replies:
+    - text: "How great to hear!"
+    - text: "::minion::"
+    - text: "Now for today’s period lesson. I think it’s good to start by covering what a period really IS."
+    - text: "Heads up: today is a bit longer than most of our chats — I want to be thorough about covering the basics! I hope you’ll hang in there."
+  suggestions:
+    - text: "Got it"
+    - text: "I'll try..."
+  last_state: "say_lesson_1_from_thumbs_up"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "No hard feelings. ::smile::"
+    - text: "Alright, one last thing I have for you today… Did you know that your cervical fluid also changes along with hormones over the course of a menstrual cycle?"
+  suggestions:
+    - text: "I did!"
+    - text: "Yeah?"
+  last_state: "say_cervical_1_no_article"

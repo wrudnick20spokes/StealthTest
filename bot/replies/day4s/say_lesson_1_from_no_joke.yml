@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "No problem. Hope you feel better soon, and I’ll move on to today’s health content."
+    - text: "Today I want to talk about the changes in hormones that happen during a menstrual cycle, and how these changes can affect our mood."
+  suggestions:
+    - text: "OK"
+    - text: "They sure can"
+  last_state: "say_lesson_1_from_no_joke"

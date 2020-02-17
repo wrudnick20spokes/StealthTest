@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "The two-sentence recap: Mia got her first period, and was confused and upset. Janet felt awful she hadn’t prepared Mia better."
+    - text: "For this question, I want you to pretend you’re Janet..."
+  suggestions:
+    - text: "Hello, Janet speaking!"
+    - text: "OK"
+  last_state: "say_quiz_10"

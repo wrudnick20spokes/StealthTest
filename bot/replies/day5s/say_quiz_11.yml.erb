@@ -1,0 +1,32 @@
+<% if current_message.message == "Hello, Janet speaking!" %>  
+  - reply_type: text  
+    replies:  
+      - text: "Way to get into character! ::masks::"   
+      - text: "Mia says to you, 'I’m bleeding down there mom, and I don’t know what to do!'"
+      - text: "What’s the best way to respond?"
+      - text: "(A) Oh Mia, calm down honey! This is nothing to cry over!"
+      - text: "(B) Would you rather have a pad or a tampon?"
+      - text: "(C) You’re okay, Mia. Take a breath, sit down, I’m here for you. How can I help?"
+      - text: "(D) Do you need some medicine for cramps, sweetheart?"
+    suggestions:
+      - text: "A"
+      - text: "B"
+      - text: "C"
+      - text: "D"
+    last_state: "say_quiz_11"
+<% else %>  
+  - reply_type: text  
+    replies:
+      - text: "Mia says to you, 'I’m bleeding down there mom, and I don’t know what to do!'"
+      - text: "What’s the best way to respond?"
+      - text: "(A) Oh Mia, calm down honey! This is nothing to cry over!"
+      - text: "(B) Would you rather have a pad or a tampon?"
+      - text: "(C) You’re okay, Mia. Take a breath, sit down, I’m here for you. How can I help?"
+      - text: "(D) Do you need some medicine for cramps, sweetheart?"
+    suggestions:
+      - text: "A"
+      - text: "B"
+      - text: "C"
+      - text: "D"
+    last_state: "say_quiz_11"
+<% end %>

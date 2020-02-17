@@ -1,0 +1,20 @@
+<% if current_message.message == "A" %>
+  - reply_type: text  
+    replies:  
+      - text: "It’s actually B! The extra bulk leaves each month, and that’s your period. ::smile::" 
+      - text: "Alright, my next question might be a little hard..." 
+    suggestions: 
+      - text: "I’ll try it" 
+      - text: "Yikes"
+    last_state: "say_quiz_4"
+<% else %>
+  - reply_type: text  
+    replies:  
+      - text: "You know it!! Way to go." 
+      - text: "::groovy::" 
+      - text: "Alright, my next question might be a little hard..." 
+    suggestions: 
+      - text: "I’ll try it" 
+      - text: "Yikes"
+    last_state: "say_quiz_4"
+<% end %>

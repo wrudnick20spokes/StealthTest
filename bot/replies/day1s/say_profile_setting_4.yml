@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: "Good to know! Now I’d like to understand a bit about what you’d most appreciate from me. ::smile::"
-    - text: "On a scale of 1-10 (1 is “not at all important” and 10 is “very important”), how important is it to you to feel more prepared to talk to your child about periods?"
+    - text: "Good to know! Now I’d like to switch gears and ask some questions to understand a bit about what you’d most appreciate from me. ::smile::"
+    - text: "On a scale of 1-10, how important is it to you to feel prepared to talk to your child about periods? (1 is 'not at all important' and 10 is 'very important')"
   slider_input: true
   slider_min: 1
   slider_max: 10

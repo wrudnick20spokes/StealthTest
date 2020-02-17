@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "I’m sorry you aren’t having a good day so far. ::frown:: Would it help if I told a little joke?"
+  suggestions:
+    - text: "Sure"
+    - text: "Not in the mood"
+  last_state: "say_offer_joke"

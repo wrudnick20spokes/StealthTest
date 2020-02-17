@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Okay, then I’ll just get going. I really hope you feel better soon."
+    - text: "Alright — ready for today’s lesson?"
+  suggestions:    
+      - text: "Ready"
+  last_state: "say_lesson_1_from_no_help"

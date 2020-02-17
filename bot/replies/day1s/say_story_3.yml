@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: "I know. ::frown::"
-    - text: Mia came out of the bathroom and told Janet, “I’m bleeding down there, mom, and I don’t know what to do!”
+    - text: "Yeah. ::frown::"
+    - text: "Mia came out of the bathroom and told Janet, 'I’m bleeding down there, Mom, and I don’t know what to do!'"
   suggestions:
-    - text: How did Janet respond?
+    - text: "How did Janet respond?"
   last_state: "say_story_3"

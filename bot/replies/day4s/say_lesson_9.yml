@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "After ovulation (when the ovary releases an egg), estrogen levels drop and progesterone levels rise."
+    - text: "Then, progesterone levels drop dramatically."
+  suggestions:
+    - text: "What a rollercoaster... ::roller coaster::"
+  last_state: "say_lesson_9"

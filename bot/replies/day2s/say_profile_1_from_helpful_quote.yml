@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "I’m sorry today’s hard, but I hope better ones are coming. ::sun::"
-    - text: "OK — if it’s alright, I’d like to get to know you a little better."
-  suggestions:
-    - text: "Sounds good"
-    - text: "More questions?"
-  last_state: "say_profile_1_from_helpful_quote"

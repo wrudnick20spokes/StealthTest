@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Yup. ::smile:: I know we’re covering a lot!"
+    - text: "The review menu is available if you ever want to see something again. You can head there now or after today’s chat. ::stars::"
+  suggestions:
+    - text: "OK"
+  last_state: "say_yup"

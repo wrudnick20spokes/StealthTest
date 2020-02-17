@@ -1,3 +1,4 @@
+#require '../lib/day_2_flow.rb'
 class FlowMap
 
   include Stealth::Flow
@@ -90,9 +91,14 @@ class FlowMap
     state :say_profile_setting_7
     state :get_profile_setting_7_response
     state :say_profile_setting_8
-    state :say_profile_setting_8_response
+    state :get_profile_setting_8_response
     state :say_goodbye
     # END PROFILE SETTING
+
+    # START TEMPORARY
+    state :say_goodbye_temporary
+    state :get_goodbye_temporary_response
+    # END TEMPORARY
   end
 
 
@@ -117,45 +123,15 @@ class FlowMap
     state :get_helpful_quote_response
     # END HELLO
 
-    # START PROFILE SETTING
-    state :say_profile_1_from_thumbs_up
-    state :say_profile_1_from_no_animal
-    state :say_profile_1_from_animal
-    state :say_profile_1_from_helpful_quote
-    state :say_profile_1_from_no_help
-    state :get_profile_1_response
-    state :say_profile_2
-    state :get_profile_2_response
-    state :say_profile_3
-    state :get_profile_3_response
-    state :say_ask_1_child
-    state :get_ask_1_child_response
-    state :say_ask_multi_children
-    state :get_ask_multi_children_response
-    state :say_profile_4_from_skip_1_child
-    state :say_profile_4_from_1_child
-    state :say_profile_4_from_multi_children
-    state :get_profile_4_response
-    state :say_ask_about_conversation
-    state :get_ask_about_conversation_response
-    state :say_thats_great
-    state :say_got_it
-    state :get_got_it_response
-    state :say_one_more_thing
-    state :get_one_more_thing_response
-    state :say_ask_how_conversation_went
-    state :get_ask_how_conversation_went_response
-    state :say_thank_you
-    state :get_conversation_evaluation
-    state :say_done_with_questions_from_conversation_evaluation
-    state :say_done_with_questions_from_skip
-    state :say_done_with_questions_from_not_really
-    state :get_done_with_questions_response
-    # END PROFILE SETTING
-
     # START TODAY'S LESSON
-    state :say_lesson_1
+    state :say_lesson_1_from_thumbs_up
+    state :say_lesson_1_from_no_animal
+    state :say_lesson_1_from_animal
+    state :say_lesson_1_from_helpful_quote
+    state :say_lesson_1_from_no_help
     state :get_lesson_1_response
+    state :say_lesson_1_1
+    state :get_lesson_1_1_response
     state :say_lesson_2
     state :get_lesson_2_response
     state :say_how_to_pronounce
@@ -205,20 +181,11 @@ class FlowMap
     state :get_quiz_8_response
     state :say_share_video
     state :get_share_video_response
-    state :say_quiz_9_from_no_video
-    state :say_quiz_9_from_video
-    state :get_quiz_9_response
-    state :say_quiz_10
-    state :get_quiz_10_response
-    state :say_quiz_11
-    state :get_quiz_11_response
-    state :say_share_article_2
-    state :get_share_article_2_response
     # END QUIZ
 
     # START WRAP UP
-    state :say_wrap_up_1_no_article
-    state :say_wrap_up_1_article
+    state :say_wrap_up_1_no_video
+    state :say_wrap_up_1
     state :get_wrap_up_1_response
     state :say_wrap_up_2
     state :get_wrap_up_2_response
@@ -240,13 +207,48 @@ class FlowMap
     state :say_hello_from_skip
     state :say_hello_from_catch_up
     state :get_hello_response
+    # END HELLO
+
+    # START PROFILE SETTING
+    state :say_profile_1
+    state :get_profile_1_response
+    state :say_profile_2
+    state :get_profile_2_response
+    state :say_profile_3
+    state :get_profile_3_response
+    state :say_ask_1_child
+    state :get_ask_1_child_response
+    state :say_ask_multi_children
+    state :get_ask_multi_children_response
+    state :say_profile_4_from_skip_1_child
+    state :say_profile_4_from_1_child
+    state :say_profile_4_from_multi_children
+    state :get_profile_4_response
+    state :say_ask_about_conversation
+    state :get_ask_about_conversation_response
+    state :say_thats_great
+    state :say_got_it
+    state :get_got_it_response
+    state :say_one_more_thing
+    state :get_one_more_thing_response
+    state :say_ask_how_conversation_went
+    state :get_ask_how_conversation_went_response
+    state :say_thank_you
+    state :get_conversation_evaluation
+    state :say_done_with_questions_from_conversation_evaluation
+    state :say_done_with_questions_from_skip
+    state :say_done_with_questions_from_not_really
+    state :get_done_with_questions_response
+    # END PROFILE SETTING
+
+    # START DELAYED HELLO
     state :say_intro_1
     state :get_intro_1_response
     state :say_intro_2
     state :get_intro_2_response
     state :say_intro_3
     state :get_intro_3_response
-    # END HELLO
+    # END DELAYED HELLO
 
     # START QUIZ
     state :say_quiz_1
@@ -320,25 +322,65 @@ class FlowMap
   # DAY 4
   # ################################################
   flow :day4 do
-    state :say_hello
-    state :say_hello_from_skip
-    state :say_hello_from_catch_up
-    state :get_hello_response
+    Day4Flow::DAY_4_FLOWS.each do |key, value|
+     state key
+    end
     state :say_goodbye
   end
-
 
   # ################################################
   # DAY 5
   # ################################################
   flow :day5 do
-    state :say_hello
-    state :say_hello_from_skip
-    state :say_hello_from_catch_up
-    state :get_hello_response
+    Day5Flow::DAY_5_FLOWS.each do |key, value|
+      state key
+    end
     state :say_goodbye
   end
 
+
+  # ################################################
+  # DAY 6
+  # ################################################
+  flow :day6 do
+    Day6Flow::DAY_6_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+
+  # ################################################
+  # DAY 7
+  # ################################################
+  flow :day7 do
+    Day7Flow::DAY_7_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+
+  # ################################################
+  # DAY 8
+  # ################################################
+  flow :day8 do
+    Day8Flow::DAY_8_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+
+  # ################################################
+  # DAY 9
+  # ################################################
+  flow :day9 do
+    Day9Flow::DAY_9_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
 
 
   # ################################################

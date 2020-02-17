@@ -1,0 +1,35 @@
+<% if current_message.message == "I’ll try it" %>   
+  - reply_type: text   
+    replies:   
+      - text: "I like your attitude. ::wink::"  
+      - text: "OK... which of the following statements about the menstrual cycle are correct?"   
+      - text: "(A) The uterus bulks up each month to prepare for a possible pregnancy" 
+      - text: "(B) The menstrual cycle begins the first day of a period" 
+      - text: "(C) The menstrual cycle begins when an egg is released into the fallopian tubes" 
+      - text: "(D) A and B" 
+      - text: "(E) A and C" 
+    suggestions:   
+      - text: "A" 
+      - text: "B" 
+      - text: "C" 
+      - text: "D" 
+      - text: "E" 
+    last_state: "say_quiz_5"
+<% else %>   
+  - reply_type: text   
+    replies:   
+      - text: "A wrong answer is just an opportunity to learn! ::wink::"  
+      - text: "OK... which of the following statements about the menstrual cycle are correct?"   
+      - text: "(A) The uterus bulks up each month to prepare for a possible pregnancy" 
+      - text: "(B) The menstrual cycle begins the first day of a period" 
+      - text: "(C) The menstrual cycle begins when an egg is released into the fallopian tubes" 
+      - text: "(D) A and B" 
+      - text: "(E) A and C" 
+    suggestions:   
+      - text: "A" 
+      - text: "B" 
+      - text: "C" 
+      - text: "D" 
+      - text: "E" 
+    last_state: "say_quiz_5"
+<% end %>

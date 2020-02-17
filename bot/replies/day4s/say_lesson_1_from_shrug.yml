@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Well, I’m glad you’re here."
+    - text: "I’ll try to turn that ::shrug:: into a ::thumbs up:: with some good ol’ health knowledge."
+    - text: "Today I want to talk about the changes in hormones that happen during a menstrual cycle, and how these changes can affect our mood."
+  suggestions:
+    - text: "OK"
+    - text: "They sure can"
+  last_state: "say_lesson_1_from_shrug"

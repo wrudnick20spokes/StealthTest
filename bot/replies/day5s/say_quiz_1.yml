@@ -1,0 +1,13 @@
+- reply_type: text 
+  replies: 
+    - text: "Let’s start with a quiz question. It’s a cause for concern when period blood is:" 
+    - text: "(A) Bright red" 
+    - text: "(B) Brown" 
+    - text: "(C) Pink" 
+    - text: "(D) None of these colors are a concern" 
+  suggestions: 
+    - text: "A" 
+    - text: "B" 
+    - text: "C" 
+    - text: "D" 
+  last_state: "say_quiz_1"

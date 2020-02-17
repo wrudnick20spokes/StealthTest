@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "This includes a whole bunch of symptoms you have before your period. Some are physical, like cramps, breast soreness, and bloating."
+  suggestions:
+    - text: "Got it"
+    - text: "Yep"
+  last_state: "say_lesson_7"

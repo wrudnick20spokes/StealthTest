@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Good to know, thank you."
+  suggestions:
+    - text: "Bye CeCe"
+  check_to_skip_goodbye: true
+  day_complete: true
+  last_state: "say_wrap_up_2"

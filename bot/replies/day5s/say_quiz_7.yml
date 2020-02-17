@@ -1,0 +1,13 @@
+- reply_type: text
+  replies:
+    - text: "Which of the following is not a typical period symptom?"
+    - text: "(A) Cramping in the belly"
+    - text: "(B) Sore breasts"
+    - text: "(C) Feeling tired and blue"
+    - text: "(D) Feeling so bad you can’t go to school/work"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_quiz_7"

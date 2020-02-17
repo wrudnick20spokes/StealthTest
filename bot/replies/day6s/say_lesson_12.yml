@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "If you want more detail on irregular periods, you know I always have an article for you. ::geek::"
+    - text: "Want to see it?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"
+  last_state: "say_lesson_12"

@@ -1,0 +1,8 @@
+- reply_type: text 
+  replies: 
+    - text: "We’re going to take a break on learning new information... Instead, we’ll review what we’ve already covered."
+    - text: "I want you to feel confident about everything we’ve covered so far!"
+  suggestions: 
+    - text: "Sounds good" 
+    - text: "Alright"
+  last_state: "say_intro_2"

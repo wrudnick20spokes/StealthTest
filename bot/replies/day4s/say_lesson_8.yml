@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Other symptoms can be more emotional — like sadness, anger, and nervousness."
+    - text: "Both sides of PMS are thought to be caused by hormonal changes."
+  suggestions:
+    - text: "OK"
+    - text: "The culprits!"
+  last_state: "say_lesson_8"

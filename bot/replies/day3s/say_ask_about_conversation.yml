@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Good to know. On a scale of 1-5, how would you say that conversation went?"
+    - text: "(Or, if you had more than one conversation, how did they go on average?) 1 is awful and 5 is great."
+  slider_input: true
+  slider_min: 1
+  slider_max: 5
+  last_state: "say_ask_about_conversation"

@@ -1,0 +1,18 @@
+<% if current_message.message == 'Very nice!' %>
+  - reply_type: text
+    replies:
+      - text: "Why thank you!"
+      - text: "Before we get into today’s lesson, I want to ask some questions and get to know you a little better."
+    suggestions:
+      - text: "Sounds good"
+      - text: "More questions?"
+    last_state: "say_profile_1"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Before we get into today’s lesson, I want to ask some questions and get to know you a little better."
+    suggestions:
+      - text: "Sounds good"
+      - text: "More questions?"
+    last_state: "say_profile_1"
+<% end %>

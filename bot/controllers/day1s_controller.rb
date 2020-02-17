@@ -342,11 +342,23 @@ class Day1sController < BotController
   end
 
   def get_profile_setting_8_response
-    step_to state: 'say_goodbye'
+    # TODO: REMOVE THIS LINE WHEN TRIAL IS DONE
+    step_to state: 'say_goodbye_temporary'
+    # step_to state: 'say_goodbye'
   end
 
   def say_goodbye
     send_replies
   end
 
+  # TODO: REMOVE THESE WHEN TRIAL IS DONE
+
+  def say_goodbye_temporary
+    send_replies
+    update_session_to state: 'get_goodbye_temporary_response'
+  end
+
+  def get_goodbye_temporary_response
+    step_to flow: 'day2', state: 'say_hello'
+  end
 end

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Sure thing, learner!"
+    - text: "https://www.webmd.com/women/features/when-your-period-signals-problem#1"
+  suggestions:
+    - text: "Continue"
+  last_state: "say_share_article_5"

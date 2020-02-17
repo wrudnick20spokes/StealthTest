@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Oh, I also have two articles I can share — one that talks about ways to lift your mood during your period, and another that says more about hormones during the menstrual cycle. Want to see them?"
+  suggestions:
+    - text: "OK"
+    - text: "No thanks"
+  last_state: "say_lesson_13_from_article"

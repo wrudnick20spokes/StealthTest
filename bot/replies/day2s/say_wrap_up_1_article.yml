@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "Great. ::smile::"
-    - text: "OK, that’s it for our health content today."
-  suggestions:
-    - text: "That was a lot!"
-    - text: "No sweat"
-  last_state: "say_wrap_up_1_article"

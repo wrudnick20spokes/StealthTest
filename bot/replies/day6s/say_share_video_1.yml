@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Certainly, here it is:"
+    - text: "https://www.youtube.com/watch?v=jrRxlFXF3BE"
+    - text: "For good measure, I’ll also share an article I like from the Mayo Clinic:"
+    - text: "https://www.mayoclinic.org/diseases-conditions/premenstrual-syndrome/expert-answers/pmdd/faq-20058315"
+  suggestions:
+    - text: "Continue"
+  last_state: "say_share_video_1"

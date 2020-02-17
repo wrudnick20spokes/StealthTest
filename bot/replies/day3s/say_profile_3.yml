@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Got it!"
+    - text: "And how many of your children have had (or will get) their period?"
+    - text: "(I say this instead of asking how many 'daughters' you have because I know some of you may have kids who are trans or non-binary.)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 10
+  last_state: "say_profile_3"

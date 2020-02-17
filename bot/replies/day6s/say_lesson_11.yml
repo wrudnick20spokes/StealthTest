@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "The next sign of a problem is not having a period at all. (Doesn’t count if you’re pregnant or near menopause.)"
+    - text: "If someone hasn’t had a period in about three months, that’s when it’s time to talk to a professional." 
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_lesson_11"

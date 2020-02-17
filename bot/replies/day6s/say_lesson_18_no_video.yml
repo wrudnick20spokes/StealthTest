@@ -1,0 +1,12 @@
+- reply_type: text
+  replies:
+    - text: "OK. It’ll be in the Review Menu if you change your mind later on."
+    - text: "Alright, let me wrap up today’s lesson with a little quiz question... it’s time to contact your healthcare provider if:"
+    - text: "A) You’re experiencing a symptom that is not typical for you, especially if it’s happened for more than one period."
+    - text: "B) Any period symptoms are stopping you from doing your daily routines."
+    - text: "C) Both A and B"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+  last_state: "say_lesson_18_no_video"

@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Wow, it’s our fourth day together. ::trophy:: You’re clearly committed to learning."
+    - text: "I’m wondering, how are you doing today?"
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "::thumbs down::"
+    - text: "::shrug::"
+  last_state: "say_intro_1"

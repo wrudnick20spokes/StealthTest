@@ -1,0 +1,18 @@
+<% if current_message.message == "OK" %>
+  - reply_type: text
+    replies:
+      - text: "Before we move on to the next sign of a problem, want to see an article I found on period pain?"
+    suggestions:
+      - text: "Yes"
+      - text: "No"
+    last_state: "say_lesson_7"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "I know...poor things! ::frown::"
+      - text: "Before we move on to the next sign of a problem, want to see an article I found on period pain?"
+    suggestions:
+      - text: "Yes"
+      - text: "No"
+    last_state: "say_lesson_7"
+<% end %>

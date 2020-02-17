@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "If someone’s bleeding that much, it’s a good time to check in with a healthcare provider. ::female doc::"
+    - text: "I found an article from the Mayo Clinic that talks about heavy bleeding in more detail — want to see it?" 
+  suggestions:
+    - text: "Yes"
+    - text: "No thanks"
+  last_state: "say_lesson_10"

@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Alright — ready for today’s lesson?"
+  suggestions:    
+      - text: "Ready"
+  last_state: "say_lesson_1"

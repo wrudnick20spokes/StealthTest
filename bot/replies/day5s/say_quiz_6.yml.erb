@@ -1,0 +1,44 @@
+<% if current_message.message == "A" %>
+  - reply_type: text
+    replies:
+      - text: "Close! A is correct, but there’s also another correct answer — B. ::smile::"
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Let’s do it!"
+    last_state: "say_quiz_6"
+<% elsif current_message.message == "B" %>
+  - reply_type: text
+    replies:
+      - text: "Close! B is correct, but there’s also another correct answer — A. ::smile::"
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Let’s do it!"
+    last_state: "say_quiz_6"
+<% elsif current_message.message == "C" %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! The correct answer is actually A and B."
+      - text: "The menstrual cycle begins on the first day of your period. Ovulation (or releasing the egg) happens halfway through the menstrual cycle, at about day 14. ::smile::"
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Let’s do it!"
+    last_state: "say_quiz_6"
+<% elsif current_message.message == "D" %>
+  - reply_type: text
+    replies:
+      - text: "You got it!"
+      - text: "::duck::"
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Let’s do it!"
+    last_state: "say_quiz_6"
+<% else %>   
+  - reply_type: text
+    replies:
+      - text: "So close! The right answer is actually A and B."
+      - text: "The menstrual cycle begins on the first day of your period. Ovulation (or releasing the egg) happens halfway through the menstrual cycle, at about day 14. ::smile::"
+      - text: "Next question..." 
+    suggestions: 
+      - text: "Let’s do it!"
+    last_state: "say_quiz_6"
+<% end %>

@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text:  "Great. During the menstrual cycle, two hormones in particular change the way we feel."
+    - text:  "You may know them already. They are estrogen and..."
+  suggestions:
+    - text: "Progesterone?"
+    - text:  "Prostoglandins?"
+    - text:  "What?"
+  last_state: "say_lesson_4"

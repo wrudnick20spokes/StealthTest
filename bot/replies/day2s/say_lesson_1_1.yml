@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Ok, first up: a short anatomy lesson…"
+  suggestions:
+    - text: "Bring it on!"
+    - text: "Ugh..."
+  last_state: "say_lesson_1_1"

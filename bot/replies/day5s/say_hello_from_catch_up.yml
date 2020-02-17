@@ -1,7 +1,10 @@
 - reply_type: text
   replies:
-    - text: "Hello - it is day 5."
-    - text: "This is the CATCH UP way to start this day"
+    - text: "Awesome! Let me drop you into the next day’s content..."
+    - text: "Today’s going to be a little different from our first few days."
   suggestions:
-    - text: "Hi"
+    - text: "How so?"
+    - text: "OK"
   catching_up_day: true
+  last_flow: "day5"
+  last_state: "say_hello_from_catch_up"

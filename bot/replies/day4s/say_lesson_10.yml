@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Mmhmm. All those quick changes can cause unpleasant symptoms as our periods approach."
+    - text: "Let me show you a chart."
+  suggestions:
+    - text: "OK"
+  last_state: "say_lesson_10"

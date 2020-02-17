@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Would you mind telling me (in a sentence or two) how your period conversation(s) went?"
+    - text: "I haven’t been programmed to understand full sentences just yet... but I’ll pass it along to my creators, who will use it to improve future versions of me!"
+  suggestions:
+    - text: "Sure"
+    - text: "Skip"
+  last_state: "say_ask_how_conversation_went"
