@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: "Well, she really felt for Mia and wanted to help."
-    - text: "But she was surprised to learn that Mia knew almost nothing about periods." 
+    - text: "Well, she was very glad Mia felt comfortable asking her for help — that doesn’t always happen!"
+    - text: "She also really felt for Mia and wanted to help. But she was surprised to learn that Mia knew almost nothing about periods."
   suggestions:
     - text: "Oh no"
     - text: "Really?"

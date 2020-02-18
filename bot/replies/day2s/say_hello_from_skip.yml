@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
-    - text: "How’s it going so far today?"
+    - text: "How’s your day going so far?"
   suggestions:
     - text: "::thumbs up::"
     - text: "::thumbs down::"

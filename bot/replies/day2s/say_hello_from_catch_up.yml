@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Awesome! Let me drop you into the next day’s content..."
-    - text: "How’s it going so far today?"
+    - text: "How’s your day going so far?"
   suggestions:
     - text: "::thumbs up::"
     - text: "::thumbs down::"
