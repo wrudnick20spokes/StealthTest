@@ -37,12 +37,21 @@ class Day2sController < BotController
   def get_intro_1_response
     puts current_message.message
     if current_message.message == '::thumbs up::'
-      step_to state: 'say_lesson_1_from_thumbs_up'
+      step_to state: 'say_minion'
     elsif current_message.message == '::thumbs down::'
       step_to state: 'say_offer_to_help'
     else
       step_to state: 'say_offer_animal'
     end
+  end
+
+  def say_minion
+    send_replies
+    update_session_to state: 'get_minion_response'
+  end
+
+  def get_minion_response
+    step_to state: 'say_lesson_1_from_thumbs_up'
   end
 
   def say_offer_animal

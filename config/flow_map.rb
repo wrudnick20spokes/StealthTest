@@ -113,6 +113,8 @@ class FlowMap
     state :get_hello_response
     state :say_intro_1
     state :get_intro_1_response
+    state :say_minion
+    state :get_minion_response
     state :say_offer_animal
     state :get_offer_animal_response
     state :say_offer_to_help
