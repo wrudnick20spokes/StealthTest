@@ -1,0 +1,9 @@
+- reply_type: text
+  replies: 
+    - text: "It's about nutrition."
+    - text: "A lot of us crave certain comforting things during our period - salty foods, sweets, chocolate... you know!"
+  suggestions:
+    - text: "::pretzel::"
+    - text: "::chocolate::"
+    - text: "Not me"
+  last_state: "say_advice_5"

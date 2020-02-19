@@ -1,0 +1,6 @@
+- reply_type: text
+  replies: 
+    - text: "OK — now for today’s lesson."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_lesson_1"

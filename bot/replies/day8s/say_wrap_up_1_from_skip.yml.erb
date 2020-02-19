@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Do you? Ok, well you can always come back and see what you missed later on in the Review Menu."
+    - text: "Well <%= current_message.payload %>, I hope some of today's information helped! Can you tell me how useful you thought it was on a scale of 1-5 (1 not at all helpful, 5 very helpful)?"
+  slider_input: true
+  slider_min: 1
+  slider_max: 5
+  last_state: "say_wrap_up_1_from_skip"

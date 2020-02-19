@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Do you know what it's time for?"
+  suggestions: 
+    - text: "Bedtime?"
+    - text: "Hammer time?"
+    - text: "A review day?"
+  last_state: "say_intro_1"

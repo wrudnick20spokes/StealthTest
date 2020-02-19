@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Yeah. While they  might make you feel better for a few minutes, usually, the foods we crave are the same ones that make us feel bloated and tired."
+  suggestions:
+    - text: "Traitors!"
+    - text: "Bummer"
+        - text: "OK"
+  last_state: "say_advice_7"

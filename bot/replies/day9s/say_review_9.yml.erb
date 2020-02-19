@@ -1,0 +1,19 @@
+<% if current_message.message == 'I do' %>
+  - reply_type: text
+    replies:
+      - text: "Great. ::smile::"
+      - text: "So... you're going to be Janet again."
+    suggestions:
+      - text: "Action! ::clapper::"
+      - text: "OK"
+    last_state: "say_review_9"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Janet is the mother of Mia, who just got her first period. Mia is really upset, so Janet came to the bathroom to try to help."
+      - text: "So... you're going to be Janet again."
+    suggestions:
+      - text: "Action! ::clapper::"
+      - text: "OK"
+    last_state: "say_review_9"
+<% end %>

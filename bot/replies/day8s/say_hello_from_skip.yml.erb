@@ -1,0 +1,11 @@
+- reply_type: text
+  replies:
+    - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
+    - text: "Before we get into health stuff, how are you doing today, <%= current_message.payload %>"
+  suggestions:
+    - text: "Pretty good!"
+    - text: "So-so"
+    - text: "Not so great"
+  skipping_day: true
+  last_flow: "day8"
+  last_state: "say_hello_from_skip"

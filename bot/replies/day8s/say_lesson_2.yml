@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Today is all about ways to feel better during periods."
+    - text: "Because for some of us, it can be a little rough..."
+  suggestions:
+    - text: "Sure can be"
+    - text: "Go on"
+  last_state: "say_lesson_2"

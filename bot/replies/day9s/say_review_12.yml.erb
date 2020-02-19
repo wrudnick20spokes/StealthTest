@@ -1,0 +1,39 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "It’s understandable to want Mia to take it little by little… after all, this is a big day! But C is a better choice — this could be a good opportunity to help Mia feel less shame about periods while also giving her helpful strategies to manage leaks." 
+      - text: "Ok, <%= current_message.payload %>... We're done with the quiz questions."
+    suggestions: 
+      - text: "::zzz::"
+      - text: "::smile sweat::"
+    last_state: "say_review_12"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "It’s understandable to want Mia to not be embarrassed by something so natural and normal. But that’s a lot to ask of someone just having their first period. C is a better choice — you can balance reducing shame around periods with giving her tips about her concerns."
+      - text: "Ok, <%= current_message.payload %>... We're done with the quiz questions."
+    suggestions: 
+      - text: "::zzz::"
+      - text: "::smile sweat::"
+    last_state: "say_review_12"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "You’re a star, Janet!" 
+      - text: "::internet:: "
+      - text: "This is a great way to reduce period shame as well as give Mia some practical tips."
+      - text: "Ok, <%= current_message.payload %>... We're done with the quiz questions."
+    suggestions: 
+      - text: "::zzz::"
+      - text: "::smile sweat::"
+    last_state: "say_review_12"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "It’s good to give Mia suggestions related to her concerns. But an even better choice is C —  this response gives her practical support while also reducing shame around periods." 
+      - text: "Ok, <%= current_message.payload %>... We're done with the quiz questions."
+    suggestions: 
+      - text: "::zzz::"
+      - text: "::smile sweat::"
+    last_state: "say_review_12"
+<% end %>

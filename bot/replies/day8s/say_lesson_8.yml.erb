@@ -1,0 +1,18 @@
+<% if current_message.message == 'I can relate' %>
+  - reply_type: text
+    replies: 
+      - text: "Can you? ::frown::"
+      - text: To help her with her symptoms, Maria likes to do moderate exercise like walking, and gets outside every day. She also takes little 20-minute naps whenever she has the time.
+    suggestions:
+      - text: Good call, Maria
+      - text: What else?
+    last_state: "say_lesson_8"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: To help her with her symptoms, Maria likes to do moderate exercise like walking, and gets outside every day. She also takes little 20-minute naps whenever she has the time.
+    suggestions:
+      - text: Good call, Maria
+      - text: What else?
+    last_state: "say_lesson_8"
+<% end %>

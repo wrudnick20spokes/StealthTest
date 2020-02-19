@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Maria’s also found that there are some yoga poses and deep breathing/meditation techniques that REALLY help when she has mild cramps or needs a mood boost."
+  suggestions:
+    - text: "Nice"
+      - text: "Haven't heard of that one!"
+  last_state: "say_lesson_9"

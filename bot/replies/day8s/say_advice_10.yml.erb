@@ -1,0 +1,19 @@
+<% if current_message.message == 'Less caffeine, okay' %>
+  - reply_type: text
+    replies: 
+      - text: "::smile::"
+      - text: "Alright, before we sign off, would you like to see a list of articles you can check out for more information on techniques to feel better during periods, like yoga poses for symptom relief, birth control for symptom relief, meditation, and more?"
+    suggestions:
+      - text: "Sure"
+      - text: "No thanks"
+    last_state: "say_advice_10"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: "Haha, whatever works best for you, <%= current_message.payload %>!"
+      - text: "Alright, before we sign off, would you like to see a list of articles you can check out for more information on techniques to feel better during periods, like yoga poses for symptom relief, birth control for symptom relief, meditation, and more?"
+    suggestions:
+      - text: "Sure"
+      - text: "No thanks"
+    last_state: "say_advice_10"
+<% end %>

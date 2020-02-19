@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Me and the review menu, always here for you!"
+    - text: "OK, while you're here, I'd like to share a couple other general tips about feeling better during a period."
+  suggestions:
+    - text: "OK"
+    - text: "Sorry, gotta go"
+  last_state: "say_lesson_13"

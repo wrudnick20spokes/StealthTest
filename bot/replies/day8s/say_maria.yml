@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "I met her while I was out sunning myself in a park. She complimented my buttons and we started chatting. ::smile::"
+    - text: "She's 28 and teaches second grade... Maria always has the cutest stories about her students."
+  suggestions: 
+    - text: "I bet!"
+  last_state: "say_maria"

@@ -1,0 +1,10 @@
+- reply_type: text
+  replies:
+    - text: "Alright, here they are! Check out the ones that interest you and let me know when you’re ready to move on."
+    - text: "Some great articles on birth control for symptom relief: https://www.webmd.com/women/pms/pms-and-the-pill#1 http://healthland.time.com/2012/01/20/birth-control-pills-provide-real-relief-from-menstrual-pain/"
+    - text: "Fitness for symptom relief: https://www.healthline.com/health/exercise-during-period"
+    - text: "Yoga poses that can help: https://www.elitedaily.com/wellness/yoga-poses-help-relieve-period-symptoms/1892317 https://www.lunette.com/blogs/news/7-yoga-poses-to-help-ease-menstrual-pain"
+    - text: "Meditation for symptom relief: Meditation for period symptom relief? https://www.elitedaily.com/p/meditating-on-your-period-could-be-a-game-changer-for-painful-pms-according-to-experts-9011260"
+  suggestions:
+    - text: "I'm all set"
+  last_state: "say_articles"

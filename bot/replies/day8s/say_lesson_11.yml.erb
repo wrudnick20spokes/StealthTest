@@ -1,0 +1,18 @@
+<% if current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "Exactly! ::wink::"
+      - text: "Managing period symptoms is a personal thing — there’s really no ‘best way to go.’ It’s more about figuring out what works best for the person and their body... just like my friends did!"
+    suggestions:
+      - text: "Makes sense"
+    last_state: "say_lesson_11"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Correct, if that’s how you feel!"
+      - text: "Which is to say… It sort of WAS a trick question… every answer is right. ::wink::"
+      - text: "Managing period symptoms is a personal thing — there’s really no ‘best way to go.’ It’s more about figuring out what works best for the person and their body... just like my friends did!"
+    suggestions:
+      - text: "Makes sense"
+    last_state: "say_lesson_11"
+<% end %>

@@ -1,0 +1,14 @@
+- reply_type: text
+  replies: 
+    - text: "But then she says, 'Mom, I'm really worried about bleeding through my pants tomorrow. That would be AWFUL!'"
+    - text: "What's the best way for you to respond?"
+    - text: "(A) 'Honey, you just had your first period! That's already been a lot to think about today. Why don't we take a break?'"
+    - text: "(B) 'Sweetheart, periods are totally normal... You should NEVER be embarrassed by them!'"
+    - text: "(C) 'I can understand you're worried about that. But periods are totally normal, and leaks do happen! It's nothing to be ashamed of. But if you want, I can explain some ways to avoid leaks.'"
+    - text: "(D) 'Don't worry kiddo, just use two pads!'"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_11"

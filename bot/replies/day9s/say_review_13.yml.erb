@@ -1,0 +1,17 @@
+<% if current_message.message == '::zzz::' %>
+  - reply_type: text
+    replies:
+      - text: "You can nap soon! ::wink::"
+      - text: "Remember that you can always read through the Review Menu for anything you'd like a refresher on. I'm adding new topics as soon as we cover them."
+    suggestions:
+      - text: "::thumbs up::"
+    last_state: "say_review_13"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Good work today!"
+      - text: "Remember that you can always read through the Review Menu for anything you'd like a refresher on. I'm adding new topics as soon as we cover them."
+    suggestions:
+      - text: "::thumbs up::"
+    last_state: "say_review_13"
+<% end %>

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Also, I'm almost afraid to mention it, but caffeine can make some symptoms worse - like breast tenderness. So if that's something you experience, try cutting back a bit."
+  suggestions:
+    - text: "*la la la, didn't hear that*"
+    - text: "Less caffeine, okay"
+  last_state: "say_advice_9"

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Alright, not bad but not good. Would a cute animal video help?"
+  suggestions:
+    - text: "Maybe?"
+    - text: "No thanks"
+  last_state: "say_animal_1"

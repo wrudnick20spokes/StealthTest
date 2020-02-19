@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Let me tell you about my friend Carol."
+  suggestions: 
+    - text: "OK"
+    - text: "Who's Carol?"
+  last_state: "say_lesson_3"

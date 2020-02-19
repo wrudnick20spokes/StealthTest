@@ -1,8 +1,8 @@
 class Day8Flow
   DAY_8_FLOWS = {
     say_hello: { next: "get_hello_response" },
-    say_hello_from_skip: { next: "" },
-    say_hello_from_catch_up: { next: "" },
+    say_hello_from_skip: { next: "get_intro_1_response" },
+    say_hello_from_catch_up: { next: "get_intro_1_response" },
     get_hello_response: { next: "say_intro_1" },
     say_intro_1: { next: "get_intro_1_response" },
     get_intro_1_response: {
@@ -38,21 +38,21 @@ class Day8Flow
     say_lesson_1_from_no_animal: { next: "get_lesson_1_repsonse" },
     say_lesson_1_from_animal: { next: "get_lesson_1_repsonse" },
     say_lesson_1: { next: "get_lesson_1_repsonse" },
-    get_lesson_1_repsonse: { next: "get_lesson_2" },
+    get_lesson_1_repsonse: { next: "say_lesson_2" },
     say_lesson_2: { next: "get_lesson_2_repsonse" },
-    get_lesson_2_repsonse: { next: "get_lesson_3" },
+    get_lesson_2_repsonse: { next: "say_lesson_3" },
     say_lesson_3: { next: "get_lesson_3_repsonse" },
-    get_lesson_3_repsonse: { next: "get_lesson_4" },
+    get_lesson_3_repsonse: { next: "say_lesson_4" },
     say_lesson_4: { next: "get_lesson_4_repsonse" },
-    get_lesson_4_repsonse: { next: "get_lesson_5" },
+    get_lesson_4_repsonse: { next: "say_lesson_5" },
     say_lesson_5: { next: "get_lesson_5_repsonse" },
-    get_lesson_5_repsonse: { next: "get_lesson_6" },
+    get_lesson_5_repsonse: { next: "say_lesson_6" },
     say_lesson_6: { next: "get_lesson_6_repsonse" },
     get_lesson_6_repsonse: {
       next: {
         "Another friend?" => "say_lesson_7_from_another_friend",
         "Go on" => "say_lesson_7_from_go_on",
-        "Who’s Maria?" => "say_maria"
+        "Who's Maria?" => "say_maria"
       }
     },
     say_maria: { next: "get_maria_response" },

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Mmhmm. And on that note, I want to say - while moderate exercise boosts most peoples' mood and energy level, your period isn't the time to go ALL OUT. ::weight lifter::"
+    - text: "Your body's already got a lot going on."
+  suggestions:
+    - text: "I won't"
+    - text: "If I must"
+  last_state: "say_advice_3"

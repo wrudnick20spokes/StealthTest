@@ -1,0 +1,9 @@
+- reply_type: text
+  replies: 
+    - text: "Which set of products needs to be changed MORE frequently?"
+    - text: "(A) Pads and tampons"
+    - text: "(B) Menstrual cups and period underwear"
+  suggestions: 
+    - text: "A"
+    - text: "B"
+  last_state: "say_review_5"

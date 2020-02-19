@@ -1,0 +1,19 @@
+<% if current_message.message == 'Not me' %>
+  - reply_type: text
+    replies: 
+      - text: "Well okay then! I’ll explain anyway, in case it helps someone else in your life..."
+      - text: "While it's understandable to want comfort when you aren't feeling your best, junk foods actually aren't great during your period."
+    suggestions:
+      - text: "OK"
+      - text: "Boo"
+    last_state: "say_advice_6"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: "Mmm... BUT -"
+      - text: "While it's understandable to want comfort when you aren't feeling your best, junk foods actually aren't great during your period."
+    suggestions:
+      - text: "OK"
+      - text: "Boo"
+    last_state: "say_advice_6"
+<% end %>

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "::thumbs up::"
+    - text: "Anyway, it's important to remember that your body is under stress during a period, so taking care of it is important."
+  suggestions:
+    - text: "OK"
+    - text: "::smile sweat::"
+  last_state: "say_advice_2_from_trust_me"

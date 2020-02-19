@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Every human is just so unique... but that's part of the beauty, right? ::smile::"
+    - text: "Anyway, I hope my friends sparked some ideas about what you or a loved one might want to try. (I put all their ideas in the Review Menu if you ever want to look back.)"
+  suggestions:
+        - text: "That review menu!"
+  last_state: "say_lesson_12"

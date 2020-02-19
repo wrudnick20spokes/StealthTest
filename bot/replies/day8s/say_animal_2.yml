@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "OK - check out this cute video of red pandas playing in the snow... https://www.youtube.com/watch?v=DSehQsYU9h4"
+  suggestions:
+    - text: "Aww"
+  last_state: "say_animal_2"

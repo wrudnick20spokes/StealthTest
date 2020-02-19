@@ -1,0 +1,47 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! The right answer is actually E. Cramping that keeps you from a normal routine and bleeding through a pad/tampon every hour are both signs of a problem."
+      - text: "Another one for you..."
+    suggestions: 
+      - text: "I'm ready"
+      - text: "::smile sweat::"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "Close! This answer is right, but bleeding through a pad/tampon every hour is ALSO the sign of a problem. So the answer is E."
+      - text: "Another one for you..."
+    suggestions: 
+      - text: "I'm ready"
+      - text: "::smile sweat::"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "Close! This answer is right, but cramping that keeps you from a normal routine is ALSO the sign of a problem. So the answer is E." 
+      - text: "Another one for you..."
+    suggestions: 
+      - text: "I'm ready"
+      - text: "::smile sweat::"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'D' %>
+  - reply_type: text
+    replies:
+      - text: "Close! B is right, but the other correct answer is actually C — bleeding through a pad/tampon every hour. So the answer is E." 
+      - text: "Another one for you..."
+    suggestions: 
+      - text: "I'm ready"
+      - text: "::smile sweat::"
+    last_state: "say_review_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Exactly right "
+      - text: "::yasss::"
+      - text: "Another one for you..."
+    suggestions: 
+      - text: "I'm ready"
+      - text: "::smile sweat::"
+    last_state: "say_review_2"
+<% end %>

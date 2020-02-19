@@ -1,0 +1,18 @@
+<% if current_message.message == "OK" %>
+  - reply_type: text
+    replies:
+      - text: "Carol has a fair amount of pain during her period - mostly cramps and headaches."
+    suggestions:
+      - text: "Poor thing"
+      - text: "I can relate"
+    last_state: "say_lesson_4"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Carol's a friend of mine I met while browsing the library. She's 42, a mother of two, and she gives the best book recommendations. ::books::"
+      - text: "Carol has a fair amount of pain during her period - mostly cramps and headaches."
+    suggestions:
+      - text: "Poor thing"
+      - text: "I can relate"
+    last_state: "say_lesson_4"
+<% end %>

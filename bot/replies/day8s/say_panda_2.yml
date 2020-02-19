@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Great choice!" 
+    - text: "https://www.youtube.com/watch?v=DSehQsYU9h4"
+  suggestions:
+    - text: "Aww..."
+  last_state: "say_panda_2"

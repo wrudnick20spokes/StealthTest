@@ -1,0 +1,20 @@
+<% if current_message.message == 'D' %>
+  - reply_type: text
+    replies:
+      - text: "You are 100% correct!"
+      - text: "::selffive::"
+      - text: "Okay, my last question is about Janet and Mia again. Remember those two?"
+    suggestions: 
+      - text: "I do"
+      - text: "Remind me"
+    last_state: "say_review_8"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! The amswer is D, menstrual cups and tampons."
+      - text: "Okay, my last question is about Janet and Mia again. Remember those two?"
+    suggestions: 
+      - text: "I do"
+      - text: "Remind me"
+    last_state: "say_review_8"
+<% end %>

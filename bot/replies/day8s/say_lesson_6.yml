@@ -1,0 +1,9 @@
+- reply_type: text
+  replies: 
+    - text: "Carol also likes to take soothing warm baths, and uses a heating pad on her belly while reading. (But never sleeping! That's a safety hazard.) ::alert::"
+    - text: "But I have another friend Maria..."
+  suggestions:
+    - text: "Another friend?"
+    - text: "Go on"
+    - text: "Who's Maria?"
+  last_state: "say_lesson_6"

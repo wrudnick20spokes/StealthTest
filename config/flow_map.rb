@@ -197,7 +197,7 @@ class FlowMap
     state :get_wrap_up_4_response
     state :say_goodbye
     # END WRAP UP
-	end
+  end
 
 
   # ################################################
@@ -388,7 +388,7 @@ class FlowMap
   # ################################################
   # HELPERS
   # ################################################
-	flow :helper do
+  flow :helper do
     state :say_too_early
 
     state :say_content_unlocked
@@ -556,7 +556,7 @@ class FlowMap
     state :get_offer_resume_12_response
 
     state :say_time_travel
-	end
+  end
 
   flow :catch_all do
     state :level1

@@ -1,4 +1,4 @@
-class Day8sController < BotController
+class Day9sController < BotController
 
   def method_missing(m, *args, &block)
     if m.to_s.starts_with?("say_")

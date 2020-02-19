@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "I know; it's a shame ::crying::"
+    - text: "But sticking to the healthy stuff and drinking lots of water - and perhaps the OCCASIONAL treat - will probably be the kindest thing you can do for yourself."
+  suggestions: 
+    - text: "Sigh"
+    - text: "Got it"
+  last_state: "say_advice_8"

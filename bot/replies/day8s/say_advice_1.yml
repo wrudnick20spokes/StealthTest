@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Great. ::smile::"
+    - text: "So my first piece of general advice is to TREAT YOUR BODY WELL." 
+    - text: "Follow all that good advice you give to your best friends when they aren't feeling well: get rest, eat healthfully, exercise, and be kind to your body. ::yoga::"
+  suggestions:
+    - text: "Got it"
+    - text: "So much easier to tell a friend..."
+  last_state: "say_advice_1"

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Hello again, friend! We're chatting so much these days and it's great. ::smile::"
+  suggestions: 
+    - text: "Hi CeCe ::wave::"
+  last_flow: "day8"
+  last_state: "say_hello"
