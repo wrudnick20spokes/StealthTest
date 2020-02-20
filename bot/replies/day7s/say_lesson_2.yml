@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Let’s start with a quiz question. True or false: Plain old water is actually the best way to clean the vagina and surrounding skin (vulva) during a period."
+  suggestions:
+    - text: "True"
+    - text: "False"
+  last_state: "say_lesson_2"

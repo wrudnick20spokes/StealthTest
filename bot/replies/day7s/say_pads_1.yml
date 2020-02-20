@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Alright! Pads are made of an absorbent material, and they stick to the inside of your underwear."
+    - text: "Some are cotton, some are synthetic, and some are organic."
+    - text: "The most common kind are thrown away (never flushed!) when they’re soaked — usually about every four hours."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_pads_1"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "OK"
+    - text: "So — with all these choices around, how does someone go about finding the right product for them?"
+  suggestions:
+    - text: "How?"
+    - text: "I'll skip this part"
+  last_state: "say_find_1_no_panties"

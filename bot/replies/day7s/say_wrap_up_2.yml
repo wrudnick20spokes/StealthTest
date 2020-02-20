@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Thanks for telling me!"
+    - text: "Farewell until tomorrow. ::flower::"
+  suggestions:
+    - text: "Bye CeCe"
+  last_state: "say_wrap_up_2"

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "OK — so I think we both know that when we have periods, we bleed."
+  suggestions:
+    - text: "Yep."
+    - text: "We DO? ::wink::"
+  last_state: "say_lesson_4"

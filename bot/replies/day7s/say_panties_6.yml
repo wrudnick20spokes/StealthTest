@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Except — like pads — they aren’t a good choice for swimming. They’ll just fill up with water."
+    - text: "Want to see a video that explains more about how period underwear work?"
+  suggestions:
+    - text: "Alright"
+    - text: "No thanks"
+  last_state: "say_panties_6"

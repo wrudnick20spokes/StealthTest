@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Everyone’s priorities are different... but there’s a product out there that’s best for each person. ::smile::"
+    - text: "I actually made a little comparison chart, in case it’s helpful."
+  suggestions:
+    - text: "A chart?"
+    - text: "I'm all good"
+  last_state: "say_how_4"

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Here it is!"
+    - text: "https://www.fda.gov/consumers/consumer-updates/facts-tampons-and-how-use-them-safely"
+  suggestions:
+    - text: "Continue"
+  last_state: "say_tampons_4"

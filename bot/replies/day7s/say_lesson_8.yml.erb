@@ -1,0 +1,23 @@
+<% if current_message.message == 'True!' %>
+  - reply_type: text
+    replies:
+      - text: "Hear hear! ::prayinghands::"
+      - text: "Sometimes society (or people selling us things...) want us to think periods are dirty."
+      - text: "But they are a TOTALLY natural thing and nothing to be ashamed of."
+      - text: "I wish I could tell that to the world on a loudspeaker! ::megaphone::"
+    suggestions:
+      - text: "Me too"
+      - text: "Alright CeCe"
+    last_state: "say_lesson_8"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "That's right!"
+      - text: "Sometimes society (or people selling us things...) want us to think periods are dirty."
+      - text: "But they are a TOTALLY natural thing and nothing to be ashamed of."
+      - text: "I wish I could tell that to the world on a loudspeaker! ::megaphone::"
+    suggestions:
+      - text: "Me too"
+      - text: "Alright CeCe"
+    last_state: "say_lesson_8"
+<% end %>

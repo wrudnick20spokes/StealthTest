@@ -1,0 +1,18 @@
+<% if current_message.message == 'True' %>
+  - reply_type: text
+    replies:
+      - text: "Exactly!"
+      - text: "::shower::"
+      - text: "Vaginas are truly self-cleaning. Nothing more than water is needed when you wash up in the bath or shower."
+    suggestions:
+      - text: "::bath::"
+    last_state: "say_lesson_3"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Actually, it's true!"
+      - text: "Vaginas are truly self-cleaning. Nothing more than water is needed when you wash up in the bath or shower."
+    suggestions:
+      - text: "::bath::"
+    last_state: "say_lesson_3"
+<% end %>

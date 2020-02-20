@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Like cups, they don’t need to be changed very often — just every 8-12 hours."
+    - text: "And they can also be washed and reused."
+  suggestions:
+    - text: "Nice"
+    - text: "OK"
+  last_state: "say_panties_5"

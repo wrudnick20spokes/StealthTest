@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Great, here it is:"
+    - text: "https://uthealthaustin.org/blog/period-products"
+  suggestions:
+    - text: "Done"
+  last_state: "say_how_6"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Good to know!"
+    - text: "Alright, today we’re going to talk about ways to stay dry and comfortable during your period. Also known as period hygiene."
+  suggestions:
+    - text: "Sounds good"
+    - text: "OK"
+  last_state: "say_lesson_1"

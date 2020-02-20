@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "True or false: Pads and tampons are the only two options for managing bleeding during a period."
+  suggestions:
+    - text: "True"
+    - text: "False"
+  last_state: "say_lesson_10"

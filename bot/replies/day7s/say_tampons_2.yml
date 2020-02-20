@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "You got it."
+    - text: "Tampons are made of absorbent material (cotton, organic cotton, synthetic material, etc), like pads. Except they’re placed INSIDE the vagina."
+    - text: "The most common types are replaced about every 4-8 hours. (Don’t keep them in longer!)"
+  suggestions:
+    - text: "With you so far"
+  last_state: "say_tampons_2"

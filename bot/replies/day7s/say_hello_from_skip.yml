@@ -1,0 +1,11 @@
+- reply_type: text
+  replies:
+    - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
+    - text: "I'm wondering, are you feeling any more knowledgeable since we started talking?"
+  suggestions:
+    - text: "Yes!"
+    - text: "A bit"
+    - text: "Not really"
+  skipping_day: true
+  last_flow: "day7"
+  last_state: "say_hello_from_skip"

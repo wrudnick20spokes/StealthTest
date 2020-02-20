@@ -1,0 +1,5 @@
+- reply_type: text
+  replies:
+    - text: "You're the best! OK the floor is yours:"
+  text_input: true
+  last_state: "say_feedback_2"

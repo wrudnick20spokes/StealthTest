@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "OK."
+    - text: "Next up, tampons! Want a little recap on tampons?"
+  suggestions:
+    - text: "Yes"
+    - text: "No thanks"
+  last_state: "say_tampons_1_no_pads"

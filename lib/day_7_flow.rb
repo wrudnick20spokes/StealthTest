@@ -1,8 +1,8 @@
 class Day7Flow
   DAY_7_FLOWS = {
     say_hello: { next: "get_hello_response" },
-    say_hello_from_skip: { next: "" },
-    say_hello_from_catch_up: { next: "" },
+    say_hello_from_skip: { next: "get_intro_1_response" },
+    say_hello_from_catch_up: { next: "get_intro_1_response" },
     get_hello_response: { next: "say_intro_1" },
     say_intro_1: { next: "get_intro_1_response" },
     get_intro_1_response: {
@@ -55,15 +55,15 @@ class Day7Flow
     get_lesson_12_response: {
       next: {
         "Sure" => "say_pads_1",
-        "No thanks" => "say_tampon_1_no_pads"
+        "No thanks" => "say_tampons_1_no_pads"
       }
     },
-    say_pads_1: { next: "got_pads_1_response" },
-    got_pads_1_response: { next: "say_pads_2" },
+    say_pads_1: { next: "get_pads_1_response" },
+    get_pads_1_response: { next: "say_pads_2" },
     say_pads_2: { next: "get_pads_2_response" },
     get_pads_2_response: { next: "say_tampons_1" },
-    say_tampon_1_no_pads: { next: "get_tampons_1_response" },
-    say_tampon_1: { next: "get_tampons_1_response" },
+    say_tampons_1_no_pads: { next: "get_tampons_1_response" },
+    say_tampons_1: { next: "get_tampons_1_response" },
     get_tampons_1_response: {
       next: {
         "Yes" => "say_tampons_2",
@@ -147,7 +147,7 @@ class Day7Flow
     say_how_4: { next: "get_how_4_response" },
     get_how_4_response: {
       next: {
-        "A chart" => "say_chart_1",
+        "A chart?" => "say_chart_1",
         "I'm all good" => "say_how_5_no_chart"
       }
     },

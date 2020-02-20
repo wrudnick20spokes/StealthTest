@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "I'm wondering, are you feeling any more knowledgeable since we started talking?"
+  suggestions:
+    - text: "Yes!"
+    - text: "A bit"
+    - text: "Not really"
+  last_state: "say_intro_1"

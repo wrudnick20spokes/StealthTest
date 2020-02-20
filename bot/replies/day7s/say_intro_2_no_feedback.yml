@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "No problem."
+    - text: "While we're on the subject, I'm also curious to check in — On a scale of 1-10 , at this point, how comfortable do you feel talking to your child about periods? (1 is 'very uncomfortable' and 10 is 'very comfortable')"
+  slider_input: true
+  slider_min: 1
+  slider_max: 10
+  last_state: "say_intro_2_no_feedback"

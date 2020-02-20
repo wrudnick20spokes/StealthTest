@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Well, there are a few factors to think about. One is how heavy your flow is."
+    - text: "If you’re a heavy bleeder, it may be better to choose a product that doesn’t need to be changed as often."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_how_2"

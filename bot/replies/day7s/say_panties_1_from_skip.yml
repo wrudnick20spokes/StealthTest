@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Alright."
+    - text: "OK, now for the last one — period panties. Have you heard of these?"
+  suggestions:
+    - text: "Yes"
+    - text: "No"
+    - text: "Maybe?"
+  last_state: "say_panties_1_from_skip"

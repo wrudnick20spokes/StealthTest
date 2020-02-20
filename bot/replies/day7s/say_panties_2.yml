@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Would you like to hear a little bit about them?"
+  suggestions:
+    - text: "Sure would"
+    - text: "No thanks"
+  last_state: "say_panties_2"

@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Cups are typically made of silicone. Like tampons, they are placed inside the vagina."
+    - text: "They can stay in longer than a tampon — up to 12 hours."
+    - text: "But when you take them out, you DON’T throw them away."
+  suggestions:
+    - text: "::recycling::"
+    - text: "OK"
+  last_state: "say_cups_4"

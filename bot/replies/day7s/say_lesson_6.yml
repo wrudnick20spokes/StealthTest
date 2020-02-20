@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "In addition to comfort, managing bleeding can also prevent leaks."
+    - text: "Some of us might not care about leaking, but lots of us would rather avoid it."
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "Indeed"
+  last_state: "say_lesson_6"

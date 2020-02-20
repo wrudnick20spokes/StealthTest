@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Yep!"
+    - text: "::comparison::"
+  suggestions:
+    - text: "Got it!"
+  last_state: "say_chart_1"

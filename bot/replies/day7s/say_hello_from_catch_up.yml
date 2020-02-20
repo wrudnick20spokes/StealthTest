@@ -1,0 +1,11 @@
+- reply_type: text
+  replies:
+    - text: "Awesome! Let me drop you into the next day’s content..."
+    - text: "I'm wondering, are you feeling any more knowledgeable since we started talking?"
+  suggestions:
+    - text: "Yes!"
+    - text: "A bit"
+    - text: "Not really"
+  catching_up_day: true
+  last_flow: "day7"
+  last_state: "say_hello_from_catch_up"

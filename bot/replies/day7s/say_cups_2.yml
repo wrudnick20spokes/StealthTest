@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Great. First off, let me show you what they look like."
+  suggestions:
+    - text: "OK"
+  last_state: "say_cups_2"

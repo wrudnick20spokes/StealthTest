@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Really? ::beaming:: Oh, that is wonderful to hear!"
+    - text: "Just a minute while I do a little robot dance..."
+  suggestions:
+    - text: "::dancing woman::"
+  last_state: "say_robot_dance"

@@ -1,0 +1,18 @@
+<% if current_message.message == 'We DO? ::wink::' %>
+  - reply_type: text
+    replies:
+      - text: "::crying laughing:: Newsflash!"
+      - text: "During periods, most people want to manage that bleeding to feel dry and comfortable."
+    suggestions:
+      - text: "Makes sense"
+      - text: "Yup"
+    last_state: "say_lesson_5"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "During periods, most people want to manage that bleeding to feel dry and comfortable."
+    suggestions:
+      - text: "Makes sense"
+      - text: "Yup"
+    last_state: "say_lesson_5"
+<% end %>

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "First up — pads. Want a quick explanation of the pros and cons, and the best way to use them?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"
+  last_state: "say_lesson_12"

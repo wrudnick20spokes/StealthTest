@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Here you go! https://www.shethinx.com/pages/thinx-it-works"
+  suggestions:
+    - text: "Ready to continue"
+  last_state: "say_panties_7"

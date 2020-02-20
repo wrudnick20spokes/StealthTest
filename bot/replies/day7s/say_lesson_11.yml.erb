@@ -1,0 +1,20 @@
+<% if current_message.message == 'True' %>
+- reply_type: text
+  replies:
+    - text: "Not quite! Those are popular options, but there are actually even more out there."
+    - text: "On that note, let’s talk about the four main products people can use to manage blood flow."
+    - text: "I know you may already be familiar with many of these, so you can decide which ones you want to learn about."
+  suggestions:
+    - text: "OK"
+  last_state: "say_lesson_11"
+<% else %>
+- reply_type: text
+  replies:
+    - text: "You’re so right!"
+    - text: "::glitter::"
+    - text: "On that note, let’s talk about the four main products people can use to manage blood flow."
+    - text: "I know you may already be familiar with many of these, so you can decide which ones you want to learn about."
+  suggestions:
+    - text: "OK"
+  last_state: "say_lesson_11"
+<% end %>

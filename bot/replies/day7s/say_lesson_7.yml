@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "But here’s one thing I want to get straight… people on their periods are NOT dirty, unclean, or gross in any way."
+  suggestions:
+    - text: "True!"
+    - text: "No?"
+  last_state: "say_lesson_7"

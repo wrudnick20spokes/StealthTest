@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Period underwear are made with several layers of polyester that pull wetness from the skin."
+    - text: "(They’re also designed to keep blood from leaking onto your clothes.)"
+  suggestions:
+    - text: "Got it"
+    - text: "Interesting!"
+  last_state: "say_panties_4"

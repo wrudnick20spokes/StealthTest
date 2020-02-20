@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Last thing — want to see an article that can help people think through which period products to use?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"
+  last_state: "say_how_5"

@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "(Like tampons, these are a great choice for swimming.)"
+    - text: "One thing some people find tricky is how to put them in. But you’ll get there with practice!"
+    - text: "Want to see a video on how to insert a menstrual cup?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"
+  last_state: "say_cups_6"

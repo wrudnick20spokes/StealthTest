@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Great. ::smile::"
+    - text: "Tampons are a good choice for swimmers because they are inside the body."
+    - text: "Would you like to see a good article I found on how to use tampons safely?"
+  suggestions:
+    - text: "OK"
+    - text: "No thanks"
+  last_state: "say_tampons_3"

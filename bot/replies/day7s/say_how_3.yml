@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "You’ll also want to consider lifestyle — what might work best for the kind of activities you do? Will you be comfortable changing the product in the restrooms available at work, or school?"
+  suggestions:
+    - text: "::thinking::"
+  last_state: "say_how_3"
