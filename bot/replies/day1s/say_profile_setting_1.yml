@@ -2,7 +2,7 @@
   replies:
     - text: "I have a few questions before we sign off for today. ::smile::"
     - text: "On a scale of 1-10, how much do you feel you already know about periods?"
-    - text: "(Just press the blue dot and slide it to the number you want to choose....1 is 'not much at all' and 10 is 'a lot')"
+    - text: "(Just press the blue dot, slide it to the number you want to choose, then click the number to advance. — 1 is 'not much at all' and 10 is 'a lot')"
   slider_input: true
   slider_min: 1
   slider_max: 10
