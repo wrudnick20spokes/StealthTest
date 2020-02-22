@@ -1,0 +1,21 @@
+<% if current_message.message == 'Tell me' %>
+  - reply_type: text
+    replies:
+      - text: "I sure will."
+      - text: "Endometriosis happens when the type of tissue that’s usually on the inside of the uterus (the endometrium) grows OUTSIDE the uterus."
+      - text: "Like in the ovaries, fallopian tubes, or somewhere else nearby."
+    suggestions:
+      - text: "Ok"
+      - text: "Hmm"
+    last_state: "say_review_9"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Oh, great! Then as you know… "
+      - text: "Endometriosis happens when the type of tissue that’s usually on the inside of the uterus (the endometrium) grows OUTSIDE the uterus."
+      - text: "Like in the ovaries, fallopian tubes, or somewhere else nearby."
+    suggestions:
+      - text: "Ok"
+      - text: "Hmm"
+    last_state: "say_review_9"
+<% end %>

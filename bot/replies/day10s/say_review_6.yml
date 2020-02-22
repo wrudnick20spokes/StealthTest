@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Usually they would cause pain in the pelvis, or periods that last longer than a week."
+    - text: "If you see your doctor about one of those things, they would likely check for fibroids."
+    - text: "Want to learn a bit more about fibroids, including how they’re treated?"
+  suggestions:
+    - text: "Sure"
+    - text: "No thanks"
+  last_state: "say_review_6"

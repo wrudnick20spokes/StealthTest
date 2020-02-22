@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Absolutely, here you go. For a little reading, try this: https://www.womenshealth.gov/files/documents/pcos-factsheet.pdf"
+    - text: "For a quick video, try this: https://www.youtube.com/watch?v=xCzZ3m2Tw_M"
+  suggestions:
+    - text: "All set"
+  last_state: "say_review_18a"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "::smile hearts::"
+    - text: "Today I want to tell you a bit about fibroids, endometriosis, and PCOS."
+  suggestions: 
+    - text: "Cool"
+    - text: "Not sure what those are"
+  last_state: "say_intro_1"

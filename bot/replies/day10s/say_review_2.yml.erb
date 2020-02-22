@@ -1,0 +1,32 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "It’s actually even more common… 1 in 3!"
+      - text: "They’re most common in people ages 30 - 40. But most fibroids actually DON’T cause any problems."
+      - text: "Before I get too far ahead of myself, how about I tell you what a fibroid actually is."
+    suggestions: 
+      - text: "Please do"
+      - text: "Ok"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "It’s actually even more common… 1 in 3!"
+      - text: "They’re most common in people ages 30 - 40. But most fibroids actually DON’T cause any problems."
+      - text: "Before I get too far ahead of myself, how about I tell you what a fibroid actually is."
+    suggestions: 
+      - text: "Please do"
+      - text: "Ok"
+    last_state: "say_review_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Right you are!"
+      - text: "::bravo::"
+      - text: "They’re most common in people ages 30 - 40. But most fibroids actually DON’T cause any problems."
+      - text: "Before I get too far ahead of myself, how about I tell you what a fibroid actually is."
+    suggestions: 
+      - text: "Please do"
+      - text: "Ok"
+    last_state: "say_review_2"
+<% end %>

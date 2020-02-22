@@ -1,0 +1,20 @@
+<% if ["A", "C"].include?(current_message.message) %>
+  - reply_type: text
+    replies: 
+      - text: "Thanks for choosing one of my inventions… but it’s actually B, polycystic ovary syndrome!"
+      - text: "What is PCOS though?"
+    suggestions:
+      - text: "What?"
+      - text: "I think I know"
+    last_state: "say_review_14"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: "You are CORRECT!"
+      - text: "::obamadancing::"
+      - text: "What is PCOS though? ::thinking::"
+    suggestions:
+      - text: "What?"
+      - text: "I think I know"
+    last_state: "say_review_14"
+<% end %>

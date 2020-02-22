@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "::frown:: Other symptoms might be pain during sex, heavy bleeding during periods, or bleeding in between periods. It can also make it harder to get pregnant."
+    - text: "BUT endometriosis can be treated. Want to learn a little more?"
+  suggestions: 
+    - text: "Yes please"
+    - text: "Skip"
+  last_state: "say_review_12"

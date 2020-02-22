@@ -1,0 +1,9 @@
+- reply_type: text
+  replies: 
+    - text: "Let me show a picture:"
+    - text: "::endo::"
+    - text: "Source: https://www.mayoclinic.org/diseases-conditions/endometriosis/multimedia/endometriosis/img-20006222"
+  suggestions:
+    - text: "I see"
+    - text: "I actually don’t see"
+  last_state: "say_review_10"
