@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Aw, I’m sorry to hear that."
+    - text: "Before we get to our content, would you like to try a 5-minute positive mentality meditation?" 
+  suggestions:
+    - text: "Sure, why not?"
+    - text: "No thanks" 
+  last_state: "say_intro_1b"

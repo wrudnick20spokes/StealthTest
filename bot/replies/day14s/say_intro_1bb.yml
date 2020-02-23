@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text : "Of course. Here’s one I like: https://www.youtube.com/watch?v=3RxXiFgkxGc"
+    - text : "Just say when you’re ready to move on."
+  suggestions:
+    - text: "Ready" 
+  last_state: "say_intro_1bb"

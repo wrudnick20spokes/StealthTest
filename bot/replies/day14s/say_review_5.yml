@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Thanks so much for telling me."
+    - text: "Next question: How comfortable do you feel talking to your child about periods? (1 is “very uncomfortable” and 10 is “very comfortable”)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 10
+  last_state: "say_review_5"

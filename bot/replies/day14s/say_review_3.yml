@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "The first thing I’d love to ask is, on a scale of 1-10, how much do you know about periods? (1 is “not much at all” and 10 is “a lot”)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 10
+  last_state: "say_review_3"

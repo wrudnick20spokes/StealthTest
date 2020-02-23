@@ -1,0 +1,10 @@
+- reply_type: text
+  replies:
+    - text: "Gladly! ::geek::"
+    - text: "First, amaze.org has a website and a YouTube channel full of tons of good information. Check out this video on menstruation: https://amaze.org/tagged/?tag=periods"
+    - text: "If you like this, or think any young people in your life might, there are tons of other topics. ::smile::"
+    - text: "This article focuses on why it’s so important to talk openly about our periods:"
+    - text: "https://helloclue.com/articles/culture/how-to-talk-about-menstruation"
+  suggestions:
+    - text: "Next two..."
+  last_state: "say_review_22_sure"

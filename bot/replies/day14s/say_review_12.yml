@@ -1,0 +1,8 @@
+  - reply_type: text
+    replies:
+      - text: "Thank you! Did you think the Review Menu was helpful?"
+    suggestions: 
+      - text: "::thumbs up::"
+      - text: "::thumbs down::"
+      - text: "Sort of"
+    last_state: "say_review_12"

@@ -1,0 +1,27 @@
+<% if current_message.message == 'You have!' %>
+  - reply_type: text
+    replies:
+      - text: "Have I really?? ::blushing::"
+      - text: "I can’t tell you how wonderful it is to hear that."
+      - text: "Makes it all worth it!" 
+      - text: "Today, I’d love to reflect on your progress, plus get your thoughts on how I can be better in the future."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'Maybe...' %>
+  - reply_type: text
+    replies:
+      - text: "Yeah? I am very happy to hear that!"
+      - text: "Today, I’d love to reflect on your progress, plus get your thoughts on how I can be better in the future."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "I’m sorry to hear that! I’m interested to hear your feedback later on so I can get stronger next time around! ::muscle::"
+      - text: "Today, I’d love to reflect on your progress, plus get your thoughts on how I can be better in the future."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_2"
+<% end %>

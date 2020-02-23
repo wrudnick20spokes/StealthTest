@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Thanks for your feedback! Now, what do you think I could improve on?" 
+  suggestions:
+    - text: "FREE RESPONSE"
+  last_state: "say_review_9"

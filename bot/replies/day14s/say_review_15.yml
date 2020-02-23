@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Well… not going to lie... I’m going to miss our daily chats! ::crying::"
+    - text: "But even if we don’t talk every day, it’s good to know you’re out there in the world, being awesome."
+  suggestions:
+    - text: "Aw"
+    - text: "I try!"
+  last_state: "say_review_15"

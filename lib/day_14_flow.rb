@@ -39,7 +39,7 @@ class Day14Flow
     say_review_14: { next: "get_reviews_14_response" },
     get_reviews_14_response: { next: "say_review_15" },
     say_review_15: { next: "get_reviews_15_response" },
-    get_reviews_15_response: { next: "say_review_16" },
+    get_reviews_15_response: { next: "say_wrap_up_2" },
     say_review_16: { next: "get_reviews_16_response" },
     get_reviews_16_response: { next: "say_review_17" },
     say_review_17: { next: "get_reviews_17_response" },

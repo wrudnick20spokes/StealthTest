@@ -1,0 +1,19 @@
+<% if current_message.message == "::thumbs up::" %>
+  - reply_type: text
+    replies:
+      - text: "Awesome! Glad to hear it."
+      - text: "Would you like to see some other resources about period conversations? I have a few more resources I can recommend!"
+    suggestions:
+      - text: "Sure!"
+      - text: "Not now."
+    last_state: "say_review_21_ok_b"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Sorry to hear."
+      - text: "Would you like to see some other resources about period conversations? I have a few more resources I can recommend!"
+    suggestions:
+      - text: "Sure!"
+      - text: "Not now."
+    last_state: "say_review_21_ok_b"
+<% end %>

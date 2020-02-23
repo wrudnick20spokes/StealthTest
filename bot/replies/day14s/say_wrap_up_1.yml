@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Well, that’s a wrap on our review day."
+    - text: "Can you tell me how well you liked today’s review? (1 is not at all, 5 is very much)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 5
+  last_state: "say_wrap_up_1"
