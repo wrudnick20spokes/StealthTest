@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Mia starts telling you about one of her friends from school. 'Emily said sometimes her cramps are so bad she has to stay home from school.'"
+  suggestions:
+    - text: "OK"
+  last_state: "say_review_10"

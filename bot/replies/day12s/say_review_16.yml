@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Even if it feels normal for you to talk about periods by now, it’s important to remember that others, especially younger people, might not feel the same when the topic is still really new or unfamiliar to them."
+    - text: "That’s why I want to pass along some of the listening practices I like to consider when having period conversations."
+  suggestions:
+    - text: "Go on"
+  last_state: "say_review_16"

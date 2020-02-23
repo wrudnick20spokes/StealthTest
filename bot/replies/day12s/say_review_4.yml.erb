@@ -1,0 +1,34 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "You’re right!"
+      - text: "::rhianna::"
+      - text: "Next one..."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_4"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! This is actually a common symptom of PCOS, or polycystic ovary syndrome. The right answer is A."
+      - text: "Next one..."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_4"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! This is something that happens to people with fibroids. The right answer is A."
+      - text: "Next one..."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_4"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! This is actually a common symptom of PCOS, or polycystic ovary syndrome. The right answer is A."
+      - text: "Next one..."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_4"
+<% end %>

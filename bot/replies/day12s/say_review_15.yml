@@ -1,0 +1,9 @@
+- reply_type: text
+  replies: 
+    - text: "I’ve said it before, and I’ll say it again! Periods are a deeply personal topic and can be really hard to talk about, in general and across different cultures."
+    - text: "Most of us are taught to be secretive about our periods, even with our parents or partners. Some cultures might also make it harder to feel comfortable or supported during your period. ::crying::"
+    - text: "That’s why talking about periods requires active listening and support." 
+  suggestions:
+    - text: "That makes sense"
+    - text: "Sure, I guess"
+  last_state: "say_review_15"

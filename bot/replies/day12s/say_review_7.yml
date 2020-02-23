@@ -1,0 +1,11 @@
+- reply_type: text
+  replies:
+    - text: "Alright, next question: what percent of moms felt unprepared for their first talk about periods?"
+    - text: "(A)	30%"
+    - text: "(B)	50%"
+    - text: "(C)	70%"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+  last_state: "say_review_7"

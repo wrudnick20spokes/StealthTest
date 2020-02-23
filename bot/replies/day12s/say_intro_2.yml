@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "::smile:: Let’s get right into it, shall we?"
+  suggestions:
+    - text: "OK" 
+    - text: "We shall"
+  last_state: "say_intro_2"

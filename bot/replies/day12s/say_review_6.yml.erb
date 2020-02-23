@@ -1,0 +1,19 @@
+<% if ["A", "B", "C", "D"].include?(current_message.message) %>
+  - reply_type: text
+    replies:
+      - text: "This actually IS a good way to find relief! The right answer is E — all of these might not work for everyone, but each one has helped a lot of people."
+      - text: "If you’d like a reminder of the full list of strategies for managing period symptoms, check out our list in the review menu."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_6"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Right you are!"
+      - text: "::beyonce dancing::"
+      - text: "While all of these might not work for EVERYONE, each one has helped a lot of people."
+      - text: "If you’d like a reminder of the full list of strategies for managing period symptoms, check out our list in the review menu."
+    suggestions: 
+      - text: "::thumbs up::"
+    last_state: "say_review_6"
+<% end %>

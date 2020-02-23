@@ -1,0 +1,13 @@
+- reply_type: text
+  replies:
+    - text: "What is a common problem for people with endometriosis?"
+    - text: "(A) Painful periods"
+    - text: "(B) Cysts on the ovaries"
+    - text: "(C) Tumors in the uterus"
+    - text: "(D) High androgen levels"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D" 
+  last_state: "say_review_3"

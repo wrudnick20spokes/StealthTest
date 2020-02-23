@@ -1,0 +1,14 @@
+- reply_type: text
+  replies:
+    - text: "Which of these is NOT a way to get relief from period symptoms?"
+    - text: "(A)	Yoga poses"
+    - text: "(B)	Meditation"
+    - text: "(C)	Over-the-counter pain relievers"
+    - text: "(D)	Hormonal birth control"
+    - text: "(E)	These are ALL good ways to get relief"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+    - text: "E"
