@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Well, we’re done for the day! You made it! ::sweat::"
+    - text: "Thanks for sticking with me through today’s lesson."
+  suggestions:
+    - text: "Sure thing!"
+  last_state: "say_review_23"

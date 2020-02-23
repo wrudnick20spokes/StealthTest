@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "How's it going today?" 
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "::thumbs down::" 
+    - text: "::shrug::" 
+  last_state: "say_intro_1"

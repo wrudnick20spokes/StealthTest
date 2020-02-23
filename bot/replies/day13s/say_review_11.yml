@@ -1,0 +1,14 @@
+- reply_type: text
+  replies:
+    - text: "Mia looks at you, worried. 'Is that going to happen to me?' she asks. 'That sounds horrible!'"
+    - text: "What’s the best response?"
+    - text: "(A)	They didn’t happen to you, so you’re probably fine! Try to relax."
+    - text: "(B) 	It’s just part of the gift of being able to carry a new life, sweetheart. Try to accept it."
+    - text: "(C)	It’s hard to know how your period will feel over time. But that kind of pain isn’t typical. And if your cramps do get worse like Emily’s, there are things you can do to feel better."
+    - text: "(D)	Emily probably isn’t taking care of herself well. If you eat healthy, hydrate, and exercise, it won’t happen to you."
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_11"

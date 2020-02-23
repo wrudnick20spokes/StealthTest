@@ -7,7 +7,29 @@ class Day13Flow
     say_hello_from_catch_up: { next: "" },
     get_hello_response: { next: "say_intro_1" },
     say_intro_1: { next: "get_intro_1_response" },
-    get_intro_1_response: { next: "say_intro_2" },
+    get_intro_1_response: { 
+      next: {
+        "::thumbs up::" => "say_intro_1a",
+        "::thumbs down::" => "say_intro_1b",
+        "::shrug::" => "say_intro_1c", 
+      }
+    },
+    say_intro_1a: { next: "get_intro_1a_response" },
+    get_intro_1a_response: { next: "say_review_1" },
+    say_intro_1b: { next: "get_intro_1b_response" },
+    get_intro_1b_response: { 
+      next: {
+        "Sure, why not?" => "say_intro_1bb",
+        "No thanks" => "say_intro_1bc",
+      }
+    },
+    say_intro_1c: { next: "get_intro_1b_response" },
+    say_intro_1bb: { next: "get_intro_1bb_response" },
+    get_intro_1bb_response: { next: "say_intro_1bbb" },
+    say_intro_1bc: { next: "get_intro_1bc_response" },
+    get_intro_1bc_response: { next: "say_review_1" },
+    say_intro_1bbb: { next: "get_intro_1bbb_response" },
+    get_intro_1bbb_response: { next: "say_review_1" },
     say_intro_2: { next: "get_intro_2_response" },
     get_intro_2_response: { 
       next: {
@@ -30,12 +52,7 @@ class Day13Flow
     say_review_5: { next: "get_reviews_5_response" },
     get_reviews_5_response: { next: "say_review_6" },
     say_review_6: { next: "get_reviews_6_response" },
-    get_reviews_6_response: { 
-      next: {
-        "Sure" => "say_review_6a", 
-        "No thanks" => "say_review_7", 
-      }
-    },
+    get_reviews_6_response: { next: "say_wrap_up_2"},
     say_review_6a: { next: "get_reviews_6a_response" },
     get_reviews_6a_response: { next: "say_review_7a" },
     say_review_7: { next: "get_reviews_7_response" },

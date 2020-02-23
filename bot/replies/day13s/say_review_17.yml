@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "The first is mindful listening, which means holding back your thoughts and not interjecting. This is really important when people bring up personal topics like periods."
+    - text: "For example, if your friend is considering a new hygienic practice, it’s important to let her first explain to you why this is something she is considering before giving your opinion or support."
+  suggestions:
+    - text: "Interesting"
+    - text: "I try to do this!"
+  last_state: "say_review_17"

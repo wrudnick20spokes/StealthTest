@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Would you like to see some other resources about period conversations? I have a few more resources I can recommend! "
+  suggestions:
+    - text: "Sure!"
+    - text: "Not now."
+  last_state: "say_review_22"

@@ -1,0 +1,13 @@
+- reply_type: text
+  replies:
+    - text: "Fill in the blank: It’s time to talk to a professional if someone hasn’t had a period in _______. (Assuming they aren’t pregnant/near menopause.)"
+    - text: "(A) 6 weeks"
+    - text: "(B) 2 months"
+    - text: "(C) 3 months"
+    - text: "(D) 4 months"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_5"

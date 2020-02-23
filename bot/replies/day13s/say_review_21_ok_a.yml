@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "I’m curious, how did you like the video?"
+  suggestions:
+    - text: "::thumbs up::"
+    - text: "::thumbs down::"
+  last_state: "say_review_21_ok_a"

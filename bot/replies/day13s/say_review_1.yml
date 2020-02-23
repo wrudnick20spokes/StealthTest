@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "First question… your friend Olivia (close to your age) tells you her cramps have been more painful than usual. She’s also bleeding in a different color than usual — sort of brown-ish. She asks you what you think she should do. What’s the best response?"
+    - text: "(A) I’m sorry to hear that! I heard it’s a good idea to talk to a medical professional when period symptoms change a lot like that."
+    - text: "(B) I’m sorry to hear that! But your symptoms don’t actually sound concerning — cramps are normal, and so is brown-ish blood."
+  suggestions:
+    - text: "A"
+    - text: "B"
+  last_state: "say_review_1"

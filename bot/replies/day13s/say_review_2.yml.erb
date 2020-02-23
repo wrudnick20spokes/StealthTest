@@ -1,0 +1,20 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "Correct!"
+      - text: "::point::"
+      - text: "While Olivia’s symptoms ARE in the range of normal, anything out of that person’s usual symptoms is good to chat out with a medical professional."
+      - text: "Next one..."
+    suggestions: 
+      - text: "Let's go"
+    last_state: "say_review_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Not quite!"
+      - text: "While Olivia’s symptoms ARE in the range of normal, anything out of that person’s usual symptoms is good to chat out with a medical professional."
+      - text: "Next one..."
+    suggestions: 
+      - text: "Let's go"
+    last_state: "say_review_2"
+<% end %>
