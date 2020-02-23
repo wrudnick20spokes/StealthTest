@@ -1,0 +1,19 @@
+<% if current_message.message == 'True' %>
+- reply_type: text
+  replies: 
+    - text: "Nice try, but it’s actually the other way around!"
+    - text: "Actually, my creators surveyed a lot of moms in 2017 and let me in on some intel."
+  suggestions:
+    - text: "OK"
+    - text: "Go on..."
+  last_state: "say_review_7"
+<% else %>
+- reply_type: text
+  replies: 
+    - text: "That’s exactly right!"
+    - text: "Actually, my creators surveyed a lot of moms in 2017 and let me in on some intel."
+  suggestions:
+    - text: "OK"
+    - text: "Go on..."
+  last_state: "say_review_7"
+<% end %>

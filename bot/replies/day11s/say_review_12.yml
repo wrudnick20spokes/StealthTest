@@ -1,0 +1,14 @@
+- reply_type: text
+  replies:
+    - text: "Ok, how about this one:"
+    - text: "Imagine you’re picking your daughter up from school and she tells you her best friend just started her first period. What do you say?"
+    - text: "(A) Stop what you’re doing and ask your daughter how that makes her feel, then LISTEN before you speak again." 
+    - text: "(B) Say something reassuring, like, “well, lucky it’s not you, right!”"
+    - text: "(C) Laugh and say, “oh, she got a visit from Aunt Flo, huh?” It’s important for her to develop a sense of humor about periods!"
+    - text: "(D) Recommend a good website for your daughter to use if she has questions about periods."
+  suggestions: 
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_12"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "No worries! They’ll be available for you to review later."
+    - text: "Well , we’re done for the day! You made it! ::sweat::"
+    - text: "Thanks for sticking with me through today’s lesson."
+  suggestions:
+    - text: "Sure thing"
+  last_state: "say_review_22_not_now"

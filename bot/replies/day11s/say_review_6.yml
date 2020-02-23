@@ -1,0 +1,9 @@
+
+- reply_type: text
+  replies:
+    - text: "Now, for a quick quiz question... ::wink::"
+    - text: "True or False: Most moms feel prepared to talk to their daughters about puberty."
+  suggestions:
+    - text: "True"
+    - text: "False"
+  last_state: "say_review_6"

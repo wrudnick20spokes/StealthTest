@@ -1,0 +1,10 @@
+
+- reply_type: text
+  replies:
+    - text: "That’s the spirit!"
+    - text: "By the end of today, I hope you’ll feel confident talking about periods so that you can share what you’ve learned with the important people in your life."
+    - text: "Everyone deserves to feel educated and in charge of their bodies. ::weight lifter::"
+  suggestions: 
+    - text: "::grimace::"
+    - text: "::smile::"
+  last_state: "say_review_2"

@@ -1,0 +1,29 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies: 
+      - text: "Hmm, you might want to try something a little more supportive or encouraging. I think “C” is a good way to go! This option also gives you the opportunity to share what you’ve learned about cups if she’s interested in hearing it."
+    suggestions:
+      - text: "Got it"
+    last_state: "say_review_11"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies: 
+      - text: "It’s understandable to want to share your concerns with a good friend — after all, you want her to be safe and healthy! But I think “C” is the better option because you are giving her the opportunity to explain her choice first before offering what you know about cups. (Plus, menstrual cups actually have a very low risk of infection!) "
+    suggestions:
+      - text: "Got it"
+    last_state: "say_review_11"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies: 
+      - text: "Excellent! This response is caring and supportive of your friends choice. You also let her know (without pressure!) that you know something about cups if she’s interested in hearing it. Well done!"
+    suggestions:
+      - text: "Got it"
+    last_state: "say_review_11"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: "Hmm. Changing the subject immediately might cause your friend to feel dismissed even if that’s not your intention. I think “C” is a better way to acknowledge her choice, and it gives you the opportunity to offer her support if she wants it. "
+    suggestions:
+      - text: "Got it"
+    last_state: "say_review_11"
+<% end %>

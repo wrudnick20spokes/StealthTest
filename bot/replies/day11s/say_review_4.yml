@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Before we get started, I’d like to stress why I think today is so important."
+    - text: "Remember when I told you that most girls prefer to learn about periods from people they know?"
+  suggestions: 
+    - text: "That rings a bell."
+    - text: "You did?"
+  last_state: "say_review_4"

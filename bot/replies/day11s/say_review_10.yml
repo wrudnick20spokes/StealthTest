@@ -1,0 +1,13 @@
+- reply_type: text
+  replies: 
+    - text: "Alright, let’s try a scenario. Imagine you’re hanging out with a good friend and she tells you that she’s going to try a menstrual cup instead of her usual pads. What’s the best response?"
+    - text: "(A) “Why bother? You’ve been using pads forever!”"
+    - text: "(B) “I would NEVER try a reusable period product. Aren’t you worried about getting an infection?”"
+    - text: "(C) “That’s great! I’ve learned a bit about cups recently. Why did you decide to try them?”"
+    - text: "(D) Change the subject immediately."
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_10"
