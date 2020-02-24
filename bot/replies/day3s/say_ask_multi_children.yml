@@ -3,6 +3,6 @@
     - text: "Good to know!"
     - text: "How many of those children have already menstruated?"
   slider_input: true
-  slider_min: 1
+  slider_min: 0
   slider_max: 10
   last_state: "say_ask_multi_children"

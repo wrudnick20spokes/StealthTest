@@ -2,7 +2,7 @@
   replies:
     - text: "So, color. Let me show you a picture:"
     - text: "::blood color::"
-    - text: "(Click the link to see a bigger version: https://www.medicalnewstoday.com/articles/324848.php)"
+    - text: "Source: https://www.medicalnewstoday.com/articles/324848.php"
   suggestions:
     - text: "OK"
     - text: "Interesting..."

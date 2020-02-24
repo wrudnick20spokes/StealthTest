@@ -1,9 +1,10 @@
 - reply_type: text
   replies:
     - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
-    - text: "I’m excited to talk with you about today’s lesson."
+    - text: "OK — today’s lesson! I’m excited to chat with you about this one."
   suggestions:
-    - text: "Hi"
+    - text: "Me too"
+    - text: "We’ll see..."
   skipping_day: true
   last_flow: "day3"
   last_state: "say_hello_from_skip"

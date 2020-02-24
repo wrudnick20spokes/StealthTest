@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: "This is all really helpful to know."
+    - text: "This is really helpful to know."
     - text: "Okay, done with the questions! Thanks so much for going through that with me."
   suggestions:
     - text: "Whew ::sweat::"
