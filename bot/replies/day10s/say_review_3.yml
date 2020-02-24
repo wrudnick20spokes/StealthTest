@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "A fibroid is a ball of smooth muscle found in the uterus. It’s a tumor, but it is NOT cancer."
+    - text: "It can grow on the inside of the uterus, the outside of the uterus, or in the uterine wall."
+  suggestions:
+    - text: "Picture?"
+  last_state: "say_review_3"

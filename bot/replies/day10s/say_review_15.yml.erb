@@ -1,0 +1,18 @@
+<% if current_message.message == "What?" %>
+  - reply_type: text
+    replies: 
+      - text: "PCOS is a condition where the ovaries can’t do their normal jobs as well. (Their job is releasing eggs into the fallopian tubes every month.)"
+    suggestions:
+      - text: "Ok"
+      - text: "That's right"
+    last_state: "say_review_15"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: "Do you? Nice! As a refresher..."
+      - text: "PCOS is a condition where the ovaries can’t do their normal jobs as well. (Their job is releasing eggs into the fallopian tubes every month.)"
+    suggestions:
+      - text: "Ok"
+      - text: "That's right"
+    last_state: "say_review_15"
+<% end %>

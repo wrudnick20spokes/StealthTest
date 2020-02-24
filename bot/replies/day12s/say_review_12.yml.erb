@@ -1,0 +1,31 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "It’s understandable to want to comfort Mia, and only deal with issues as they come up. But if Mia’s worried about it now, it may help to give her more information. Plus, she might want to tell Emily some of what she learns. C is the best choice here. "
+    suggestions: 
+      - text: "Got it!"
+    last_state: "say_review_12"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "It’s understandable to want to help Mia take it in stride… but it’s a good idea to let Mia know that this is not normal, and that there are things she could do to feel better if this happens to her. C is the best choice here."
+    suggestions: 
+      - text: "Got it!"
+    last_state: "say_review_12"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "Oh yeah! Way to go, Janet."
+      - text: "::jonas yes::"
+      - text: "This is a great way to comfort Mia and let her know there are options out there if this happens to her."
+    suggestions: 
+      - text: "Got it!"
+    last_state: "say_review_12"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "These are good tips that might help keep Mia feeling well. But sometimes, cramps happen no matter what a person does to prevent them! C is a better way to offer Mia comfort and tips without putting blame or judgment on Emily."
+    suggestions: 
+      - text: "Got it!"
+    last_state: "say_review_12"
+<% end %>

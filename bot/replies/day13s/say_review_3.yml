@@ -1,0 +1,13 @@
+- reply_type: text
+  replies:
+    - text: "Two major hormones that go up and down during the menstrual cycle (and can affect our mood) are: "
+    - text: "(A) Testosterone and growth hormone"
+    - text: "(B) Insulin and adrenaline"
+    - text: "(C) Cortisol and melatonin"
+    - text: "(D) Estrogen and progesterone"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_3"

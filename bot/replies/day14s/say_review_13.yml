@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Got it. Last question: is there anything else you’d like to tell my creators about this experience? They will be reading every single response!"
+  suggestions:
+    - text: "FREE RESPONSE"
+  last_state: "say_review_13"

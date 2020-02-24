@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Most people with PCOS have higher levels of hormones typically found in men (androgens)."
+    - text: "Although everyone has at least a low level of androgens in their blood, people with PCOS usually have levels that are much higher than normal."
+  suggestions:
+    - text: "I see"
+  last_state: "say_review_16"

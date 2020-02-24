@@ -1,0 +1,18 @@
+<% if current_message.message == 'Cool' %>
+  - reply_type: text
+    replies:
+      - text: "A few days ago we talked about signs of a problem with your period — things like very heavy flow, irregular periods, and more."
+    suggestions:
+      - text: "We sure did"
+      - text: "We did?"
+    last_state: "say_intro_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Don’t worry, I’ll explain everything."
+      - text: "A few days ago we talked about signs of a problem with your period — things like very heavy flow, irregular periods, and more."
+    suggestions:
+      - text: "We sure did"
+      - text: "We did?"
+    last_state: "say_intro_2"
+<% end %>

@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "You’re Janet again. You’re at home reading and Mia comes up to you… it’s now day 3 of her first period." 
+  suggestions:
+    - text: "Got it"
+    - text: "Getting into character..." 
+  last_state: "say_review_9"

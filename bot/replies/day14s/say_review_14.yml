@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Wonderful. I can’t tell you how much I appreciate you taking the time to tell me how I’m doing. I’ll be using your wise words to help other people like you in the future. ::smile::"
+  suggestions:
+    - text: "::smile::"
+    - text: "No Problem"
+  last_state: "say_review_14"

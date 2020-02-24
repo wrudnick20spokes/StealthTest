@@ -1,0 +1,29 @@
+<% if current_message.message == "A" %>
+- reply_type: text
+  replies:
+    - text: "Fantastic choice! Your daughter bringing this up may mean she has other things to tell you or ask you — she could be gauging your reaction. Your response is gentle and caring, and will likely make her feel more comfortable talking about periods with you in the future."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_review_13"
+<% elsif current_message.message == "B" %>
+- reply_type: text
+  replies:
+    - text: "It definitely makes sense that you want to reassure your daughter, but this response might discourage her from asking or telling you what she’s really thinking or feeling about periods in the moment AND in the future. “A” is a better way to come across gentle and inviting."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_review_13"
+<% elsif current_message.message == "C" %>
+- reply_type: text
+  replies:
+    - text: "A little humor never hurts, but it’s important to also acknowledge that your daughter just shared something personal with you. Giving her the opportunity to share her thoughts and feelings about periods will likely encourage her to feel comfortable doing so in the future. I think “A” is a better option!"
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_review_13"
+<% else %>
+- reply_type: text
+  replies:
+    - text: "Good websites are hard to find, so I totally get why you want to make sure your daughter has a resource. But “A” is a better choice here… after all, she’s talking to YOU about this, and you want her to feel like you’re open to her questions. You can always offer a website later on."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_review_13"
+<% end %>

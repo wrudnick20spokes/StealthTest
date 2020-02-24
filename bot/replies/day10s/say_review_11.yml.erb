@@ -1,0 +1,19 @@
+<% if current_message.message == 'I see' %>
+  - reply_type: text
+    replies: 
+      - text: "Great!"
+      - text: "Usually, someone with endometriosis will have painful periods."
+    suggestions:
+      - text: "Yep..."
+      - text: "Aww"
+    last_state: "say_review_11"
+<% else %>
+  - reply_type: text
+    replies: 
+      - text: "Fair enough, this one’s a little hard to notice. It’s those little red dots growing on the ovaries and fallopian tubes."
+      - text: "Usually, someone with endometriosis will have painful periods."
+    suggestions:
+      - text: "Yep..."
+      - text: "Aww"
+    last_state: "say_review_11"
+<% end %>

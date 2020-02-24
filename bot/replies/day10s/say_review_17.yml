@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "People with PCOS may also have cysts (small, pimple-like growths) on their ovaries."
+    - text: "Common symptoms are: irregular periods, heavy bleeding, facial/body hair, and difficulty getting pregnant."
+  suggestions:
+    - text: "OK"
+    - text: "Can it be treated?"
+  last_state: "say_review_17"

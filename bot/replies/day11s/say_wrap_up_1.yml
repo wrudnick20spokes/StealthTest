@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Learning how to confidently talk about periods can be such a powerful feeling, and will really benefit the important people in your life!"
+    - text: "Before you go, could you tell me how useful today’s lesson was? (1 is not useful at all, 5 is very useful.)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 5
+  last_state: "say_wrap_up_1"

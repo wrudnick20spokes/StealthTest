@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Sure! https://www.verywellhealth.com/period-problems-that-warrant-a-call-to-doctor-2721908"
+  suggestions:
+    - text: "Continue"
+  last_state: "say_review_20a"

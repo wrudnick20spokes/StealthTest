@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "OK! Here’s the link if you’d like to save it. It’ll also be in the review menu."
+    - text: "https://www.npr.org/2018/03/20/594966524/talking-about-periods-in-public"
+  suggestions:
+    - text: "Got it"
+  last_state: "say_review_21_watch_later"

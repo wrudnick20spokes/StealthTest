@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Guess what? It’s time for another review day." 
+  suggestions:
+    - text: "Alright"
+    - text: "Cool!" 
+  last_state: "say_intro_1"

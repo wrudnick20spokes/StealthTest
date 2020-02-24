@@ -1,0 +1,10 @@
+
+- reply_type: text
+  replies:
+    - text: "They found that almost 70% of moms said they felt unprepared for their first period talk. ::anxious::"
+    - text: "So, if you also feel that way, you are SO not alone."
+    - text: "A third of these moms also said they didn’t receive any information on puberty when they were younger."
+  suggestions: 
+    - text: "::surprise::"
+    - text: "::blank::"
+  last_state: "say_review_8"

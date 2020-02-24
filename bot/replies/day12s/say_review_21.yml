@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Before we wrap up for today, I’d like to share one of my favorite videos with you."
+    - text: "It’s five minutes, but I LOVE it. My friends all say it leaves them feeling proud of their bodies and more willing to talk openly about periods. It might be something you want to share with others in your life."
+  suggestions:
+    - text: "OK"
+    - text: "No thanks"
+    - text: "I'll watch later"
+  last_state: "say_review_21"

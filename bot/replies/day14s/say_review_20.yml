@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Trust me when I say, practice makes perfect. I didn’t become an expert overnight." 
+    - text: "An added bonus of using these listening practices is that it gives you the time to really think about how you want to respond, which is great because you have so much knowledge to share!"
+  suggestions:
+    - text: "I suppose"
+    - text: "That's true!"
+  last_state: "say_review_20"

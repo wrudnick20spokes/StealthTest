@@ -1,0 +1,34 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! It IS non-cancerous, but a fibroid is actually in the uterus. (So C is right.)"
+      - text: "Next up..."
+    suggestions: 
+      - text: "Ready"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! It’s actually C, a non-cancerous tumor in the uterus."
+      - text: "Next up..."
+    suggestions: 
+      - text: "Ready"
+    last_state: "say_review_2"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "You got it!"
+      - text: "::fab5clap"
+      - text: "Next up..."
+    suggestions: 
+      - text: "Ready"
+    last_state: "say_review_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Not quite! It is in the uterus, but it is NOT cancerous. (So C is right.)"
+      - text: "Next up..."
+    suggestions: 
+      - text: "Ready"
+    last_state: "say_review_2"
+<% end %>

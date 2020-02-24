@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Great choice! Enjoy."
+    - text: "https://www.npr.org/2018/03/20/594966524/talking-about-periods-in-public"
+    - text: "Let me know when you’re ready to move on." 
+  suggestions:
+    - text: "Ready"
+  last_state: "say_review_21_ok"

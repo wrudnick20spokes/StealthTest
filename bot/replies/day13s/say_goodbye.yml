@@ -1,0 +1,4 @@
+- reply_type: text
+  replies: 
+    - text: "::smile::"
+  last_state: "say_goodbye"

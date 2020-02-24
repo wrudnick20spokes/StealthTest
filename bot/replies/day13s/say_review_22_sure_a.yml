@@ -1,0 +1,10 @@
+- reply_type: text
+  replies:
+    - text: "If you want to learn more about first period conversations, check this article out:"
+    - text: "https://www.amightygirl.com/blog?p=11614"
+    - text: "And, if you want to read more about why it's important to talk to your daughter about pelvic health, clink below:"
+    - text: "https://www.upworthy.com/when-it-comes-to-discussing-pelvic-health-with-your-daughter-the-sooner-the-better"
+    - text: "Let me know when you’re ready to move on."
+  suggestions:
+    - text: "Ready"
+  last_state: "say_review_22_sure_a"

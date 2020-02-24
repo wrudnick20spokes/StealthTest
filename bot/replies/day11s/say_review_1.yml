@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "Conversations about periods can be especially challenging because they can feel personal, and there are often many emotions involved."
+    - text: "But I totally believe you can do it, especially with a few tips!"
+  suggestions:
+    - text: "I hope so…"
+    - text: "I think I can too!"
+  last_state: "say_review_1"

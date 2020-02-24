@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Okay, overall, what do you think I’m doing well? "
+  suggestions: 
+    - text: "FREE RESPONSE"
+  last_state: "say_review_8"

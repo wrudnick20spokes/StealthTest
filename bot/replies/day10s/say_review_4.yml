@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "::fibroids::"
+    - text: "Source: https://www.health.harvard.edu/a_to_z/fibroids-a-to-z"
+    - text: "Great idea!"
+  suggestions: 
+    - text: "I see"
+  last_state: "say_review_4"

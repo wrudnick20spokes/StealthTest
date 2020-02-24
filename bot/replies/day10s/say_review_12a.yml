@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "Sure! Go check out what interests you. Here’s an article I like: https://www.womenshealth.gov/a-z-topics/endometriosis"
+    - text: "And here’s a video: https://www.youtube.com/watch?v=7Pb7GQbtEh4"
+  suggestions: 
+    - text: "Continue"
+  last_state: "say_review_12a"

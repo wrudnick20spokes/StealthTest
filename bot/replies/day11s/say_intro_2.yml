@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Today’s Lesson"
+    - text: "In our time together so far, we’ve gone over lots of information about periods."
+    - text: "But KNOWING the information doesn’t always mean it’s going to be smooth sailing COMMUNICATING it to others."
+  suggestions:
+    - text: "True"
+    - text: "I guess"
+  last_state: "say_intro_2"

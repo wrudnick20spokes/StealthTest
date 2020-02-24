@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Thankfully, there are lots of things people can do to treat PCOS."
+    - text: "Want to learn a bit more?"
+  suggestions:
+    - text: "Yes please"
+    - text: "No thanks"
+  last_state: "say_review_18"

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text : "Alright, well I hope your day looks up from here."
+    - text : "Today is our last review day. I’ll keep it pretty short so you can look through the Review Menu on your own and check out whatever you’d most like to refresh your memory on."
+  suggestions:
+    - text: "OK" 
+    - text: "Good deal!" 
+  last_state: "say_intro_1bc"

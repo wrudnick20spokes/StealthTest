@@ -1,0 +1,29 @@
+<% if current_message.message == 'A' %>
+  - reply_type: text
+    replies:
+      - text: "You’re so right! "
+      - text: "::beyonce::"
+      - text: "So what IS endometriosis?"
+    suggestions: 
+      - text: "Tell me"
+      - text: "I already know"
+    last_state: "say_review_8"
+<% elsif current_message.message == 'B' %>
+  - reply_type: text
+    replies:
+      - text: "Close! It’s actually a little more common… 1 in 10."
+      - text: "So what IS endometriosis?"
+    suggestions: 
+      - text: "Tell me"
+      - text: "I already know"
+    last_state: "say_review_8"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Close! It’s actually a little less common… 1 in 10."
+      - text: "So what IS endometriosis?"
+    suggestions: 
+      - text: "Tell me"
+      - text: "I already know"
+    last_state: "say_review_8"
+<% end %>

@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Good to know!"
+    - text: "Now I’d like to ask you a few questions about how chatting with me has been. You can be honest — I promise you won’t be hurting my feelings. Feedback helps me improve! ::smile::"
+  suggestions:
+    - text: "It’s a deal"
+    - text: "If you say so..."
+  last_state: "say_review_7"

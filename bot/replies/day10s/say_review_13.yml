@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "Alright!"
+    - text: "The last condition I want to cover today is PCOS. Want to guess what it stands for? (A) Pelvic chronic orbital syndrome, (B) Polycystic ovary syndrome, (C) Physical cytokine ovulation syndrome"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+  last_state: "say_review_13"

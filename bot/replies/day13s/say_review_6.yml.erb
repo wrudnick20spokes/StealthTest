@@ -1,0 +1,28 @@
+<% if ["A", "B" ].include?(current_message.message) %>
+  - reply_type: text
+    replies:
+      - text: "In most cases, it’s actually okay to wait a little longer before checking in. The answer is C, 3 months. That said, if something just FEELS wrong, it never hurts to ask your doctor."
+      - text: "Alright, I’m going to stop with the quizzing today so you have some extra time to browse through the review menu and check out whatever you’d like. But first, how helpful was today’s review? (1 is not helpful at all, 5 is very helpful)"
+    slider_input: true
+    slider_min: 1
+    slider_max: 5
+    last_state: "say_review_6"
+<% elsif current_message.message == 'C' %>
+  - reply_type: text
+    replies:
+      - text: "You got it!"
+      - text: "::victory::"
+      - text: "Alright, I’m going to stop with the quizzing today so you have some extra time to browse through the review menu and check out whatever you’d like. But first, how helpful was today’s review? (1 is not helpful at all, 5 is very helpful)"
+    suggestions: 
+      - text: "Let's go"
+    last_state: "say_review_6"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Close! But it’s actually a good idea to check in a little sooner than that — at about 3 months. ::thumbs up::"
+      - text: "Alright, I’m going to stop with the quizzing today so you have some extra time to browse through the review menu and check out whatever you’d like. But first, how helpful was today’s review? (1 is not helpful at all, 5 is very helpful)"
+    slider_input: true
+    slider_min: 1
+    slider_max: 5
+    last_state: "say_review_6"
+<% end %>

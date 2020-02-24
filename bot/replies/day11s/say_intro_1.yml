@@ -1,0 +1,8 @@
+- reply_type: text
+  replies: 
+    - text: "This is the day I’ve been looking forward to since we first met!"
+    - text: "Today we practice having conversations with OTHER people about periods."
+  suggestions: 
+    - text: "Cool!"
+    - text: "Got it"
+  last_state: "say_intro_1"

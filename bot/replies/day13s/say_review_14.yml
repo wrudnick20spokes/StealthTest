@@ -1,0 +1,6 @@
+- reply_type: text
+  replies: 
+    - text: "Now let’s break down in a bit more detail why period conversations are so challenging. Plus cover some tools that will help prepare you to have these conversations confidently!"
+  suggestions:
+    - text: "Sounds good"
+  last_state: "say_review_14"

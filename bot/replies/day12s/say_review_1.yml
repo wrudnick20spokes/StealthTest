@@ -1,0 +1,13 @@
+- reply_type: text
+  replies:
+    - text: "Which one of these is a correct description of a fibroid?"
+    - text: "(A)	A non-cancerous tumor in the ovaries"
+    - text: "(B)	A cancerous tumor in the ovaries"
+    - text: "(C)	A non-cancerous tumor in the uterus"
+    - text: "(D)	A cancerous tumor in the uterus"
+  suggestions:
+    - text: "A"
+    - text: "B"
+    - text: "C"
+    - text: "D"
+  last_state: "say_review_1"

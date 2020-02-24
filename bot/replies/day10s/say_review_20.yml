@@ -1,0 +1,10 @@
+- reply_type: text
+  replies:
+    - text: "As a closing reminder, it’s a good idea to get medical help when..."
+    - text: "1. You’re having a period symptom that is not typical FOR YOU, especially if it’s an issue that’s happened for more than one period."
+    - text: "2. You’re having a period symptom that’s stopping you from doing your daily routines."
+    - text: "Want an article that explains when to get help in more detail?"
+  suggestions:
+    - text: "Ok"
+    - text: "No thanks"
+  last_state: "say_review_20"

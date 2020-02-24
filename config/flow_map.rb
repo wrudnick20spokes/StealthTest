@@ -384,6 +384,55 @@ class FlowMap
     state :say_goodbye
   end
 
+  # ################################################
+  # DAY 10 
+  # ################################################
+  flow :day10 do
+    Day10Flow::DAY_10_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+  # ################################################
+  # DAY 11 
+  # ################################################
+  flow :day11 do
+    Day11Flow::DAY_11_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+  # ################################################
+  # DAY 12 
+  # ################################################
+  flow :day12 do
+    Day12Flow::DAY_12_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+  # ################################################
+  # DAY 13 
+  # ################################################
+  flow :day13 do
+    Day13Flow::DAY_13_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
+
+  # ################################################
+  # DAY 14 
+  # ################################################
+  flow :day14 do
+    Day14Flow::DAY_14_FLOWS.each do |key, value|
+      state key
+    end
+    state :say_goodbye
+  end
 
   # ################################################
   # HELPERS

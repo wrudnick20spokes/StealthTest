@@ -1,0 +1,10 @@
+
+- reply_type: text
+  replies:
+    - text: "I really appreciate you learning and sharing with me these past two weeks."
+    - text: "My goal was for you to feel more in charge of your own body and health, and feel comfortable and confident talking to others, and I hope I’ve done that."
+  suggestions:
+    - text: "You have!"
+    - text: "Maybe..."
+    - text: "Not really"
+  last_state: "say_review_1"

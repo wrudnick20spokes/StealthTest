@@ -1,0 +1,9 @@
+- reply_type: text
+  replies:
+    - text: "But of course! Here are a few resources… just let me know when you’re ready to move on:"
+    - text: "For an overview, check out this one:  https://nwhn.org/fibroids-/"
+    - text: "To learn more about causes, and how size/location affect symptoms, check out this video: https://www.youtube.com/watch?v=4df7bLWg2Lo"
+    - text: "For treatment options, look at this: https://www.youtube.com/watch?v=4R-38AQjPRE"
+  suggestions:
+    - text: "All set"
+  last_state: "say_review_6a"

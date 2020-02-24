@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Very valuable to know, thank you! Relatedly, are there certain pieces of information we covered together that you plan to carry into your life or share with others? "
+  suggestions:
+    - text: "FREE RESPONSE"
+  last_state: "say_review_11"

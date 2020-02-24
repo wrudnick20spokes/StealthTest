@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "I think some congratulations are in order..."
+    - text: "You’ve stuck with me for EVERY DAY of this series! ::trophy::"
+  suggestions:
+    - text: "I have!"
+    - text: "*taking a bow*"
+  last_step: "say_intro_1"
