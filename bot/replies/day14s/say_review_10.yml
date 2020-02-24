@@ -1,6 +1,5 @@
 - reply_type: text
   replies:
     - text: "Gotcha. ::smile:: Were there topics I covered you thought were especially interesting/helpful?"
-  suggestions:
-    - text: "FREE RESPONSE"
+  text_input: true
   last_state: "say_review_10"
