@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: "Let’s start with a quiz question. True or False: Feeling emotional (sad, blue, angry) before and during a period has nothing to do with the menstrual cycle."
+    - text: "Let’s start with a quiz question. True or False: Feeling emotional (sad, anxious, angry) before and during a period has nothing to do with the menstrual cycle."
   suggestions:
     - text: "True"
     - text: "False"

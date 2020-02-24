@@ -4,6 +4,6 @@
     - text:  "You may know them already. They are estrogen and..."
   suggestions:
     - text: "Progesterone?"
-    - text:  "Prostoglandins?"
+    - text:  "Prostaglandins?"
     - text:  "What?"
   last_state: "say_lesson_4"

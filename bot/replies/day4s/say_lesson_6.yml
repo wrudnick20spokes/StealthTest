@@ -3,5 +3,5 @@
     - text: "Indeed. Now, you’ve probably heard of PMS, or premenstrual syndrome."
   suggestions:
     - text: "Sure have"
-    - text: "Continue"
+    - text: "Maybe"
   last_state: "say_lesson_6"
