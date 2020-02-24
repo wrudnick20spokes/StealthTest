@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
-    - text: "Today’s going to be a little different from our first few days."
+    - text: "So, today’s going to be a little different from our first few days."
   suggestions:
     - text: "How so?"
     - text: "OK"
