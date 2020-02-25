@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Alright, I’m seeing that this score is actually lower than what you told me on Day 1, which was <%= current_message.payload%>."
+    - text: "Could you say a little more about why you think your score is lower now?"
+  text_input: true
+  last_state: "say_comfort_lower"

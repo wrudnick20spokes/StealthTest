@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Interesting, that’s lower than what you said before! You gave it a <%= current_message.payload %> two weeks ago."
+    - text: "I’m wondering, why do you think your score is lower now?"
+  text_input: true
+  last_state: "say_knowledge_lower"

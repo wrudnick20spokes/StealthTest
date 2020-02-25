@@ -5,3 +5,4 @@
   slider_min: 1
   slider_max: 10
   last_state: "say_review_3"
+  compare_with: "day_1_answer_1"

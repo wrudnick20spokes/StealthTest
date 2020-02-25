@@ -432,6 +432,20 @@ class FlowMap
       state key
     end
     state :say_goodbye
+    state :review_knowledge_router
+    state :say_knowledge_higher
+    state :say_knowledge_same
+    state :say_knowledge_none
+    state :say_knowledge_lower
+    state :get_knowledge_follow_up
+    state :say_comfort_question
+    state :get_comfort_response
+    state :say_comfort_higher
+    state :say_comfort_none
+    state :say_comfort_same
+    state :say_comfort_lower
+    state :get_comfort_follow_up
+    state :say_importance_question
   end
 
   # ################################################
