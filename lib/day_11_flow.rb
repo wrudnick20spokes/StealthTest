@@ -3,8 +3,8 @@
 class Day11Flow
   DAY_11_FLOWS = {
     say_hello: { next: "get_hello_response" },
-    say_hello_from_skip: { next: "" },
-    say_hello_from_catch_up: { next: "" },
+    say_hello_from_skip: { next: "get_intro_1_response" },
+    say_hello_from_catch_up: { next: "get_intro_1_response" },
     get_hello_response: { next: "say_intro_1" },
     say_intro_1: { next: "get_intro_1_response" },
     get_intro_1_response: { next: "say_intro_2" },

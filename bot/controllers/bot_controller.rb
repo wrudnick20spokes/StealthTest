@@ -3,7 +3,10 @@ class BotController < Stealth::Controller
   helper :all
 
   def route
-    if current_message.message.include? "SKIP_TO"
+    if current_message.message.include? "SKIPPING_TO_DAY"
+      day_number = current_message.message.partition(':').last
+      step_to flow: "day#{day_number}", state: "say_hello_from_skip"
+    elsif current_message.message.include? "SKIP_TO"
       split_string = current_message.message.split(':')
       last_flow = split_string[1]
       last_state = split_string[2]
