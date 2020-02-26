@@ -114,7 +114,9 @@ class Day6Flow
       }
     },
     say_share_video_1: { next: "get_share_video_1_response" },
-    get_share_video_1_response: { next: "say_lesson_18" },
+    get_share_video_1_response: { next: "say_share_video_2" },
+    say_share_video_2: { next: "get_share_video_2_response" },
+    get_share_video_2_response: { next: "say_lesson_18" },
     say_lesson_18_no_video: { next: "get_lesson_18_response" },
     say_lesson_18: { next: "get_lesson_18_response" },
     get_lesson_18_response: { next: "say_lesson_19" },

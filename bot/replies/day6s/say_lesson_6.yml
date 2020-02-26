@@ -3,5 +3,5 @@
     - text: "Again, mild cramps lasting a day or two are common. But if you have diarrhea, are vomiting, get headaches, or have lower back pain — this isn’t typical period pain."
   suggestions:
     - text: "OK"
-    - text: "Sounds rough"
+    - text: "No fun"
   last_state: "say_lesson_6"

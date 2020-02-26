@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: "Let me start with a quick quiz question... true or false: periods that are painful enough to keep someone home from school or work are just part of a typical period."
+    - text: "Let me ask you a quick question... true or false: periods that are painful enough to keep someone home from school or work are just part of a typical period."
   suggestions:
     - text: "True"
     - text: "False"

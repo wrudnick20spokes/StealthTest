@@ -1,7 +1,7 @@
 - reply_type: text
   replies: 
     - text: "Right?? ::smile hearts:: I wish I could have one as a pet, but probably best for both of us if I just watch videos..."
-    - text: "Ok - now for today's lesson."
+    - text: "Ok — now for today's lesson."
   suggestions: 
     - text: "::thumbs up::"
   last_state: "say_lesson_1_from_animal"

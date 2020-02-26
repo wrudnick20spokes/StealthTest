@@ -3,5 +3,5 @@
     - text: "OK — now let’s cover some other signs that may mean there’s a problem."
     - text: "Next up: bleeding VERY heavily. This condition is known as menorrhagia. (Pronounced men-or-AGE-ee-uh)"
   suggestions:
-    - text: "But what’s VERY heavy?"
+    - text: "What counts as VERY heavily?"
   last_state: "say_lesson_8"

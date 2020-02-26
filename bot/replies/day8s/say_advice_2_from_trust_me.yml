@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "::thumbs up::"
-    - text: "Anyway, it's important to remember that your body is under stress during a period, so taking care of it is important."
+    - text: "It's important to remember that your body is under stress during a period, so taking care of it is important."
   suggestions:
     - text: "OK"
     - text: "::smile sweat::"

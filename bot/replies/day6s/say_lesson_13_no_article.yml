@@ -4,5 +4,5 @@
     - text: "The next sign of a problem is bleeding in between periods."
     - text: "Light bleeding between periods (also called 'spotting') can sometimes be perfectly normal..." 
   suggestions:
-    - text: " ...but?"
+    - text: " ...and other times?"
   last_state: "say_lesson_13_no_article"

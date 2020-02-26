@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "I’ll also share an article I like from the Mayo Clinic: https://www.mayoclinic.org/diseases-conditions/premenstrual-syndrome/expert-answers/pmdd/faq-20058315"
+    - text: "And a video about the biology behind PMDD: https://www.youtube.com/watch?v=nj3qIMO6Glk"
+  suggestions:
+    - text: "Continue"
+  last_state: "say_share_video_2"
