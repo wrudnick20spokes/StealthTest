@@ -4,5 +4,5 @@
   suggestions:
     - text: "Traitors!"
     - text: "Bummer"
-        - text: "OK"
+    - text: "OK"
   last_state: "say_advice_7"
