@@ -1,6 +1,9 @@
 - reply_type: text
   replies: 
     - text: "Next up… endometriosis. How many people with a uterus do you think have endometriosis? (A) 1 in 10, (B) 1 in 20, (C) 1 in 5"
+    - text: "(A) 1 in 10"
+    - text: "(B) 1 in 20"
+    - text: "(C) 1 in 5"
   suggestions:
     - text: "A"
     - text: "B"

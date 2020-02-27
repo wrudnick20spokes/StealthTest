@@ -3,5 +3,5 @@
     - text: "Fibroids can vary in size...from as small as a pea to the size of a melon."
     - text: "But only one third of people with fibroids will have any kind of problem from them."
   suggestions: 
-    - text: "What kind of problem?"
+    - text: "What kind of problems could they cause?"
   last_state: "say_review_5"

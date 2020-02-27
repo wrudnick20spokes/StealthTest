@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: "Next up, tampons! Want a little recap on tampons?"
+    - text: "Next up, tampons! Want a little refresher on tampons?"
   suggestions:
-    - text: "Yes"
+    - text: "But of course"
     - text: "No thanks"
   last_state: "say_tampons_1"

@@ -1,7 +1,7 @@
 <% if current_message.message == 'A' %>
   - reply_type: text
     replies:
-      - text: "Good try, but the right answer is actually C. If a person’s mood changes feel extreme, and stop them from doing their normal routine, that may mean it’s time to see a professional." 
+      - text: "Good try, but the right answer is actually C. If a person’s mood changes feel extreme, and stop them from doing their normal routine, that can be a sign of PMDD, and may mean it’s time to see a professional."
       - text: "OK, let's try another..."
     suggestions: 
       - text: "Alright"
@@ -9,7 +9,7 @@
 <% elsif current_message.message == 'B' %>
   - reply_type: text
     replies:
-      - text: "Good try, but the right answer is actually C. If a person’s mood changes feel extreme, and stop them from doing their normal routine, that may mean it’s time to see a professional." 
+      - text: "Good try, but the right answer is actually C. If a person’s mood changes feel extreme, and stop them from doing their normal routine, that can be a sign of PMDD, and may mean it’s time to see a professional."
       - text: "OK, let's try another..."
     suggestions: 
       - text: "Alright"
@@ -17,8 +17,8 @@
 <% else %>
   - reply_type: text
     replies:
-      - text: "Yes that's exactly what PMDD is."
       - text: "::bowtie::"
+      - text: "Yes that's exactly what PMDD is."
       - text: "If you or someone you know might be suffering from PMDD, it's smart to talk to a doctor."
       - text: "OK, let's try another..."
     suggestions: 

@@ -1,8 +1,8 @@
 - reply_type: text
   replies:
     - text: "Oh no. Well, I'm sorry to hear that, but it's helpful for me to know all the same."
-    - text: "I'll try to get better in the future. ::smile::"
-    - text: "Hey, would you be willing to write my creators a sentence or two about why you haven't found the information helpful so far?"
+    - text: "Hey, would you be willing to write my creators a sentence or two about why you haven’t found the information helpful so far?"
+    - text: "It’ll help me get better in the future. ::smile::"
   suggestions:
     - text: "Sure"
     - text: "No thanks"

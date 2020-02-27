@@ -1,8 +1,8 @@
 - reply_type: text
   replies:
     - text: "OK."
-    - text: "OK, now we’re getting into the newer stuff... Next up: menstrual cups. Want to hear a bit about these?"
+    - text: "OK, now let’s move on to some of the newer stuff... Next up: menstrual cups. Want to hear a bit about these?"
   suggestions:
-    - text: "I do"
-    - text: "I do not"
+    - text: "I’m interested!"
+    - text: "No thanks"
   last_state: "say_cups_1_no_tampons"

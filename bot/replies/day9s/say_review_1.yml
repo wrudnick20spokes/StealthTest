@@ -1,5 +1,6 @@
 - reply_type: text
   replies: 
+    - text: "Let’s get started!"
     - text: "First question... do you remember which of the following are the sign(s) of a problem?"
     - text: "(A) Having to change a pad/tampon every 2 hours"
     - text: "(B) Cramping that is painful enough it keeps you from your normal routine"

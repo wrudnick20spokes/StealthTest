@@ -3,5 +3,5 @@
     - text: "All you do is wash it with gentle soap and water and put it back in."
     - text: "After your period’s over, you boil it to clean it thoroughly."
   suggestions:
-    - text: "::soap::"
+    - text: "Lather up!"
   last_state: "say_cups_5"

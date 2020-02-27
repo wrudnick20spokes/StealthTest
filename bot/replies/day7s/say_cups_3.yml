@@ -4,5 +4,5 @@
     - text: "Source: https://www.nytimes.com/2019/07/16/health/menstrual-cup-periods-women.html"
   suggestions:
     - text: "I see!"
-    - text: "I was already familiar"
+    - text: "I've seen these around"
   last_state: "say_cups_3"

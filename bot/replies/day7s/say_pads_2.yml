@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "For swimming, pads aren’t the best choice. They’ll just soak up lots of water, leaving them too full to hold blood."
-    - text: "This video will show you how to pick the right kind of pad, and how to use it (with some info on tampons, too): https://www.youtube.com/watch?v=M9nEJUgUHQ0"
+    - text: "If you want to learn even more, this video will show you how to pick the right kind of pad, and how to use it (with some info on tampons, too): https://www.youtube.com/watch?v=M9nEJUgUHQ0"
   suggestions:
     - text: "Continue"
   last_state: "say_pads_2"

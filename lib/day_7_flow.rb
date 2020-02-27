@@ -66,7 +66,7 @@ class Day7Flow
     say_tampons_1: { next: "get_tampons_1_response" },
     get_tampons_1_response: {
       next: {
-        "Yes" => "say_tampons_2",
+        "But of course" => "say_tampons_2",
         "No thanks" => "say_cups_1_no_tampons"
       }
     },
@@ -86,8 +86,8 @@ class Day7Flow
     say_cups_1: { next: "get_cups_1_response" },
     get_cups_1_response: {
       next: {
-        "I do" => "say_cups_2",
-        "I do not" => "say_panties_1_from_skip"
+        "I’m interested!" => "say_cups_2",
+        "No thanks" => "say_panties_1_from_skip"
       }
     },
     say_cups_2: { next: "get_cups_2_response" },

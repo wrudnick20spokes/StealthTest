@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: "For example, maybe someone is telling you how hard it’s been to focus on work with cramps lately. An empathic response might be, “ It sounds like your cramps have been really painful and distracting these days. That’s got to be hard.”"
+    - text: "For example, maybe someone is telling you how hard it’s been to focus on work with cramps lately. An empathic response might be, 'It sounds like your cramps have been really painful and distracting these days. That’s got to be hard.'"
     - text: "From here, your friend can tell you heard her and care, and from there she can tell you more, or ask for advice."
   suggestions:
     - text: "Sounds hard."

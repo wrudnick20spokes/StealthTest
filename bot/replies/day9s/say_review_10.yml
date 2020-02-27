@@ -2,6 +2,6 @@
   replies: 
     - text: "::smile:: So you've come in to talk to Mia, and she really opened up to you. You helped explain what's going on in her body and how to manage periods. She decided to try a pad first. She's feeling a lot better!"
   suggestions:
-    - text: "Go me!"
+    - text: "How great!"
     - text: "Alright"
   last_state: "say_review_10"
