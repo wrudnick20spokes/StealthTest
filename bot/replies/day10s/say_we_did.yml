@@ -4,4 +4,4 @@
     - text: "I know I’m covering a lot… the review menu is always here for you if you need it."
   suggestions:
     - text: "Gotcha"
-  last_state: "say_review_1b"
+  last_state: "say_we_did"
