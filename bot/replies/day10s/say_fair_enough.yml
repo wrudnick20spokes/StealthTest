@@ -1,0 +1,6 @@
+- reply_type: text
+  replies: 
+    - text: "Fair enough, this one’s a little hard to notice. It’s those little red dots growing on the ovaries and fallopian tubes."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_fair_enough"

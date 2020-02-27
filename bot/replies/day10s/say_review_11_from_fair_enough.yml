@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Usually, someone with endometriosis will have painful periods."
+  suggestions:
+    - text: "Yep..."
+    - text: "Aww"
+  last_state: "say_review_11"

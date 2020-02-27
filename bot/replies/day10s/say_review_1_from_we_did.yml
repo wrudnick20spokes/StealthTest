@@ -1,0 +1,7 @@
+- reply_type: text
+  replies: 
+    - text: "Today’s lesson is about specific period-related health issues some people may have."
+    - text: "Even if they aren’t things you experience personally, it’s likely you know someone who does."
+  suggestions:
+    - text: "Got it"
+  last_state: "say_review_1_from_we_did"

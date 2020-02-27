@@ -11,16 +11,18 @@ class Day10Flow
     say_intro_2: { next: "get_intro_2_response" },
     get_intro_2_response: { 
       next: {
-        "We sure did" => "say_review_1a",
-        "We did?" => "say_review_1b"
+        "We sure did" => "say_review_1",
+        "We did?" => "say_we_did"
       }
     },
-    say_review_1: { next: "get_reviews_1_response" },
-    say_review_1a: { next: "get_reviews_1_response" },
-    say_review_1b: { next: "get_reviews_1b_response" },
-    say_review_1c: { next: "get_reviews_1_response" },
-    get_reviews_1_response: { next: "say_review_2" },
-    get_reviews_1b_response: { next: "say_review_1c" },
+    say_review_1: { next: "get_review_1_response" },
+    get_review_1_response: { next: "say_fibroids_1" },
+    say_we_did: { next: "get_we_did_response" },
+    get_we_did_response: { next: "say_review_1_from_we_did" },
+    say_review_1_from_we_did: { next: "get_review_1_response" },
+    get_review_1_response: { next: "say_fibroids_1" },
+    say_fibroids_1: { next: "get_fibroids_1_reponse" },
+    get_fibroids_1_reponse: { next: "say_review_2" },
     say_review_2: { next: "get_reviews_2_response" },
     get_reviews_2_response: { next: "say_review_3" },
     say_review_3: { next: "get_reviews_3_response" },
@@ -46,7 +48,15 @@ class Day10Flow
     say_review_9: { next: "get_reviews_9_response" },
     get_reviews_9_response: { next: "say_review_10" },
     say_review_10: { next: "get_reviews_10_response" },
-    get_reviews_10_response: { next: "say_review_11" },
+    get_reviews_10_response: {
+      next: {
+        "I see" => "say_review_11",
+        "I actually don’t see" => "say_fair_enough"
+      }
+    },
+    say_fair_enough: { next: "get_fair_enough_response" },
+    get_fair_enough_response: { next: "say_review_11_from_fair_enough" },
+    say_review_11_from_fair_enough: { next: "get_reviews_11_response" },
     say_review_11: { next: "get_reviews_11_response" },
     get_reviews_11_response: { next: "say_review_12" },
     say_review_12: { next: "get_reviews_12_response" },
