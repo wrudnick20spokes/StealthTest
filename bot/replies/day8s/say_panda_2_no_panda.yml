@@ -1,6 +1,6 @@
 - reply_type: text
   replies: 
-    - text: "OK, then I'll move on to today's health lesson."
+    - text: "Alright, I’ll move on then. Hope your day looks up from here!"
   suggestions: 
     - text: "::thumbs up::"
   last_state: "say_panda_2_no_panda"

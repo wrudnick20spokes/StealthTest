@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: "Oh trust me, I can relate. But I'll try it if you do... 'CeCe, remember to take a nap after this... you were up so late reading articles!'"
+    - text: "Oh trust me, I can relate. But I'll try it if you do... Note to self: CeCe, remember to take a nap after this... you were up so late reading articles!"
   suggestions: 
     - text: "::smile::"
-    - text: "I'll try"
+    - text: "I'll try to take care of myself too"
   last_state: "say_trust_me"

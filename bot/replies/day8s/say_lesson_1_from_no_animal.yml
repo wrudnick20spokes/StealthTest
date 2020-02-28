@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: "OK, then I'll move on to today's health lesson."
+    - text: "Alright, I’ll move on then. Hope your day looks up from here!"
     - text: "OK — now for today’s lesson."
   suggestions:
     - text: "::thumbs up::"

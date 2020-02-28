@@ -3,6 +3,6 @@
     - text: "Maria manages her period symptoms pretty differently from Carol."
     - text: "She doesn't have much cramping, but does struggle with low energy and mood."
   suggestions:
-    - text: "OK"
+    - text: "Aw"
     - text: "I can relate"
   last_state: "say_lesson_7_from_go_on"
