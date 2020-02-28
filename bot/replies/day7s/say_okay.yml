@@ -1,6 +1,6 @@
 - reply_type: text
   replies: 
-    - text: "OK! ::beaming:: Hopefully we can bump that up even more with the rest of our time together."
+    - text: "OK! ::smile:: Hopefully we can bump that up even more with the rest of our time together."
   suggestions:
     - text: "Hopefully!"
   last_state: "say_okay"
