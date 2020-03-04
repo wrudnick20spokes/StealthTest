@@ -3,5 +3,5 @@
     - text: "::frown:: She manages the pain with over-the-counter medications like ibuprofen and acetaminophen (Tylenol) — they make her feel better and don't interfere with any of her other medications."
     - text: "She's also found that using hormonal birth control is a big help."
   suggestions:
-    - text: "OK"
+    - text: "Glad she found help!"
   last_state: "say_lesson_5"
