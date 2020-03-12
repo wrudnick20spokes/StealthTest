@@ -5,5 +5,6 @@
   slider_input: true
   slider_min: 1
   slider_max: 10
+  save_response_question: "How comfortable would you feel if your child wanted to talk to you about their period?"
   save_response_field: "day_1_answer_2"
   last_state: "say_profile_setting_2"
