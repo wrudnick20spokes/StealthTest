@@ -1,17 +1,11 @@
-<% if current_message.message == 'Makes sense' %>
+<% if current_message.message == "I sure wasn't" %>
   - reply_type: text
     replies:
-      - text: "Yeah!"
-      - text: "I can actually relate."
-    suggestions:
-      - text: "You can?"
+      - text: "I'm sorry to hear that. You're not alone!"
     last_state: "say_why_4"
 <% else %>
   - reply_type: text
     replies:
-      - text: "I’m sorry to hear that." 
-      - text: "I can actually relate."
-    suggestions:
-      - text: "You can?"
+      - text: "Mmhmm." 
     last_state: "say_why_4"
 <% end %>

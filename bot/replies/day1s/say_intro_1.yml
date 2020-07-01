@@ -1,8 +1,9 @@
 - reply_type: text
   replies:
-    - text: "We’ll be getting well acquainted over the next couple weeks."
-    - text: "Nothing brings people together like talking about periods, am I right?"
+    - text: "::smile::"
+    - text: "Let's get started!"
+    - text: "My goal is to support you as you support your child in all things to do with periods."
   suggestions:
-    - text: "::laughing::"
-    - text: "...maybe?"
+    - text: "OK"
+    - text: "::thumbs up:"
   last_state: "say_intro_1"

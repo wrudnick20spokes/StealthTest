@@ -1,10 +1,10 @@
 - reply_type: text
   replies:
     - text: "Got it."
-    - text: "Next, how important do you think it is for people who get periods to be educated about them? (1 is not at all important, 10 is very important)"
+    - text: "Next, how important do you think it is for people who get periods to be informed about them? (1 is not at all important, 10 is very important)"
   slider_input: true
   slider_min: 1
   slider_max: 10
-  save_response_question: "How important do you think it is for people who get periods to be educated about them?"
+  save_response_question: "How important do you think it is for people who get periods to be informed about them?"
   save_response_field: "day_1_answer_3"
   last_state: "say_profile_setting_3"

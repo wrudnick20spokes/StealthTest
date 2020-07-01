@@ -1,0 +1,12 @@
+<% if current_message.message == "We'll see" %>
+  - reply_type: text
+    replies:
+      - text: "Fair enough! I’ll try to be as helpful as I can, but if you ever have feedback on how I’m doing, you can email my creators at helpwithcece@gmail.com."
+    last_state: "say_why_6"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Glad you’re on board!"
+      - text: "::hands::"
+    last_state: "say_why_6"
+<% end %>

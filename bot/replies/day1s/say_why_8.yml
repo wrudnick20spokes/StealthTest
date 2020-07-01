@@ -1,9 +1,9 @@
 - reply_type: text
   replies:
-    - text: "So, whether you’re learning things for the first time or brushing up on what you already know, I’m here to support you. ::flower::"
-    - text: "For the health of your child, those around you, and YOUR health."
-    - text: "What do you think?"
+    - text: "I love learning how the experience can be different for different people, across different families or cultures."
+    - text: "Are you up for sharing a little bit about any period stories from *your* life?"
+    - text: "(Of course I would *never* share it directly! I would only use it for my own learning.)"
   suggestions:
-    - text: "Sounds good!"
-    - text: "I dunno yet..."
+    - text: "Sure"
+    - text: "No thanks"
   last_state: "say_why_8"
