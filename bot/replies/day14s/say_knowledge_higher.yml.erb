@@ -1,10 +1,12 @@
 - reply_type: text
   replies:
     - text: "Well hey, that’s higher than what you told me when we first started chatting!"
-    - text: "You gave it a <%= current_message.payload %> two weeks ago. I’m so thrilled to hear it."
+    - text: "You gave it a <%= current_message.payload %> two weeks ago. I’m so thrilled to hear it’s higher now."
     - text: "Next question: How comfortable do you feel talking to your child about periods? (1 is 'very uncomfortable' and 10 is 'very comfortable')"
   slider_input: true
   slider_min: 1
   slider_max: 10
+  save_response_question: "How comfortable do you feel talking to your child about periods?"
+  save_response_field: "day_14_answer_2"
   last_state: "say_knowledge_higher"
   compare_with: "day_1_answer_2"

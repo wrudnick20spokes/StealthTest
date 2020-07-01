@@ -5,5 +5,6 @@
   slider_input: true
   slider_min: 1
   slider_max: 10
+  save_response_question: "How important is it to you to feel more prepared talking to friends and other family members about periods?"
   save_response_field: "day_1_answer_5"
   last_state: "say_profile_setting_5"

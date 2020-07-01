@@ -1,7 +1,7 @@
 <% if ["A", "B"].include?(current_message.message) %>
   - reply_type: text
     replies:
-      - text: "It’s actually even more, 70%! One big reason why we’re here changing history, right?. ::smile::"
+      - text: "It’s actually even more, 70%! One big reason why we’re here changing history, right <%= current_message.payload %>? ::smile::"
       - text: "OK, for this last question, let’s go back to the scene with Janet and Mia."
     suggestions: 
       - text: "Our pals!"
@@ -10,7 +10,7 @@
 <% else %>
   - reply_type: text
     replies:
-      - text: "Exactly! Unfortunate but true. But that’s why we’re here, changing history, right? ::smile::"
+      - text: "Exactly! Unfortunate but true. But that’s why we’re here, changing history, right <%= current_message.payload %>? ::smile::"
       - text: "OK, for this last question, let’s go back to the scene with Janet and Mia."
     suggestions: 
       - text: "Our pals!"

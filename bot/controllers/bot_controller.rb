@@ -16,8 +16,11 @@ class BotController < Stealth::Controller
     elsif current_message.message.include? "ASK_TO_CATCH_UP"
       step_to flow: "catch_up", state: "start_catch_up"
     elsif current_message.message.include? "INCOMPLETE_DAY"
-      day_number = current_message.message.partition(':').last
-      step_to flow: "incomplete_day", state: "day_#{day_number}_hello"
+      split_string = current_message.message.split(':')
+      day_number = split_string[1].to_i
+      days_behind = split_string[2].to_i
+      day = day_number + days_behind
+      step_to flow: "incomplete_day", state: "day_#{day}_hello"
     elsif current_message.message.include? "TOO_EARLY"
       step_to flow: "helper", state: "say_too_early"
     elsif current_message.message.include? "FORCING_DAY"
