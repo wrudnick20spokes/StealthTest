@@ -1,8 +1,8 @@
 - reply_type: text
   replies:
-    - text: "How’s your day going so far?"
+    - text: "So I’m really excited to talk about periods again..."
+    - text: "But my friend Sam just sent me an adorable video clip of a cat and mouse playing together... want to see it before we start?"
   suggestions:
-    - text: "::thumbs up::"
-    - text: "::thumbs down::"
-    - text: "::shrug::"
+    - text: "Sure!"
+    - text: "No thanks"
   last_state: "say_intro_1"

@@ -35,94 +35,44 @@ class Day2sController < BotController
   end
 
   def get_intro_1_response
-    if current_message.message == '::thumbs up::'
-      step_to state: 'say_minion'
-    elsif current_message.message == '::thumbs down::'
-      step_to state: 'say_offer_to_help'
+    if current_message.message == 'Sure!'
+      step_to state: 'say_animal_1'
     else
-      step_to state: 'say_offer_animal'
+      step_to state: 'say_no_animal'
     end
   end
 
-  def say_minion
+  def say_no_animal
     send_replies
-    update_session_to state: 'get_minion_response'
+    update_session_to state: 'get_no_animal_response'
   end
 
-  def get_minion_response
-    step_to state: 'say_lesson_1_from_thumbs_up'
+  def get_no_animal_response
+    step_to state: 'say_lesson_1'
   end
 
-  def say_offer_animal
+  def say_animal_1
     send_replies
-    update_session_to state: 'get_offer_animal_response'
+    update_session_to state: 'get_animal_1_response'
   end
 
-  def get_offer_animal_response
-    if current_message.message == 'Nah'
-      step_to state: 'say_lesson_1_from_no_animal'
-    else
-      step_to state: 'say_animal'
-    end
+  def get_animal_1_response
+    step_to state: 'say_animal_2'
   end
 
-  def say_offer_to_help
+  def say_animal_2
     send_replies
-    update_session_to state: 'get_offer_to_help_response'
+    update_session_to state: 'get_animal_2_response'
   end
 
-  def get_offer_to_help_response
-    if current_message.message == 'Cute animal'
-      step_to state: 'say_animal'
-    elsif current_message.message == 'Helpful quote'
-      step_to state: 'say_helpful_quote'
-    else
-      step_to state: 'say_lesson_1_from_no_help'
-    end
-  end
-
-  def say_animal
-    send_replies
-    update_session_to state: 'get_animal_response'
-  end
-
-  def get_animal_response
-    step_to state: 'say_lesson_1_from_animal'
-  end
-
-  def say_helpful_quote
-    send_replies
-    update_session_to state: 'get_helpful_quote_response'
-  end
-
-  def get_helpful_quote_response
-    step_to state: 'say_lesson_1_from_helpful_quote'
+  def get_animal_2_response
+    step_to state: 'say_lesson_1'
   end
 
   # ################################################
   # TODAY'S LESSON
   # ################################################
-  def say_lesson_1_from_thumbs_up
-    send_replies
-    update_session_to state: 'get_lesson_1_response'
-  end
-
-  def say_lesson_1_from_no_animal
-    send_replies
-    update_session_to state: 'get_lesson_1_response'
-  end
-
-  def say_lesson_1_from_animal
-    send_replies
-    update_session_to state: 'get_lesson_1_response'
-  end
-
-  def say_lesson_1_from_helpful_quote
-    send_replies
-    update_session_to state: 'get_lesson_1_response'
-  end
-
-  def say_lesson_1_from_no_help
+  def say_lesson_1
     send_replies
     update_session_to state: 'get_lesson_1_response'
   end
@@ -405,6 +355,15 @@ class Day2sController < BotController
   end
 
   def get_wrap_up_4_response
+    step_to state: 'say_wrap_up_5'
+  end
+
+  def say_wrap_up_5
+    send_replies
+    update_session_to state: 'get_wrap_up_5_response'
+  end
+
+    def get_wrap_up_5_response
     step_to state: 'say_goodbye'
   end
 

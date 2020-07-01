@@ -1,9 +1,8 @@
 - reply_type: text
   replies:
-    - text: "Good to know. This will help me learn how to make more useful content in the future."
-    - text: "Well, thanks again <%= current_message.payload %> and I’ll talk to you tomorrow!"
-  suggestions:
-    - text: "Bye CeCe"
+    - text: "Well, as always <%= current_message.payload %>, it’s been great talking with you."
+    - text: "Before we sign off for the day, can you let me know how valuable you thought today’s lesson was? (1 is not valuable at all, 5 is very valuable.)"
+  slider_input: true
+  slider_min: 1
+  slider_max: 5
   last_state: "say_wrap_up_4"
-  check_to_skip_goodbye: true
-  day_complete: true

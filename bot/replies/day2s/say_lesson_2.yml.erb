@@ -10,7 +10,7 @@
       - text: "I’m familiar"
       - text: "How do I pronounce that?"
     last_state: "say_lesson_2"
-<% else %>
+<% elsif current_message.message == 'Ugh...' %>
   - reply_type: text
     replies:
       - text: "I’ll make it as interesting as I can!"
@@ -21,4 +21,13 @@
       - text: "I’m familiar"
       - text: "How do I pronounce that?"
     last_state: "say_lesson_2"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "So — let’s talk about the body parts involved in the menstrual cycle."
+      - text: "By the way, as you may already know, 'menstruation' is just medical speak for your period."
+    suggestions:
+      - text: "Got it"
+      - text: "I’m familiar"
+      - text: "How do I pronounce that?"
 <% end %>

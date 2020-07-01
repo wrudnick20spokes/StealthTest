@@ -2,7 +2,6 @@
   replies:
     - text: "Great, so back to body parts. I’m going to talk about the vagina, uterus, ovaries, and fallopian tubes."
   suggestions:
-    - text: "::party::"
-    - text: "::grimace::"
+    - text: "Interesting!"
     - text: "OK"
   last_state: "say_lesson_4"
