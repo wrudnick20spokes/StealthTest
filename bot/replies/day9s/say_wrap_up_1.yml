@@ -1,6 +1,6 @@
 - reply_type: text
   replies: 
-    - text: "How did you like today's review? (1 is not at all, 5 is very much)"
+    - text: "How helpful was today's review? (1 is not at all, 5 is very much)"
   slider_input: true
   slider_min: 1
   slider_max: 5
