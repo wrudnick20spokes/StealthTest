@@ -3,5 +3,5 @@
     - text: "It’s our last day together! Congratulations on sticking with me through anatomy, hormones, period products, difficult conversations, and more."
   suggestions:
     - text: "::books::"
-    - text: "Sure have"
+    - text: "Thanks"
   last_state: "say_intro_2_from_skip"
