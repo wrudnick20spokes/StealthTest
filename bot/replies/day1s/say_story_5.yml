@@ -1,6 +1,7 @@
 - reply_type: text
   replies:
-    - text: "Yeah. Janet realized that she had never really taught her daughter about periods... like what to expect, and how to deal with the changes your body goes through."
+    - text: "Janet told me it was only in that moment that she realized that she had never really taught her daughter about periods... like what to expect, and how to deal with the changes your body goes through."
   suggestions:
     - text: "Hmm."
+    - text: "So then what?"
   last_state: "say_story_5"

@@ -1,0 +1,6 @@
+  - reply_type: text
+    replies:
+      - text: "I’ll add more sections as we go through more information."
+    suggestions:
+      - text: "Got it"
+    last_state: "say_wrap_up_3"

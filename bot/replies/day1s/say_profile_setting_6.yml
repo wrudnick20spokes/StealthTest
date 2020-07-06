@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "OK."
-    - text: "Last question — on a scale of 1-10, how important is it to you to improve your own knowledge about periods?"
+    - text: 'Last question — on a scale of 1-10, how important is it to you to improve your own knowledge about periods? (1 is “not at all important” and 10 is “very important”)'
   slider_input: true
   slider_min: 1
   slider_max: 10

@@ -1,8 +1,11 @@
 - reply_type: text
   replies:
-    - text: "::smile::"
-    - text: "But truly, I’m honored to be on this journey with you. This is a big time in your and your child’s life."
+    - text: "By the way, some people feel totally comfortable talking about periods."
+    - text: "But for others, it may feel a bit awkward, or too personal..."
   suggestions:
-    - text: "It is"
-    - text: "I guess"
+    - text: "Not for me!"
+    - text: "Maybe a bit..."
+    - text: "Continue"
+  save_response_question: "Do you feel awkward talking about periods?"
+  save_response_field: "feeling_awkward"
   last_state: "say_intro_2"

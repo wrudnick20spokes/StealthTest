@@ -1,6 +1,6 @@
 - reply_type: text
   replies:
-    - text: "Thanks. But since then, I’ve learned a lot about batteries... and human menstruation!"
+    - text: "By the way, I love collecting stories about periods — like what happened, how people felt, any rituals surrounding a first period."
   suggestions:
-    - text: "::thumbs up::"
+    - text: "Ok..."
   last_state: "say_why_7"

@@ -3,5 +3,6 @@
     - text: "After ovulation (when the ovary releases an egg), estrogen levels drop and progesterone levels rise."
     - text: "Then, progesterone levels drop dramatically."
   suggestions:
-    - text: "What a rollercoaster... ::roller coaster::"
+    - text: "Got it"
+    - text: "What a rollercoaster!"
   last_state: "say_lesson_9"

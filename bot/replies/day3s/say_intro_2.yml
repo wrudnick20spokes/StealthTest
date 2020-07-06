@@ -3,5 +3,5 @@
     - text: "::smile::"
     - text: "So earlier we talked about *why* we get periods."
   suggestions:
-    - text: "Yep"
+    - text: "Yes"
   last_state: "say_intro_2"

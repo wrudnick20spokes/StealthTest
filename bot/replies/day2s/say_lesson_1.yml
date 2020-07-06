@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "I think it’s always good to start by covering what a period really IS."
+    - text: "Heads up: today might be mostly a review of what you already know, and could feel a little long. I’ll make it as interesting as I can... hope you’ll hang in there!"
+  suggestions:
+    - text: "Got it"
+    - text: "I'll try..."
+  last_state: "say_lesson_1"

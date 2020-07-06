@@ -1,8 +1,10 @@
 - reply_type: text
   replies:
-    - text: For sure. And do you know where most young people look when they want to learn about periods?
+    - text: "For sure. And do you know where most young people look when they want to learn about periods?"
   suggestions:
-    - text: The internet
-    - text: Peers
-    - text: Older women in their life
+    - text: "The internet"
+    - text: "Friends"
+    - text: "Older women in their life"
+  save_response_question: "Do you know where most young people look when they want to learn about periods?"
+  save_response_field: "where_people_learn"
   last_state: "say_why_1_from_story"

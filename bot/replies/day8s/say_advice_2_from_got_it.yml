@@ -3,6 +3,6 @@
     - text: "Great!"
     - text: "It's important to remember that your body is under stress during a period, so taking care of it is important."
   suggestions:
-    - text: "I'm with ya"
+    - text: "I'm with you"
     - text: "::smile sweat::"
   last_state: "say_advice_2_from_got_it"
