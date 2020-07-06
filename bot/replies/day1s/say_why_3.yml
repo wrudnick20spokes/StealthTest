@@ -1,8 +1,10 @@
 - reply_type: text
   replies:
-    - text: Yep. And that’s why we’re here.
-    - text: Because as much as we may want to support the young people in our life, a lot of times, we’ve never been fully educated ourselves!
+    - text: "Yep. And that’s really why I exist. To offer you more support about all things period-related."
+    - text: "Because as much as we may want to support our kids through this experience, a lot of times, we’ve never been fully informed ourselves!"
   suggestions:
-    - text: I sure wasn’t
-    - text: Makes sense
+    - text: "I sure wasn’t"
+    - text: "Makes sense"
+  save_response_question: "Were you fully informed about periods when you were young?"
+  save_response_field: "informed_periods"
   last_state: "say_why_3"

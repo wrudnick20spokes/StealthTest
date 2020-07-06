@@ -1,0 +1,17 @@
+<% if current_message.message == 'Adorable!' %>
+- reply_type: text
+  replies:
+    - text: "I know!!"
+    - text: "Okay, back to today's period lesson."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_animal_2"
+<% else %>
+- reply_type: text
+  replies:
+    - text: "We've all got our own favorite animals, I suppose! ::smile::"
+    - text: "Okay, back to today's period lesson."
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_animal_2"
+<% end %>

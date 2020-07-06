@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Great decision. Here you go: https://www.youtube.com/watch?v=5CQwuuwiIs4"
+    - text: "Is that adorable or what?"
+  suggestions:
+    - text: "Adorable!"
+    - text: "Kind of"
+  last_state: "say_animal_1"

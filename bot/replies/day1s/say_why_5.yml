@@ -1,6 +1,8 @@
 - reply_type: text
   replies:
-    - text: "Yes... about a year ago, a younger robot I’m friends with asked me about choosing the right replacement batteries... she wanted to know what’s better: lithium-ion or lithium polymer?"
+    - text: "Whether you’re learning things for the first time or brushing up on what you already know, I’m here to guide you through your own learning experience."
+    - text: "What do you think?"
   suggestions:
-    - text: "Hmm?"
+    - text: "Sounds good!"
+    - text: "We'll see"
   last_state: "say_why_5"

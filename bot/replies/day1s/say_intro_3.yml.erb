@@ -1,0 +1,16 @@
+<% if current_message.message == 'Not for me!' %>
+  - reply_type: text
+    replies:
+      - text: "Well great! Any way you feel is okay."
+    last_state: "say_intro_3"
+<% elsif current_message.message == 'Maybe a bit...' %>
+  - reply_type: text
+    replies:
+      - text: "Understandable! Any way you feel is okay."
+    last_state: "say_intro_3"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Any way you feel is okay."
+    last_state: "say_intro_3"
+<% end %>

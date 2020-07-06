@@ -1,7 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "Coming right up! Check out this cat and mouse getting along..."
-    - text: "::cat::"
-  suggestions:
-    - text: "Aw"
-  last_state: "say_animal"

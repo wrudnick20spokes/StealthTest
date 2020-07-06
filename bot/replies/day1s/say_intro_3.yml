@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "Everyone feels different when it comes to talking about periods."
-    - text: "We all have our own needs, questions, and knowledge base, and that’s okay!"
-  suggestions:
-    - text: "Mmhmm"
-    - text: "I suppose"
-  last_state: "say_intro_3"

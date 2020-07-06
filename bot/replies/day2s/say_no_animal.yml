@@ -1,0 +1,6 @@
+- reply_type: text
+  replies:
+    - text: "Okay, then let’s get to today’s period lesson!"
+  suggestions:
+    - text: "::thumbs up::"
+  last_state: "say_no_animal"

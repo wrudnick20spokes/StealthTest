@@ -3,5 +3,5 @@
     - text: "We did!"
     - text: "I know I’m covering a lot… the review menu is always here for you if you need it."
   suggestions:
-    - text: "Gotcha"
+    - text: "Got it"
   last_state: "say_we_did"

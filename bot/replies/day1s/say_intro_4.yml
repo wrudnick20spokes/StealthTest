@@ -1,6 +1,7 @@
 - reply_type: text
   replies:
-    - text: "To support your needs as best I can, I’ll get to know a bit more about you. Then I can match the content to your experience and knowledge level. ::teacher::"
+    - text: "And I’ll do my best to make all this as comfortable as possible."
+    - text: "Over the course of our time together, I’ll get to know more about you, then adapt what I say based on your needs and knowledge."
   suggestions:
     - text: "::thumbs up::"
     - text: "Smart!"

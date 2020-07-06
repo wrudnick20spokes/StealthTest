@@ -3,5 +3,5 @@
     - text: "Congratulations! You’ve learned about anatomy, hormones, period products, difficult conversations and more."
   suggestions:
     - text: "::books::"
-    - text: "Sure have"
+    - text: "Thanks"
   last_state: "say_intro_2"

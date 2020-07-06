@@ -1,7 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "How great to hear!"
-    - text: "::minion::"
-  suggestions:
-    - text: "::smile::"
-  last_state: "say_minion"

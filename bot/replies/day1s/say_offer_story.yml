@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-    - text: If you’re up for it, I’d love to tell you a little story.
+    - text: "If you’re up for it, I’d love to share a little story before we get started."
   suggestions:
-    - text: Go ahead
-    - text: Skip the story
+    - text: "Go ahead"
+    - text: "Skip the story"
   last_state: "say_offer_story"

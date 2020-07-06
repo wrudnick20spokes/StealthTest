@@ -1,7 +1,7 @@
 
 - reply_type: text
   replies:
-    - text: "Now, for a quick quiz question... ::wink::"
+    - text: "Now, for a quick quiz question..."
     - text: "True or False: Most moms feel prepared to talk to their daughters about puberty."
   suggestions:
     - text: "True"

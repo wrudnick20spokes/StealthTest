@@ -1,8 +1,10 @@
 - reply_type: text
   replies:
-    - text: "So Mia had no idea how to handle it. She felt scared and confused."
-    - text: "And Janet felt guilty that her daughter felt that way, like she should have done more."
+    - text: "When Janet saw how scared and confused Mia felt, she realized that her daughter had no idea how to navigate her period."
+    - text: "And Janet felt guilty that her daughter felt that way, like she should have done more to prepare Mia."
   suggestions:
     - text: "Sounds hard."
     - text: "I can relate."
+  save_response_question: "Can you relate to Janet feeling guilty?"
+  save_response_field: "feeling_guilty"
   last_state: "say_story_6"
