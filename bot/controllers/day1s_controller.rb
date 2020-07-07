@@ -235,6 +235,7 @@ class Day1sController < BotController
 
   def get_why_8_response
     step_to state: 'say_why_9'
+  end
 
   def say_why_9
     send_replies
@@ -243,6 +244,7 @@ class Day1sController < BotController
 
   def get_why_9_response
     step_to state: 'say_how_1'
+  end
 
   # ################################################
   # HOW IT WORKS
