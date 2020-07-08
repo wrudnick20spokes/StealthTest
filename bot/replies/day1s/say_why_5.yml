@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "Whether you’re learning things for the first time or brushing up on what you already know, I’m here to guide you through your own learning experience."
-    - text: "What do you think?"
-  suggestions:
-    - text: "Sounds good!"
-    - text: "We'll see"
-  last_state: "say_why_5"
