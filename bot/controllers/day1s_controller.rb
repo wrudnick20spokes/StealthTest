@@ -198,24 +198,15 @@ class Day1sController < BotController
   end
 
   def get_why_6_response
-    step_to state: 'say_why_8'
+    step_to state: 'say_why_7'
   end
 
-  def say_why_8
+  def say_why_7
     send_replies
-    update_session_to state: 'get_why_8_response'
+    update_session_to state: 'get_why_7_response'
   end
 
-  def get_why_8_response
-    step_to state: 'say_why_9'
-  end
-
-  def say_why_9
-    send_replies
-    update_session_to state: 'get_why_9_response'
-  end
-
-  def get_why_9_response
+  def get_why_7_response
     step_to state: 'say_how_1'
   end
 
