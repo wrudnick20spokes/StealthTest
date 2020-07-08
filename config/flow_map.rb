@@ -17,11 +17,7 @@ class FlowMap
     state :get_intro_2_response
     state :say_intro_3
     state :get_intro_3_response
-    state :say_intro_4
-    state :get_intro_4_response
     state :say_intro_5
-    state :get_intro_5_response
-    state :say_offer_story
     state :get_story_offer_response
     # END HELLO
 
@@ -60,8 +56,6 @@ class FlowMap
     state :get_why_5_response
     state :say_why_6
     state :get_why_6_response
-    state :say_why_7
-    state :get_why_7_response
     state :say_why_8
     state :get_why_8_response
     # END WHY WE'RE HERE

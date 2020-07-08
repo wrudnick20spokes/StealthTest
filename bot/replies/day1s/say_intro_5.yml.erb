@@ -3,7 +3,17 @@
     replies:
       - text: "Who me??"
       - text: "::skunk::"
+      - text: "If you’re up for it, I’d love to share a little story before we get started."
+    suggestions:
+      - text: "Go ahead"
+      - text: "Skip the story"
     last_state: "say_intro_5"
 <% else %>
+  - reply_type: text
+    replies:
+      - text: "If you’re up for it, I’d love to share a little story before we get started."
+    suggestions:
+      - text: "Go ahead"
+      - text: "Skip the story"
     last_state: "say_intro_5"
 <% end %>

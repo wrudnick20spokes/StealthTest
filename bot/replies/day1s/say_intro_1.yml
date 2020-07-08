@@ -5,5 +5,5 @@
     - text: "My goal is to support you as you support your child in all things to do with periods."
   suggestions:
     - text: "OK"
-    - text: "::thumbs up:"
+    - text: "::thumbs up::"
   last_state: "say_intro_1"

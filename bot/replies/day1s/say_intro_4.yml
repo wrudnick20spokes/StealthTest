@@ -1,8 +1,0 @@
-- reply_type: text
-  replies:
-    - text: "And I’ll do my best to make all this as comfortable as possible."
-    - text: "Over the course of our time together, I’ll get to know more about you, then adapt what I say based on your needs and knowledge."
-  suggestions:
-    - text: "::thumbs up::"
-    - text: "Smart!"
-  last_state: "say_intro_4"
