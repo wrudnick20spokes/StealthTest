@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
-      - text: "Not all schools cover the same information on periods. And there is so much to learn! Like how much bleeding is normal, how to pick which period product to use, and how to deal with PMS."
-    suggestions:
-      - text: "There is a lot to know"
-      - text: "Interesting"
-    last_state: "say_story_9"
+    - text: "Not all schools cover the same information on periods. And there is so much to learn! Like how much bleeding is normal, how to pick which period product to use, and how to deal with PMS."
+  suggestions:
+    - text: "There is a lot to know"
+    - text: "Interesting"
+  last_state: "say_story_9"

@@ -2,15 +2,28 @@
   - reply_type: text
     replies:
       - text: "Well great! Any way you feel is okay."
+      - text: "And I’ll do my best to make all this as comfortable as possible."
+      - text: "Over the course of our time together, I’ll get to know more about you, then adapt what I say based on your needs and knowledge."
+    suggestions:
+      - text: "::thumbs up::"
+      - text: "Smart!"
     last_state: "say_intro_3"
 <% elsif current_message.message == 'Maybe a bit...' %>
   - reply_type: text
     replies:
       - text: "Understandable! Any way you feel is okay."
+      - text: "Over the course of our time together, I’ll get to know more about you, then adapt what I say based on your needs and knowledge."
+    suggestions:
+      - text: "::thumbs up::"
+      - text: "Smart!"
     last_state: "say_intro_3"
 <% else %>
   - reply_type: text
     replies:
       - text: "Any way you feel is okay."
+      - text: "Over the course of our time together, I’ll get to know more about you, then adapt what I say based on your needs and knowledge."
+    suggestions:
+      - text: "::thumbs up::"
+      - text: "Smart!"
     last_state: "say_intro_3"
 <% end %>

@@ -37,28 +37,10 @@ class Day1sController < BotController
   end
 
   def get_intro_3_response
-    step_to state: 'say_intro_4'
-  end
-
-  def say_intro_4
-    send_replies
-    update_session_to state: 'get_intro_4_response'
-  end
-
-  def get_intro_4_response
-      step_to state: 'say_intro_5'
+    step_to state: 'say_intro_5'
   end
 
   def say_intro_5
-    send_replies
-    update_session_to state: 'get_intro_5_response'
-  end
-
-  def get_intro_5_response
-    step_to state: 'say_offer_story'
-  end
-
-  def say_offer_story
     send_replies
     update_session_to state: 'get_story_offer_response'
   end
@@ -216,15 +198,6 @@ class Day1sController < BotController
   end
 
   def get_why_6_response
-    step_to state: 'say_why_7'
-  end
-
-  def say_why_7
-    send_replies
-    update_session_to state: 'get_why_7_response'
-  end
-
-  def get_why_7_response
     step_to state: 'say_why_8'
   end
 
