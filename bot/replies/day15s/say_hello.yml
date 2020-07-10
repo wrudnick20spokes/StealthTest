@@ -1,0 +1,8 @@
+- reply_type: text
+  replies:
+    - text: "Welcome back. Because this is a research study, your CeCe series has expired."
+    - text: "You can still access the Review Menu, but please save any information you need — your registration will expire within the next few days."
+    - text: "Thank you again for participating! For any questions/comments, please email helpwithcece@gmail.com" 
+  last_flow: "day15"
+  last_state: "say_hello"
+  end_of_chat: true
