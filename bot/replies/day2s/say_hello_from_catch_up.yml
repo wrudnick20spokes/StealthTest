@@ -1,11 +1,11 @@
 - reply_type: text
   replies:
     - text: "Awesome! Let me drop you into the next day’s content..."
-    - text: "How’s your day going so far?"
+    - text: "So I’m really excited to talk about periods again..."
+    - text: "But my friend Sam just sent me an adorable video clip of a cat and mouse playing together... want to see it before we start?"
   suggestions:
-    - text: "::thumbs up::"
-    - text: "::thumbs down::"
-    - text: "::shrug::"
+    - text: "Sure!"
+    - text: "No thanks"
   catching_up_day: true
   last_flow: "day2"
   last_state: "say_hello_from_catch_up"
