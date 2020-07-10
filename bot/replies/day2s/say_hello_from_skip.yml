@@ -1,11 +1,11 @@
 - reply_type: text
   replies:
     - text: "Okay, I can do that. ::smile:: If you’d ever like to catch up on what you may have missed, the review menu is always there."
-    - text: "How’s your day going so far?"
+    - text: "So I’m really excited to talk about periods again..."
+    - text: "But my friend Sam just sent me an adorable video clip of a cat and mouse playing together... want to see it before we start?"
   suggestions:
-    - text: "::thumbs up::"
-    - text: "::thumbs down::"
-    - text: "::shrug::"
+    - text: "Sure!"
+    - text: "No thanks"
   skipping_day: true
   last_flow: "day2"
   last_state: "say_hello_from_skip"

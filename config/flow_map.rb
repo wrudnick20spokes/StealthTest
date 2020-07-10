@@ -110,24 +110,16 @@ class FlowMap
     state :get_hello_response
     state :say_intro_1
     state :get_intro_1_response
-    state :say_minion
-    state :get_minion_response
-    state :say_offer_animal
-    state :get_offer_animal_response
-    state :say_offer_to_help
-    state :get_offer_to_help_response
-    state :say_animal
-    state :get_animal_response
-    state :say_helpful_quote
-    state :get_helpful_quote_response
+    state :say_no_animal
+    state :get_no_animal_response
+    state :say_animal_1
+    state :get_animal_1_response
+    state :say_animal_2
+    state :get_animal_2_response
     # END HELLO
 
     # START TODAY'S LESSON
-    state :say_lesson_1_from_thumbs_up
-    state :say_lesson_1_from_no_animal
-    state :say_lesson_1_from_animal
-    state :say_lesson_1_from_helpful_quote
-    state :say_lesson_1_from_no_help
+    state :say_lesson_1
     state :get_lesson_1_response
     state :say_lesson_1_1
     state :get_lesson_1_1_response
@@ -192,6 +184,8 @@ class FlowMap
     state :get_wrap_up_3_response
     state :say_wrap_up_4
     state :get_wrap_up_4_response
+    state :say_wrap_up_5
+    state :get_wrap_up_5_response
     state :say_goodbye
     # END WRAP UP
   end
