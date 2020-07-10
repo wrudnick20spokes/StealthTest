@@ -1,0 +1,7 @@
+- reply_type: text
+  replies:
+    - text: "I so appreciate it! Just type up your thoughts here:"
+  text_input: true
+  save_response_question: "What are some period stories from your life?"
+  save_response_field: "period_stories"
+  last_state: "say_why_7"

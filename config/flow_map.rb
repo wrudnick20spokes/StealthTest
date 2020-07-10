@@ -56,17 +56,20 @@ class FlowMap
     state :get_why_5_response
     state :say_why_6
     state :get_why_6_response
-    state :say_why_8
-    state :get_why_8_response
+    state :say_why_7
+    state :get_why_7_response
     # END WHY WE'RE HERE
 
     # START HOW IT WORKS
     state :say_how_1
+    state :say_how_1_from_skip
     state :get_how_1_response
     state :say_how_2
     state :get_how_2_response
     state :say_how_3
     state :get_how_3_response
+    state :say_how_4
+    state :get_how_4_response
     # END HOW IT WORKS
 
     # START PROFILE SETTING

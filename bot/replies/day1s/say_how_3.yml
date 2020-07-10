@@ -1,8 +1,8 @@
 - reply_type: text
-    replies:
-      - text: "::smile::"
-      - text: "In order to give you the right material, I’ll also get to know you a little more every day."
-      - text: "Oh, and speaking of getting to know you..."
-    suggestions:
-      - text: "Yes?"
-    last_state: "say_how_3"
+  replies:
+    - text: "::smile::"
+    - text: "In order to give you the right material, I’ll also get to know you a little more every day."
+    - text: "Oh, and speaking of getting to know you..."
+  suggestions:
+    - text: "Yes?"
+  last_state: "say_how_3"

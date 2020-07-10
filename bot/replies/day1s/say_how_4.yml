@@ -2,5 +2,5 @@
   replies:
     - text: "I have a few questions before we sign off for today. ::smile::"
   suggestions:
-  	- text: "OK"
+    - text: "OK"
   last_state: "say_how_4"
