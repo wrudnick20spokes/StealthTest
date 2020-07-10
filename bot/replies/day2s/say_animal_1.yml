@@ -1,6 +1,7 @@
 - reply_type: text
   replies:
-    - text: "Great decision. Here you go: https://www.youtube.com/watch?v=5CQwuuwiIs4"
+    - text: "Great decision. Here you go:"
+    - text: "https://www.youtube.com/watch?v=5CQwuuwiIs4"
     - text: "Is that adorable or what?"
   suggestions:
     - text: "Adorable!"

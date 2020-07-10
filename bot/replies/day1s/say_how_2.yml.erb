@@ -1,21 +1,21 @@
 <% if current_message.message == 'I do!' %>
-- reply_type: text
-  replies:
-    - text: "Good luck with all you’re doing! I’ll keep it moving then. ::smile::"
-    - text: "Some of the information will be familiar to you, and may feel a bit basic."
-    - text: "I use really simple language on purpose so that you can easily share this information with younger people, if you’d like to!"
-  suggestions:
-    - text: "Alright"
-    - text: "Makes sense!" 
-  last_state: "say_how_2"
+  - reply_type: text
+    replies:
+      - text: "Good luck with all you’re doing! I’ll keep it moving then. ::smile::"
+      - text: "Some of the information will be familiar to you, and may feel a bit basic."
+      - text: "I use really simple language on purpose so that you can easily share this information with younger people, if you’d like to!"
+    suggestions:
+      - text: "Alright"
+      - text: "Makes sense!" 
+    last_state: "say_how_2"
 <% else %>
-- reply_type: text
-	replies:
-	- text: "::thumbs up::"
-	- text: "Some of the information will be familiar to you, and may feel a bit basic."
-    - text: "I use really simple language on purpose so that you can easily share this information with younger people, if you’d like to!"
-  suggestions:
-    - text: "Alright"
-    - text: "Makes sense!" 
-	last_state: "say_how_2"
+  - reply_type: text
+    replies:
+      - text: "::thumbs up::"
+      - text: "Some of the information will be familiar to you, and may feel a bit basic."
+      - text: "I use really simple language on purpose so that you can easily share this information with younger people, if you’d like to!"
+    suggestions:
+      - text: "Alright"
+      - text: "Makes sense!" 
+    last_state: "say_how_2"
 <% end %>

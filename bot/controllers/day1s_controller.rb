@@ -198,7 +198,11 @@ class Day1sController < BotController
   end
 
   def get_why_6_response
-    step_to state: 'say_why_7'
+    if current_message.message == 'Sure'
+      step_to state: 'say_why_7'
+    else
+      step_to state: 'say_how_1_from_skip'
+    end
   end
 
   def say_why_7
@@ -214,6 +218,11 @@ class Day1sController < BotController
   # HOW IT WORKS
   # ################################################
   def say_how_1
+    send_replies
+    update_session_to state: 'get_how_1_response'
+  end
+
+  def say_how_1_from_skip
     send_replies
     update_session_to state: 'get_how_1_response'
   end
