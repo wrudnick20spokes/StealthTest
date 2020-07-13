@@ -66,6 +66,8 @@ class FlowMap
     state :get_how_1_response
     state :say_how_2
     state :get_how_2_response
+    state :say_how_2_1
+    state :get_how_2_1_response
     state :say_how_3
     state :get_how_3_response
     state :say_how_4

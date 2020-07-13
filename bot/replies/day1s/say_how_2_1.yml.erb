@@ -1,0 +1,20 @@
+<% if current_message.message == 'Sounds good!' %>
+  - reply_type: text
+    replies:
+      - text: "::smile::"
+      - text: "Some of the information will be familiar to you, and may feel a bit basic."
+      - text: "I use really simple language on purpose so that you can easily share this information with younger people, if you’d like to!"
+    suggestions:
+      - text: "Alright"
+      - text: "Makes sense!" 
+    last_state: "say_how_2_1"
+<% else %>
+  - reply_type: text
+    replies:
+      - text: "Some of the information will be familiar to you, and may feel a bit basic."
+      - text: "I use really simple language on purpose so that you can easily share this information with younger people, if you’d like to!"
+    suggestions:
+      - text: "Alright"
+      - text: "Makes sense!" 
+    last_state: "say_how_2_1"
+<% end %>
