@@ -9,3 +9,4 @@
   save_response_question: "Do you feel awkward talking about periods?"
   save_response_field: "feeling_awkward"
   last_state: "say_intro_2"
+  set_pinned_image: "::minion::"

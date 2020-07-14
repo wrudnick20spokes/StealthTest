@@ -7,3 +7,4 @@
     - text: "OK"
     - text: "::thumbs up::"
   last_state: "say_intro_1"
+  set_pinned_image: "::panties::"
