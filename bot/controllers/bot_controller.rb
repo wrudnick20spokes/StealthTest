@@ -50,21 +50,23 @@ class BotController < Stealth::Controller
       update_session_to state: flow_map[m][:next]
     elsif m.to_s.starts_with?("get_")
       router = flow_map[m][:next]
-      step_to state: get_next_state(router, current_message)
+      step_to state: get_next_state(router)
     else
       super
     end
   end
 
-  def get_next_state(router, current_message)
-    # If it's a string then we just route to it
-    return router if router.is_a? String
-
-    # Otherwise we will do some logic to determine which route the user should go to
-    detect_match(router, current_message)
+  def get_next_state(router)
+    if router.is_a? String
+      # If it's a string then we just route to it
+      router
+    else
+      # Otherwise we will do some logic to determine which route the user should go to
+      detect_match(router)
+    end
   end
 
-  def detect_match(router, current_message)
+  def detect_match(router)
     matching_state = ""
 
     router.each do |key, value|
