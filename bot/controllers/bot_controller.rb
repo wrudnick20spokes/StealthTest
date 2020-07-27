@@ -76,7 +76,6 @@ class BotController < Stealth::Controller
 
         matching_state = value if string_to_check == current_message.message
       elsif key[/^payload\[\:(.+)\]=(.+)$/, 1]
-        p payload_hash
         # Figure out what the payload field we're supposed to check against
         string_to_check = key.split("=").last
         payload_field = key[/^payload\[\:(.+)\]=(.+)$/, 1]
