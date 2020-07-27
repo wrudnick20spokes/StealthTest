@@ -1,7 +1,7 @@
 - reply_type: text
   replies:
     - text: "Janet was relieved, and glad Mia felt comfortable asking her for help — that doesn’t always happen!"
-    - text: "But, Janet was also surprised to learn that Mia knew almost nothing about periods."
+    - text: "But Janet was also surprised to learn that Mia knew almost nothing about periods."
   suggestions:
     - text: "OK"
     - text: "Really?"
