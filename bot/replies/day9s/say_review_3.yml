@@ -1,7 +1,7 @@
 - reply_type: text
   replies: 
     - text: "What's the difference between PMS (premenstrual syndrome) and PMDD (premenstrual dysphoric disorder)?"
-    - text: "(A) PMDD only affects those over 50, while PMS is for those uder 50"
+    - text: "(A) PMDD only affects those over 50, while PMS is for those under 50"
     - text: "(B) PMDD refers to symptoms affecting mood/energy while PMS refers to symptoms that are more physical, like cramping, breast soreness, etc."
     - text: "(C) PMS involves mood changes that are typical before/during periods, while PMDD involves extreme mood changes that can prevent someone from their regular routine"
   suggestions:
