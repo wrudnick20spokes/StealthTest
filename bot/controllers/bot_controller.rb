@@ -39,4 +39,54 @@ class BotController < Stealth::Controller
       end
     end
   end
+
+  def payload_hash
+    @payload_hash ||= JSON.parse(current_message.payload.gsub("=>", ":"))
+  end
+
+  def method_missing(m, *args, &block)
+    if m.to_s.starts_with?("say_")
+      send_replies
+      update_session_to state: flow_map[m][:next]
+    elsif m.to_s.starts_with?("get_")
+      router = flow_map[m][:next]
+      step_to state: get_next_state(router)
+    else
+      super
+    end
+  end
+
+  def get_next_state(router)
+    if router.is_a? String
+      # If it's a string then we just route to it
+      router
+    else
+      # Otherwise we will do some logic to determine which route the user should go to
+      detect_match(router)
+    end
+  end
+
+  def detect_match(router)
+    matching_state = ""
+
+    router.each do |key, value|
+      if key[/^message=(.+)$/, 1]
+        # Check the string against what the actual message sent was
+        string_to_check = key[/^message=(.+)$/, 1]
+
+        matching_state = value if string_to_check == current_message.message
+      elsif key[/^payload\[\:(.+)\]=(.+)$/, 1]
+        # Figure out what the payload field we're supposed to check against
+        string_to_check = key.split("=").last
+        payload_field = key[/^payload\[\:(.+)\]=(.+)$/, 1]
+
+        matching_state = value if payload_hash[payload_field] == string_to_check
+      elsif key == current_message.message
+        matching_state = value
+      end
+    end
+
+    matching_state
+  end
+
 end
